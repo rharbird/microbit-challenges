@@ -10,7 +10,7 @@ By default the music module expects the speaker to be connected via pin 0.
 
 Connect your Micro:bit to some headphones like this: 
 
-.. image:: connect_headhphones.jpg
+.. image:: connect_headphones.jpg
 
 
 Basic Functions
