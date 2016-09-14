@@ -32,7 +32,9 @@ sys.path.insert(0, os.path.abspath('.'))
 extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
-    'sphinx.ext.githubpages',
+#
+# Rae Harbird: commented out because causing problems on readthedocs.io
+#    'sphinx.ext.githubpages',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
