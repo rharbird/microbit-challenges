@@ -6,16 +6,19 @@
 BBC Micro:bit Worksheets
 ========================
 
+	These tutorial sheets are designed to give students an introduction to the features of the 
+	Micro:bit.  The format is also useful in the classroom when students are offline. 
+	Short practical examples are provided and students are invited to design solutions to problems 
+	using the fundamental building blocks presented. This learning approach was initially adopted by 
+	Prof. Stephen Hailes at UCL in designing the teaching material for the Engduino <www.engduino.org> 
+	and has been reused here. The design of the Micro:bit was strongly inflienced by the design of the 
+	Engduino and some of the content is taken directly from the Engduino tutorial sheets.
+ 
+	Likewise, in some places, the content of the worksheets and challenges is an abridged version of the 
+	BBC Micro:bit MicroPython documentation at <http://microbit-micropython.readthedocs.io>.  Some of 
+	the content has been copied directly from that source. 
 
-
-.. note::
-
-	These worksheets and challenges are, in places,  an abridged version of the BBC Micro:bit Python 
-	documentation at http://microbit-micropython.readthedocs.io. As 
-	such, some of the content has been copied directly from that source. This 
-	format is useful in a classroom scenario where students might be offline, using a printed copy of 
-	these worksheets. The Challenge sheets can be used for team competitions or just for fun!
-	
+	The Challenge sheets can be used for team competitions or just for fun!
 
 Contents:
 ---------

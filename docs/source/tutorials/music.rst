@@ -6,7 +6,7 @@ create something for yourselves.  You can use the Micro:bit to play simple tunes
 
 By default the music module expects the speaker to be connected via pin 0. 
 
-.. image:: pin0-gnd.jpg
+.. image:: pin0-gnd.png
 
 Connect your Micro:bit to some headphones like this: 
 
