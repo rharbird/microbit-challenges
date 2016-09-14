@@ -6,10 +6,12 @@
 BBC Micro:bit Worksheets
 ========================
 
+
+
 .. note::
 
 	These worksheets and challenges are, in places,  an abridged version of the BBC Micro:bit Python 
-	documentation at http://microbit-micropython.readthedocs.io/. As 
+	documentation at http://microbit-micropython.readthedocs.io. As 
 	such, some of the content has been copied directly from that source. This 
 	format is useful in a classroom scenario where students might be offline, using a printed copy of 
 	these worksheets. The Challenge sheets can be used for team competitions or just for fun!
