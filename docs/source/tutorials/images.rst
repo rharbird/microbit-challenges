@@ -18,12 +18,14 @@ Display a string or an image
 You can display characters on the LED display very easily like this::
 
     from microbit import *
+
     display.show("Hello")
 
 MicroPython comes with lots of built-in pictures to show on the display.
 For example, to make the device appear happy you type::
 
     from microbit import *
+
     display.show(Image.HAPPY)
 
 
@@ -33,11 +35,7 @@ Here's some of the the other images you can use:
 
     * ``Image.HEART``, ``Image.HEART_SMALL`` 
     * ``Image.HAPPY``, ``Image.SMILE``, ``Image.SAD``, ``Image.CONFUSED``, ``Image.ANGRY``, ``Image.ASLEEP``, ``Image.SURPRISED``, ``Image.SILLY``, ``Image.FABULOUS``, ``Image.MEH``, ``Image.YES``, ``Image.NO``
-    * ``Image.CLOCK12``, ``Image.CLOCK11``, ``Image.CLOCK10``, ``Image.CLOCK9``,
-      ``Image.CLOCK8``, ``Image.CLOCK7``, ``Image.CLOCK6``, ``Image.CLOCK5``,
-      ``Image.CLOCK4``, ``Image.CLOCK3``, ``Image.CLOCK2``, ``Image.CLOCK1``
     * ``Image.ARROW_N``, ``Image.ARROW_NE``, ``Image.ARROW_E``, ``Image.ARROW_SE``, ``Image.ARROW_S``, ``Image.ARROW_SW``, ``Image.ARROW_W``, ``Image.ARROW_NW``
-    * ``Image.TRIANGLE``, ``Image.TRIANGLE_LEFT``, ``Image.CHESSBOARD``, ``Image.DIAMOND``, ``Image.DIAMOND_SMALL``, ``Image.SQUARE``, ``Image.SQUARE_SMALL`` 
     * ``Image.MUSIC_CROTCHET``, ``Image.MUSIC_QUAVER``, ``Image.MUSIC_QUAVERS``
     * ``Image.XMAS``, ``Image.PACMAN``, ``Image.TARGET``, ``Image.ROLLERSKATE``, ``Image.STICKFIGURE``, ``Image.GHOST``, ``Image.SWORD``, ``Image.UMBRELLA``
     * ``Image.RABBIT``, ``Image.COW``, ``Image.DUCK``, ``Image.HOUSE``, ``Image.TORTOISE``, ``Image.BUTTERFLY``, ``Image.GIRAFFE``, ``Image.SNAKE``
@@ -143,11 +141,6 @@ of a second) with the argument ``delay=100``.
 
 
 Now, here's how to create your own animation.  First you need to create a list.
-We all know what a shopping list looks like::
-
-    Eggs
-    Bacon
-    Tomatoes
 
 This is how you'd represent this list in Python::
 

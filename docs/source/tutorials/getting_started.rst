@@ -2,7 +2,9 @@
 Micro:bit - Getting Started 
 ****************************
 
-The BBC micro:bit is a tiny computer that you can use to create all kinds of projects from robots to musical instruments – the possibilities are endless. Let's take a look at the features that you can use in your designs:
+The BBC micro:bit is a tiny computer that you can use to create all kinds of projects from robots to musical instruments – 
+the possibilities are endless. Let's take a look at the features that you can use in your designs:
+
  * 25 red LED lights that can flash messages.
  * Two programmable buttons (A and B) that can be used to tell the microbit when to start and stop things.
  * A thermistor to measure the temperature.

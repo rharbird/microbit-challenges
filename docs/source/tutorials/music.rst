@@ -1,13 +1,15 @@
 ****************
 Music
 ****************
-This is a quick guide to some of the things you can do Microbit music. The idea is that you can use this information to experiment and create something for yourselves. Try stuff out – see what happens and see what you can make.
-You can use the Micro:bit to play simple tunes, provided that you connect a speaker to your board. By default the music module expects the speaker to be connected via pin 0. 
+This is a quick guide to some of the things you can do with Micro:bit music. The idea is that you can use this information to experiment and 
+create something for yourselves.  You can use the Micro:bit to play simple tunes, provided that you connect a speaker to your board. 
 
+By default the music module expects the speaker to be connected via pin 0. 
 
-.. image:: music.jpg
+.. image:: pin0-gnd.jpg
 
 Connect your Micro:bit to some headphones like this: 
+
 .. image:: connect_headhphones.jpg
 
 
@@ -102,6 +104,6 @@ Advanced Functions
 ================
 Describe the more advanced functions if there are any.
 
-Ideas for Projects with the Compass
+Ideas for Projects with Music 
 ===================================
 * List projects that students can make with the microbit. 

@@ -20,11 +20,11 @@ Checking whether a button is pressed
 Sometimes we just want a program to wait until something happens, for example: we could ask the microbit to wait until, say, button 
 ``A`` is pressed and then print a message. We could do that like this::
 
-    import microbit
+    from microbit import *
 
         while True:
-            if microbit.button_a.is_pressed():
-                microbit.display.scroll("A")
+            if button_a.is_pressed():
+                display.scroll("A")
 
 Let's break this up into parts. The first bit::
 
@@ -34,8 +34,8 @@ This is a standard way to tell the microbit to repeat whatever code follows it f
 The next line looks similar to normal English::
 
         while True:
-            if microbit.button_a.is_pressed():
-                microbit.display.scroll("A")
+            if button_a.is_pressed():
+                display.scroll("A")
 
 This means, if button ``A`` is pressed then display an ``A`` on the LED screen.
 
@@ -53,7 +53,7 @@ Counting the number of presses
 Sometimes you might want to count the number of button presses in a time period. You can do this using the 
 ``get_presses()`` method.  Here is an example::
 
-    import microbit
+    from microbit import *
 
         while True:
 	    sleep(3000)
@@ -100,13 +100,13 @@ the following function will tell you whether a button has been pushed or
 released since you last called that function - while your code is doing
 something else. In this way you need never miss a button press again::
 
-	import microbit
+	from microbit import *
 
 	while True:
-	    if microbit.button_a.was_pressed(): 
-	        microbit.display.scroll("A")
+	    if button_a.was_pressed(): 
+	        display.scroll("A")
 	    else:
-		microbit.display(Image.ASLEEP)
+		display(Image.ASLEEP)
 	    sleep(1000)
 
 What you’ll see is that the display will show an ``A`` for a second
