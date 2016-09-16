@@ -43,10 +43,10 @@ Of course, we usually want to do something a bit more complicated than that. The
 we can use an ``if`` with an ``else`` like this:: 
 
         while True:
-            if microbit.button_a.is_pressed():
-                microbit.display.scroll("A")
+            if button_a.is_pressed():
+                display.scroll("A")
 	    else:
-		microbit.display(Image.ASLEEP)
+		display(Image.ASLEEP)
 
 Counting the number of presses
 ------------------------------
@@ -57,8 +57,8 @@ Sometimes you might want to count the number of button presses in a time period.
 
         while True:
 	    sleep(3000)
-            count = microbit.button_a.get(_presses()
-            microbit.display.scroll(str(count))
+            count = button_a.get(_presses()
+            display.scroll(str(count))
 
 The micro:bit will sleep for 3 seconds and then wake up and check how many times button ``A`` was pressed. The number of presses is 
 stored in a variable called ``count``. We can't print numbers directly on the LED screen so we convert ``count`` to a string and then display it. 
@@ -70,17 +70,17 @@ Checking for both buttons
 -------------------------
 It is possible to check a series of events by using ``if``, ``elif`` and ``else``. Say you wanted to check whether button ``A`` was pressed or button ``B`` was pressed or whether both buttons were pressed at the same time. We could do that like so::  
 
-	import microbit
+	from microbit import *
 
 	while True:
-	    if microbit.button_a.is_pressed() and microbit.button_b.is_pressed():
-	        microbit.display.scroll("AB")
+	    if button_a.is_pressed() and button_b.is_pressed():
+	        display.scroll("AB")
 	        break
-	    elif microbit.button_a.is_pressed():
-	        microbit.display.scroll("A")
-	    elif microbit.button_b.is_pressed():
-	        microbit.display.scroll("B")
-	    microbit.sleep(100)
+	    elif button_a.is_pressed():
+	        display.scroll("A")
+	    elif button_b.is_pressed():
+	        display.scroll("B")
+	    sleep(100)
 
 .. note:: The keyword ``elif`` just means ``else if``. You can use the longer form ``else if`` if you want.
 

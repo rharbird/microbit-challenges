@@ -4,11 +4,10 @@ Music
 This is a quick guide to some of the things you can do with Micro:bit music. The idea is that you can use this information to experiment and 
 create something for yourselves.  You can use the Micro:bit to play simple tunes, provided that you connect a speaker to your board. 
 
-By default the music module expects the speaker to be connected via pin 0. 
+.. By default the music module expects the speaker to be connected via pin 0. 
+.. .. image:: pin0-gnd.png
 
-.. image:: pin0-gnd.png
-
-Connect your Micro:bit to some headphones like this: 
+If you are using headphones you can Connect your Micro:bit to some headphones like this: 
 
 .. image:: connect_headphones.jpg
 
@@ -29,14 +28,14 @@ Let's play some music::
 
 MicroPython has quite a lot of built-in melodies. Here's some of them, try them out:: 
 
-* ``music.DADADADUM``
-* ``music.ENTERTAINER``
-* ``music.PRELUDE``
-* ``music.ODE``
-* ``music.NYAN``
-* ``music.RINGTONE``
-
-
+ * ``music.DADADADUM``
+ * ``music.ENTERTAINER``
+ * ``music.PRELUDE``
+ * ``music.ODE``
+ * ``music.NYAN``
+ * ``music.RINGTONE``
+ 
+ 
 Make your own tune
 -------------------
 Playing a series of notes one after the other is easy, you just put the notes you want to play in a list::
