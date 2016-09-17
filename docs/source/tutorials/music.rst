@@ -18,11 +18,10 @@ Basic Functions
 Play a tune
 -----------
 Let's play some music::
+	from microbit import *
+	import music
 
-    from microbit import *
-    import music
-
-    music.play(music.NYAN)
+    	music.play(music.NYAN)
 
  **Note:** You must import the ``music`` module to play and control sound.
 
@@ -65,9 +64,19 @@ Playing a series of notes one after the other is easy, you just put the notes yo
 	
 
 Advanced Functions
-================
-Describe the more advanced functions if there are any.
+===================
+You can also specify the note you want to play as a ``frequency``. Take a look at this example where we make a police siren. The clever thing here is that the
+frequency or note is controlled by a for loop::
+
+
+	while True:
+		for freq in range(880, 1760, 16):
+		        music.pitch(freq, 6)
+		for freq in range(1760, 880, -16):
+			music.pitch(freq, 6)
+	 
 
 Ideas for Projects with Music 
-===================================
-* List projects that students can make with the microbit. 
+==============================
+* Make up your own tune.
+* Make a theremin. Change the pitch of the sound based on the readings from the accelerometer.  
