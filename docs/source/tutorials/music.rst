@@ -24,79 +24,44 @@ Let's play some music::
 
     music.play(music.NYAN)
 
-** Note: ** You must import the ``music`` module to play and control sound.
+ **Note:** You must import the ``music`` module to play and control sound.
 
-MicroPython has quite a lot of built-in melodies. Here's some of them, try them out:: 
+MicroPython has quite a lot of built-in melodies. Here's some of them, try them out: 
 
- * ``music.DADADADUM``
- * ``music.ENTERTAINER``
- * ``music.PRELUDE``
- * ``music.ODE``
- * ``music.NYAN``
+ *  ``music.DADADADUM``
+ *  ``music.ENTERTAINER``
+ *  ``music.PRELUDE``
+ *  ``music.ODE``
+ *  ``music.NYAN``
  * ``music.RINGTONE``
  
  
 Make your own tune
 -------------------
-Playing a series of notes one after the other is easy, you just put the notes you want to play in a list::
-
-
-
-
-
-
-
-
-
-	fromch note has a name (like ``C#`` or ``F``), an octave (telling MicroPython how
-high or low the note should be played) and a duration (how
-long it lasts through time). Octaves are indicated by a number ~ 0 is the
-lowest octave, 4 contains middle C and 8 is about as high as you'll ever need
-unless you're making music for dogs. Durations are also expressed as numbers.
-The higher the value of the duration the longer it will last. Such
-values are related to each other - for instance, a duration of ``4`` will last
-twice as long as a duration ``2`` (and so on). If you use the note name ``R``
-then MicroPython will play a rest (i.e. silence) for the specified duration.
-
-Each note is expressed as a string of characters like this::
-
-    NOTE[octave][:duration]
-
-For example, ``"A1:4"`` refers to the note named ``A`` in octave number ``1``
-to be played for a duration of ``4``.
-
-Make a list of notes to create a melody (it's equivalent to creating an
-animation with a list of images). For example, here's how to make MicroPython
-play opening of "Frere Jaques"::
-
-    import music
-
-    tune = ["C4:4", "D4:4", "E4:4", "C4:4", "C4:4", "D4:4", "E4:4", "C4:4",
-            "E4:4", "F4:4", "G4:8", "E4:4", "F4:4", "G4:8"]
-    music.play(tune)
-
-.. note::
-
-    MicroPython helps you to simplify such melodies. It'll remember the octave
-    and duration values until you next change them. As a result, the example
-    above can be re-written as::
-
-        import music
-
-        tune = ["C4:4", "D", "E", "C", "C", "D", "E", "C", "E", "F", "G:8",
-                "E:4", "F", "G:8"]
-        music.play(tune)
-
-    Notice how the octave and duration values only change when they have to.
-    It's a lot less typing and simpler to read.
- microbit import *
+Here is a snippet of code showing how to play a sound. The number after the 
+note is the octave and the number after the colon says how long the note will
+last::
+	from microbit import *
 	import music
 
-	# Play some notes one at a time
-	music.play('a') 
-	music.play('b') i
-	music.play('c')
+	# Play a 'C'
+	music.play(C)
 
+	# Play a 'C' for 4 beats long
+	music.play(C:4)
+
+	# Play a 'C' in octave number 3 for 4 beats long
+	music.play(C3:4)
+
+Playing a series of notes one after the other is easy, you just put the notes you want to play in a list::
+
+	from microbit import *
+	import music
+
+	# Tune: Frere Jacques
+	tune = ["C4:4", "D4:4", "E4:4", "C4:4", "C4:4", "D4:4", "E4:4", "C4:4",
+        	"E4:4", "F4:4", "G4:8", "E4:4", "F4:4", "G4:8"]
+	music.play(tune)
 	
 
 Advanced Functions

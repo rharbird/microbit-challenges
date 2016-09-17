@@ -51,7 +51,8 @@ If you want to know the direction you need to calculate :math:`tan^{-1} (y/x)`, 
     while True:
         x = compass.get_x() 
         y = compass.get_y() 
-    	angle = math.atan2(y,x) *180/PI
+    	angle = math.atan2(y,x) *180/math.pi
+	print("x", x, " y", y)
 	print("Direction: ", angle)
 	sleep(500)
 

@@ -20,7 +20,7 @@ Checking whether a button is pressed
 Sometimes we just want a program to wait until something happens, for example: we could ask the microbit to wait until, say, button 
 ``A`` is pressed and then print a message. We could do that like this::
 
-    from microbit import *
+	from microbit import *
 
         while True:
             if button_a.is_pressed():
