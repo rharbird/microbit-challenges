@@ -55,3 +55,4 @@ Ideas for Projects with the Radio
 =================================
 * Send a message every time button `A` is pressed.
 * You will need a pair of microbits. Program one microbit to receive messages and print the message received using the `print()` method. eave this microbit plugged into your computer with a USB cable. Program the other microbit to send accelerometer readings or the temperature readings in messages every second. Unplug this microbit and use a battery pack to power it. Congratulations! you have created a data logger!   
+* How far can you place one microbit away from another before it can no longer receive messages? Can you find out how to change the signal strength with ``radio.config()``?
