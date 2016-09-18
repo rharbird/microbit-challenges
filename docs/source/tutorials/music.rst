@@ -38,19 +38,19 @@ MicroPython has quite a lot of built-in melodies. Here's some of them, try them 
 Make your own tune
 -------------------
 Here is a snippet of code showing how to play a sound. The number after the 
-note is the octave and the number after the colon says how long the note will
+note is the octave and an octave can be a number from 1 to 8. The number after the colon says how long the note will
 last::
 	from microbit import *
 	import music
 
 	# Play a 'C'
-	music.play(C)
+	music.play('C')
 
 	# Play a 'C' for 4 beats long
-	music.play(C:4)
+	music.play('C:4')
 
 	# Play a 'C' in octave number 3 for 4 beats long
-	music.play(C3:4)
+	music.play('C3:4')
 
 Playing a series of notes one after the other is easy, you just put the notes you want to play in a list::
 
@@ -79,4 +79,4 @@ frequency or note is controlled by a for loop::
 Ideas for Projects with Music 
 ==============================
 * Make up your own tune.
-* Make a theremin. Change the pitch of the sound based on the readings from the accelerometer.  
+* Make a musical instrument. Change the pitch of the sound based on the readings from the accelerometer.  
