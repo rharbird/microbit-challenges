@@ -30,7 +30,6 @@ BBC Micro:bit Worksheets
    tutorials/thermometer
    tutorials/music
    tutoruals/radio
-   tutorials/speech
 
 .. toctree::
    :maxdepth:1
