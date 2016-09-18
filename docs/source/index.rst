@@ -29,6 +29,7 @@ BBC Micro:bit Worksheets
    tutorials/compass
    tutorials/thermometer
    tutorials/music
+   tutoruals/radio
    tutorials/speech
 
 .. toctree::
