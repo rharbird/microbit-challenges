@@ -1,9 +1,10 @@
 ******
 Radio
 ******
-High level description of the sensor and picture if necessary, for example:
+Your micro:bit has a radio chip that can be used to transmit and receive
+messages.
 
-.. image:: compass.jpg
+.. image:: radio.jpg
 
 
 Basic Functions
