@@ -35,7 +35,7 @@ BBC Micro:bit Worksheets
    :maxdepth:1
    :caption: Challenges
 
-   challenges/challenges_template
+   challenges/challenge_template
 
 .. * :ref:`genindex`
 .. * :ref:`modindex`
