@@ -24,7 +24,7 @@ Let's play some music::
 
 	music.play(music.NYAN)
 
- **Note:** You must import the ``music`` module to play and control sound.
+.. note:: You must import the ``music`` module to play and control sound.
 
 MicroPython has quite a lot of built-in melodies. Here's some of them, try them out: 
 
