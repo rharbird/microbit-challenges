@@ -18,10 +18,11 @@ Basic Functions
 Play a tune
 -----------
 Let's play some music::
+
 	from microbit import *
 	import music
 
-    	music.play(music.NYAN)
+	music.play(music.NYAN)
 
  **Note:** You must import the ``music`` module to play and control sound.
 
