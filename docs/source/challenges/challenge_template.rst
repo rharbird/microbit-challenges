@@ -1,5 +1,5 @@
 **************
-Running Snake
+Challenge name
 **************
 ======   ======   ============
 Level    Points   Uses
@@ -14,9 +14,11 @@ High level description of the task and a picture if necessary, for example:
 
 You will need
 =============
+Describe what kit is needed for the challenge.
+
  * Micro:bit
  * USB cable
 
-Hints:
+Hints
 ======
-Probably don't need hints section for easier tasks.
+Optional. 

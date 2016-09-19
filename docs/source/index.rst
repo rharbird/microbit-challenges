@@ -30,12 +30,18 @@ BBC Micro:bit Worksheets
    tutorials/thermometer
    tutorials/music
    tutorials/radio
+   tutorials/control
 
 .. toctree::
    :maxdepth:1
    :caption: Challenges
 
-   challenges/challenge_template
+   challenges/easy/running_snake
+   challenges/easy/running_snake_change_direction
+   challenges/medium/snake_gesture
+   challenges/medium/theremin_accelerometer
+   challenges/hard/snake_food
+   challenges/hard/maze
 
 .. * :ref:`genindex`
 .. * :ref:`modindex`
