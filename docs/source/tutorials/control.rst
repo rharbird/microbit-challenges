@@ -9,13 +9,13 @@ things get interesting.
 
 Loops
 =====
-There are two types of loops: `for` loops let you count the number of times you do something and `while` loops which let you
+There are two types of loops: ``for`` loops let you count the number of times you do something and ``while`` loops which let you
 perform an action until a condition you've specified is no longer happening. 
 
 For loops
 ---------
 There are times when you want to do an action a specific number of times. For example: perhaps you'd like to turn on the
-LEDs on two sides of the display to make a track. You can use a `for` loop to count for you like this::
+LEDs on two sides of the display to make a track. You can use a ``for`` loop to count for you like this::
 
 	from microbit import *
 
@@ -26,7 +26,7 @@ LEDs on two sides of the display to make a track. You can use a `for` loop to co
 
 While loops
 -----------
-One of the most common things you might want to do with a `while` loop is to do something forever, that is until the micro:bit
+One of the most common things you might want to do with a ``while`` loop is to do something forever, that is until the micro:bit
 is turned off or reset. Maybe you have programmed your micro:bit with your favourite game or perhaps it is collecting 
 temperature data in the corner of a classroom. Here is an example of some code to repeat forever::
 
@@ -35,7 +35,7 @@ temperature data in the corner of a classroom. Here is an example of some code t
 	while(True):
 	    display.scroll("Hello UCL)
 
-This code will repeatedly display the message "Hello UCL". You will likely have at least one `while(True):` loop in your program
+This code will repeatedly display the message `Hello UCL`. You will likely have at least one ``while(True):`` loop in your program
 to keep the microbit going.
 
 But what if you want to do an action only whilst something is happening? Perhaps you would like to display an image
@@ -51,8 +51,8 @@ if the temperature on the microbit goes below a certain value so you'll need to 
 
 Conditions
 ==========
-Choices, choices, choices. Sometimes you want to trigger an action if something specific has happened. We can use an `if ... else` statement for that.
-In this example we display a flashing heart if button `A` is pressed and a happy face if button `B` is pressed. If no buttons are pressed then we display a ghost:: 
+Choices, choices, choices. Sometimes you want to trigger an action if something specific has happened. We can use an ``if ... else`` statement for that.
+In this example we display a flashing heart if button ``A`` is pressed and a happy face if button ``B`` is pressed. If no buttons are pressed then we display a ghost:: 
 
 	from microbit import *
 	import love
@@ -69,6 +69,6 @@ In this example we display a flashing heart if button `A` is pressed and a happy
 
 	    sleep(100)
 
-Notice how we have shortened `else if` to become `elif`, you don't have to do this if you don't want to, it just saves typing.
+Notice how we have shortened ``else if`` to become ``elif``, you don't have to do this if you don't want to, it just saves typing.
 
 
