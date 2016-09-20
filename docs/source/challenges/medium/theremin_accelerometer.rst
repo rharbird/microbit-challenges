@@ -5,14 +5,14 @@ Theremin with Accelerometer
 ======   ======   ======================================
 Level    Points   Uses
 ======   ======   ======================================
-Medium	 2	  Accelerometer, speakers or headphones. 
+Medium	 2	  Accelerometer
 ======   ======   ======================================
 
-The theremin is a weird and wonderful electronic instrument that requires no physical contact. Have a listen to a program about them at: <http://www.bbc.co.uk/programmes/b0076nqv>_.
+The theremin is a weird and wonderful electronic instrument that requires no physical contact. Have a listen to a program about them at: `<http://www.bbc.co.uk/programmes/b0076nqv>`_.
 The theremin was invented in 1920 by Léon Theremin, an early Russian electronic engineer. It is played by moving one’s hands near two antennas – the first controls the volume of the output and the second the pitch. 
 For those that are musical it is worth knowing that the Theremin inspired Robert Moog to invent the synthesiser, so, although it’s a little-used instrument, it has had a powerful effect on the history of music.
 `
- ..image::  leon_theremin.jpg
+.. image::  leon_theremin.jpg
 
 
 You will need
@@ -23,12 +23,10 @@ You will need
  * 2 Crocodile clip cables
  * a pair of headphones or a speaker
 
-???
-======
+Make a theremin
+===============
 
-In this project, we will use the accelerometer to control the frequency of a tone. 
-Connect the speaker or the headphones to the micro:bit as described in the Music sheet. 
-The project itself falls into two parts: making a tone at a given frequency and controlling that frequency using the accelerometer.
+In this project, we will use the accelerometer to control the frequency of a tone.  The project itself falls into two parts: making a tone at a given frequency and controlling that frequency using the accelerometer.
 
 Find the range of accelerometer values 
 --------------------------------------
@@ -39,14 +37,14 @@ Write the maximum and minimum values in the boxes below:
 Axis	Minimum Value	Maximum Value 
 ======  =============   ======================================
 X							
-=========  =============   ======================================
+======  =============   ======================================
 
 Here are the maximum and minimum values for the audible frequency of sound:
 
 =========  =============   ======================================
 	   Minimum Value   Maximum Value 
 =========  =============   ======================================
-Frequency  500		   2000
+Frequency  500		   4000
 =========  =============   ======================================
 
 
@@ -66,7 +64,7 @@ Awful, in all probability.
 The problem with the tone that never seems to stand still comes from the fact that the accelerometer value doesn’t stand still – it is noisy so we need to filter the value – to smooth it out over time.
 To do that, we might make use of some maths. We could read the sensor and make an average out of the last n readings, where n is a number you choose. This is called a simple moving average and, mathematically, it’s represented by the formula:
 
-.. math::  〖out〗_i=(〖in〗_i+〖in〗_(i-1)+〖in〗_(i-2)+〖in〗_(i-3)+⋯+〖in〗_(i-n+1))/n
+.. math::  out_i = (in_i + in_(i-1) +in_(i-2) + in_(i-3)+...+ in_(i-n+1))/n
 
 Try to implement this. To do so, you’ll need to know what a list is.
 
