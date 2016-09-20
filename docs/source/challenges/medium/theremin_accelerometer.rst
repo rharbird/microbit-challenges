@@ -11,7 +11,7 @@ Medium	 2	  Accelerometer
 The theremin is a weird and wonderful electronic instrument that requires no physical contact. Have a listen to a program about them at: `<http://www.bbc.co.uk/programmes/b0076nqv>`_.
 The theremin was invented in 1920 by Léon Theremin, an early Russian electronic engineer. It is played by moving one’s hands near two antennas – the first controls the volume of the output and the second the pitch. 
 For those that are musical it is worth knowing that the Theremin inspired Robert Moog to invent the synthesiser, so, although it’s a little-used instrument, it has had a powerful effect on the history of music.
-`
+
 .. image::  leon_theremin.jpg
 
 
@@ -21,7 +21,7 @@ You will need
  * Micro:bit
  * USB cable
  * 2 Crocodile clip cables
- * a pair of headphones or a speaker
+ * A pair of headphones or a speaker
 
 Make a theremin
 ===============
