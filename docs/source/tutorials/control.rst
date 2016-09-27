@@ -32,10 +32,10 @@ temperature data in the corner of a classroom. Here is an example of some code t
 
 	from microbit import *
 	
-	while(True):
+	while True:
 	    display.scroll("Hello UCL)
 
-This code will repeatedly display the message `Hello UCL`. You will likely have at least one ``while(True):`` loop in your program
+This code will repeatedly display the message ``Hello UCL``. You will likely have at least one ``while True:`` loop in your program
 to keep the microbit going.
 
 But what if you want to do an action only whilst something is happening? Perhaps you would like to display an image
@@ -43,7 +43,7 @@ if the temperature on the microbit goes below a certain value so you'll need to 
 
 	from microbit import *
 	
-	while(temperature() < 18):
+	while temperature() < 18:
 	    display.scroll(Image.SAD)
 	    sleep(1000)
 
@@ -57,7 +57,7 @@ In this example we display a flashing heart if button ``A`` is pressed and a hap
 	from microbit import *
 	import love
 	
-	while(True):
+	while True:
 	    if button_a.is_pressed():
 		love.badaboom()
 	

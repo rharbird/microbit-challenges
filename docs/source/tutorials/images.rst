@@ -29,8 +29,6 @@ For example, to make the device appear happy you type::
     display.show(Image.HAPPY)
 
 
-.. image:: happy.png
-
 Here's some of the the other images you can use:
 
     * ``Image.HEART``, ``Image.HEART_SMALL`` 

@@ -14,6 +14,8 @@ the possibilities are endless. Let's take a look at the features that you can us
  * A radio and a Bluetooth connection to interact with other devices.
 
 .. image:: microbit-front-back.jpg
+   :scale: 60%
+   :align: center
 
 In this tutorial you will create your first micro:bit program; after that, well we've listed a few ideas but it's really up to you.
 
@@ -22,20 +24,26 @@ Your First Program
 Coding using the micro:bit is composed of these 4 steps. You can expect to go around the loop  quite a few times before you get your code working.
 
 .. image:: microbit_lifecycle.jpg
+   :scale: 60%
+   :align: center
 
 
 Design the Code
 ----------------
 
-First of all you are going to write a program to display the message “Hello World from UCL!” followed by an image on the display of your micro:bit. There's not much planning and design to do here, but just so that you understand what a plan might look like, here is mine: 
+First of all you are going to write a program to display the message “Hello UCL!” followed by an image on the display of your micro:bit. There's not much planning and design to do here, but just so that you understand what a plan might look like:
 
 .. image:: microbit_plan.jpg
+   :scale: 50%
+   :align: center
 
 Write the Code
 --------------
 We will use a special text editor to write our programs, it looks like the one shown here: 
 
 .. image:: mu_first_program.jpg
+   :scale: 60%
+   :align: center
 
 Let's go through this line-by-line::
 
@@ -60,6 +68,8 @@ Upload the Code
 Final checks. Is your micro:bit connected to your computer? Yes? Then press the flash button:
 
 .. image:: mu_flash.jpg
+   :scale: 60%
+   :align: center
 
 
 Make a change 
@@ -67,5 +77,7 @@ Make a change
 Change the text that is displayed on the screen and make it scroll across the LED display. You can do this by changing the word ``show`` to ``scroll``. Don't forget to save your program and remember to  ``flash`` the new code to the microbit.
 
 .. image:: high_five.png
+   :scale: 60%
+   :align: center
 
 You have written your first program. Carry on and see what else you can do with the micro:bit.

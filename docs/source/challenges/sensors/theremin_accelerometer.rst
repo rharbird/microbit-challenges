@@ -2,11 +2,11 @@
 Theremin with Accelerometer
 ***************************
 
-======   ======   ======================================
-Level    Points   Uses
-======   ======   ======================================
-Medium	 2	  Accelerometer
-======   ======   ======================================
+.. ======   ======   ======================================
+.. Level    Points   Uses
+.. ======   ======   ======================================
+.. Medium	 2	  Accelerometer
+.. ======   ======   ======================================
 
 The theremin is a weird and wonderful electronic instrument that requires no physical contact. Have a listen to a program about them at: `<http://www.bbc.co.uk/programmes/b0076nqv>`_.
 The theremin was invented in 1920 by Léon Theremin, an early Russian electronic engineer. It is played by moving one’s hands near two antennas – the first controls the volume of the output and the second the pitch. 
@@ -39,13 +39,13 @@ Axis	Minimum Value	Maximum Value
 X							
 ======  =============   ======================================
 
-Here are the maximum and minimum values for the audible frequency of sound:
+The maximum and minimum values for the audible frequency of sound are:
 
-=========  =============   ======================================
-	   Minimum Value   Maximum Value 
-=========  =============   ======================================
-Frequency  500		   4000
-=========  =============   ======================================
+=============   ======================================
+Minimum Value   Maximum Value 
+=============   ======================================
+500		   4000
+=============   ======================================
 
 
 See if you can work out how a way of calculating the output frequency for a given value of accelerometer input.
@@ -64,7 +64,7 @@ Awful, in all probability.
 The problem with the tone that never seems to stand still comes from the fact that the accelerometer value doesn’t stand still – it is noisy so we need to filter the value – to smooth it out over time.
 To do that, we might make use of some maths. We could read the sensor and make an average out of the last n readings, where n is a number you choose. This is called a simple moving average and, mathematically, it’s represented by the formula:
 
-.. math::  out_i = (in_i + in_(i-1) +in_(i-2) + in_(i-3)+...+ in_(i-n+1))/n
+.. math::  out_i = \frac{in_i + in_{i-1} + in_{i-2} + in_{i-3}+...+ in_{i-n+1})}{n}
 
 Try to implement this. To do so, you’ll need to know what a list is.
 

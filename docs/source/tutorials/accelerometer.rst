@@ -5,8 +5,8 @@ The accelerometer on a BBC micro:bit measures acceleration, as its name suggests
 The accelerometer can measure accelerations of between +2g to -2g. 
 
 .. image:: accelerometer.jpg
-   :scale:60%
-   :align:left
+   :scale: 60 %
+   :align: left
 
 The micro:bit measures movement along
 three axes:
@@ -99,8 +99,8 @@ irrespective of orientation, we need to do a bit of maths. If we only
 had X and Y axes (i.e. we had a 2D accelerometer) the situation would be:
 
 .. image:: microbitOverallAcceleration.jpg
-   :scale:60%
-   :align:left
+   :scale: 60 %
+   :align: left
 
 We can calculate the magnitude (length) of the resultant from Pythagoras' rule:
 

@@ -55,7 +55,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'microbit_tutorials'
-copyright = u'2016, Rae Harbird'
+# copyright = u'2016, Rae Harbird'
 author = u'Rae Harbird'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -210,6 +210,7 @@ html_static_path = ['_static']
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 #
 # html_show_copyright = True
+html_show_copyright = False
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
@@ -251,22 +252,31 @@ latex_elements = {
 
      # The font size ('10pt', '11pt' or '12pt').
      #
-     # 'pointsize': '10pt',
+'pointsize': '12pt',
+
+     # The font 
+     #
+'fontpkg': '\usepackage[scaled]{helvet}',
 
      # Additional stuff for the LaTeX preamble.
      #
-     # 'preamble': '',
-
+     'preamble': '\\renewcommand\\familydefault{\\sfdefault}\\usepackage[T1]{fontenc}\\titleformat{\\chapter}{\\Large\\bfseries}{}{0pt}{\\huge}',
      # Latex figure (float) alignment
      #
-     # 'figure_align': 'htbp',
+'figure_align': 'htbp',
+
+# Set some other options to empty so that they are ignored.
+
+#    'fncychap': '\usepackage[Bjornestrup]{fncychap}',
+    'releasename': "",
+    'printindex': '',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'microbit_tutorials.tex', u'microbit\\_tutorials Documentation',
+    (master_doc, 'microbit_tutorials.tex', '',
      u'Rae Harbird, Stephen Hailes', 'manual'),
 ]
 

@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-BBC Micro:bit Worksheets
+BBC Micro:bit Tutorials
 ========================
 
 	These tutorial sheets are designed to give students an introduction to the features of the 
@@ -36,13 +36,18 @@ BBC Micro:bit Worksheets
    :maxdepth:1
    :caption: Challenges
 
-   challenges/easy/running_snake
-   challenges/easy/running_snake_change_direction
-   challenges/medium/snake_gesture
-   challenges/medium/theremin_accelerometer
-   challenges/hard/snake_food
-   challenges/hard/maze
+   challenges/games/bop-it.rst
+   challenges/games/consonant-or-vowel.rst
+   challenges/games/obstacles.rst
+   challenges/games/egg-basket.rst
+   challenges/games/mouse-cheese.rst
+   challenges/crypto/caesar.rst
+   challenges/crypto/caesar_decrypt.rst  
+   challenges/crypto/substitution.rst
+   challenges/crypto/reverse_substitution.rst
+   challenges/crypto/morse.rst		  
+
 
 .. * :ref:`genindex`
 .. * :ref:`modindex`
-* :ref:`search`
+.. * :ref:`search`
