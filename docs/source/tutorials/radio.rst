@@ -19,10 +19,10 @@ only want share messages within a group of devices then each microbit in the gro
 	import radio		
 
 	radio.on()			# Switch the radio on.
-	radio.config(address=40)	# Set the group address to 40
+	radio.config(group=40)	# Set the group address to 40
 
 Sending and receiving a message
-------------------
+-------------------------------
 Now you are ready to send or receive a message. You can send a string which is 
 up to 250 characters in length (that's 251 bytes) in the message. Here is an
 example::
@@ -48,8 +48,12 @@ Your microbit is very clever, it can send and receive messages in quick successi
 	while True:
 		radio.send('secret message') 
 		incoming = radio.receive()
-		display.show(incoming)
+		if incoming is not None:
+		    display.show(incoming)
+		    print(incoming)
 		sleep(500)
+
+If you print the incoming message, you will see that sometimes it contains the value ``None``. That is because sometimes the micro:bit checks for a message but nothing has arrived. We can ignore these non-events by checking whether inconing equals ``None`` and ignoring it if that is the case.
 
 
 Ideas for Projects with the Radio

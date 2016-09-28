@@ -46,6 +46,12 @@ BBC Micro:bit Tutorials
    challenges/crypto/substitution.rst
    challenges/crypto/reverse_substitution.rst
    challenges/crypto/morse.rst		  
+   challenges/sensors/spirit_level.rst
+   challenges/sensors/theremin.rst
+   challenges/sensors/radio.rst
+   challenges/sensors/pingpong.rst
+   challenges/sensors/rockpaperscissors.rst
+
 
 
 .. * :ref:`genindex`
