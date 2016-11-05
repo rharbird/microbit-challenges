@@ -34,14 +34,14 @@ Design the Code
 First of all you are going to write a program to display the message “Hello UCL!” followed by an image on the display of your micro:bit. There's not much planning and design to do here, but just so that you understand what a plan might look like:
 
 .. image:: microbit_plan.jpg
-   :scale: 50%
+   :scale: 70%
    :align: center
 
 Write the Code
 --------------
 We will use a special text editor to write our programs, it looks like the one shown here: 
 
-.. image:: mu_first_program.jpg
+.. image:: mu_getting_started.jpg
    :scale: 60%
    :align: center
 
@@ -78,6 +78,12 @@ Upload the Code
 Final checks. Is your micro:bit connected to your computer? Yes? Then press the flash button:
 
 .. image:: mu_flash.jpg
+   :scale: 60%
+   :align: center
+
+You should see the message and the image displayed on the micro:bit and the message "Hello There!!" should be printed on the REPL.
+
+.. image:: mu_getting_started_repl.jpg
    :scale: 60%
    :align: center
 
