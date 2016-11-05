@@ -16,6 +16,7 @@ Description
 Morse code was invented in 1836 by a group of people including the American artist Samuel F. B. Morse. Using Morse code  a message is  represented as a series of electrical pulses which can be sent along wires to an electromagnet at the receiving end of the system.  The symbols used for each letter are shown in the figure below. 
 
 .. figure:: morse.png
+   :scale: 60 %
 
 Source: raspberrypi.org
 
@@ -23,6 +24,7 @@ Of course, you aren't limited to electrical pulses, you can transmit a Morse cod
 translated to Morse code by an operator at the sending end using a a telegraph key like the one pictured here.
 
 .. figure:: J38TelegraphKey.jpg 
+   :scale: 60 %
 
 Telegraph key, source: Wikipedia 
 

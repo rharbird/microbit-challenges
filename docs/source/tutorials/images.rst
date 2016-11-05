@@ -7,6 +7,7 @@ There are 25 LEDs  set out like the picture below. The LEDs are numbered from (0
 
 
 .. image:: happy.png
+   :scale: 60 %
 
 
 Basic Functions

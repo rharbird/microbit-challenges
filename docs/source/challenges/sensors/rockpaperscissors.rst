@@ -1,13 +1,13 @@
-***********************
-Rocki, Paper, Scissors
-***********************
+*********************
+Rock, Paper, Scissors
+*********************
 
 .. tabularcolumns:: |L|l|
 
 +--------------------------------+-----------------------------------------------------------------------+
 | **Total points possible**	 | **Uses**	                                                         |
 +================================+=======================================================================+
-| 10			 	 | Two Micro:bits, Battery pack with 2 AAA batteries, Radio, LED Display |
+| 10			 	 | Two micro:bits, Battery pack with 2 AAA batteries, Radio, LED Display |
 +--------------------------------+-----------------------------------------------------------------------+
 	
 Description
@@ -35,40 +35,8 @@ Collect points for these stages:
 |                                                         |            |
 +---------------------------------------------------------+------------+
 |                                                         |            |
-| On the host micro:bit, use ``while True:`` for the      |    2       |
-| game loop. Use the ``random.randint(1,3)`` function to  |            |
-| generate a number between 1 and 3. This will represent  |            |
-| rock, paper or scissors.                                |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-|                                                         |            |
-|                                                         |            |
-|                                                         |            |
-| Add some code so that the message is sent when button   |    1       |
-| ``A`` is pressed.                                       |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Connect the battery pack to the second micro:bit.       |     2      |
-| Upload the same code the second micro:bit.              |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-| Test the pair of micro:bits. You should be able to      |            |
-| send and receive messages.                              |     2      |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-| When a message is received, light up an LED for a       |     1      |
-| second.                                                 |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Keep the score on each device. Count the number of      |            |
-| messages received.                                      |     1      |
-|                                                         |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| If button ``B`` is pressed, display the score.          |     1      |
+| Everyone should know how to play Rock, Paper, Scissors. |    7       |
+| Play the game and make up your own instructions for     |            |
+| challenge.                                              |            |
 |                                                         |            |
 +---------------------------------------------------------+------------+

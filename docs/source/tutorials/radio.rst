@@ -5,21 +5,23 @@ Your micro:bit has a radio chip that can be used to transmit and receive
 messages.
 
 .. image:: radio.jpg
+   :scale: 60 %
+   :align: left
 
 
 Basic Functions
 ================
 
-Getting ready - setting an address
-----------------------------------
+Getting ready - setting a group number
+--------------------------------------
 Before you can use the radio you must turn it on.  Once the radio is on it will hear the messages from any other micro:bit that is within range. If you 
-only want share messages within a group of devices then each microbit in the group must be configured to share the same ``address``. The address must be a number between ``0`` and ``255``. You can do that like this::
+only want share messages within a group of devices then each microbit in the group must be configured to share the same group identifier. The address must be a number between ``0`` and ``255``. You can do that like this::
 
 	from microbit import *
 	import radio		
 
 	radio.on()			# Switch the radio on.
-	radio.config(group=40)	# Set the group address to 40
+	radio.config(group=40)	# Set the group number to 40
 
 Sending and receiving a message
 -------------------------------
@@ -33,11 +35,12 @@ example::
 
 
 Receiving a message is similar in nature, just use::
-	message_received = radio.receive()
+
+    message_received = radio.receive()
 
 Putting it together
 -------------------
-Your microbit is very clever, it can send and receive messages in quick succession. Just tell the microbit to keep checking for messages or sending them like this::
+Your microbit is smart, it can send and receive messages in quick succession. Just tell the microbit to keep checking for messages or sending them like this::
 
 	from microbit import * 
 	import radio
@@ -53,7 +56,7 @@ Your microbit is very clever, it can send and receive messages in quick successi
 		    print(incoming)
 		sleep(500)
 
-If you print the incoming message, you will see that sometimes it contains the value ``None``. That is because sometimes the micro:bit checks for a message but nothing has arrived. We can ignore these non-events by checking whether inconing equals ``None`` and ignoring it if that is the case.
+If you print the incoming message, you will see that sometimes it contains the value ``None``. That is because sometimes the micro:bit checks for a message but nothing has arrived. We can ignore these non-events by checking whether ``incoming`` equals ``None`` and ignoring it if that is the case.
 
 
 Ideas for Projects with the Radio

@@ -29,11 +29,22 @@ Collect points for these stages:
 +---------------------------------------------------------+------------+
 | **Tasks**                                               | **Points** |
 +=========================================================+============+
-| Display a welcome messge.                               |          1 |
+| Display a welcome messge.                               |      1     |
 +---------------------------------------------------------+------------+
 | Create loop for the game which repeats every second.    |      1     |
-| Prompt the player to press either button ``A``          |            |
-| or button ``B``. Hint: use ``random.randint(0,1)``.     |            |
+|                                                         |            |
++---------------------------------------------------------+------------+
+|                                                         |            |
+| Create a list of consonants in your program and a list  |      1     |
+| of vowels. Hint: ``vowels = ['A', 'E', 'I', 'O', 'U']`` |            |
+|                                                         |            |
++---------------------------------------------------------+------------+
+| Randomly select either consonants or vowels.            |            |
+|  Hint: use ``random.randint(0,1)``.                     |      1     |
+| Randomly select a letter from the list.                 |            |
+|                                                         |            |
+| Display the letter.                                     |            |
+|                                                         |            |
 +---------------------------------------------------------+------------+
 | Test whether the user has pressed the correct button.   |      1     |
 | If the user has pressed the correct button, display     |            |

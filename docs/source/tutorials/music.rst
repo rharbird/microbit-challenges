@@ -10,6 +10,7 @@ create something for yourselves.  You can use the Micro:bit to play simple tunes
 If you are using headphones you can Connect your Micro:bit to some headphones like this: 
 
 .. image:: connect_headphones.jpg
+   :scale: 60 %
 
 
 Basic Functions
@@ -67,7 +68,7 @@ Playing a series of notes one after the other is easy, you just put the notes yo
 Advanced Functions
 ===================
 You can also specify the note you want to play as a ``frequency``. Take a look at this example where we make a police siren. The clever thing here is that the
-frequency or note is controlled by a for loop::
+frequency or note is controlled by a ``for`` loop::
 
 
 	while True:

@@ -140,7 +140,7 @@ todo_include_todos = True
 # "<project> v<release> documentation" by default.
 #
 # html_title = u'microbit_tutorials v1'
-
+html_title=None
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
 # html_short_title = None

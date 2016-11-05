@@ -7,6 +7,8 @@ Buttons
 The micro:bit has two buttons: labelled ``A`` and ``B``.
 
 .. image:: microbit_button.jpg
+   :scale: 60 %
+   :align: left
 
 You can use the buttons to get input from the user. Perhaps you'd like to start your program with a button press 
 or maybe you'd like to know how many times each button has been pressed. 

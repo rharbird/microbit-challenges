@@ -19,7 +19,7 @@ Roman emporer to communicate with troops on the battlefield. Using the Caesar ci
 
 .. figure:: shift.png
 
-Your goal is to turn your micro:bit into a machine that can encode and decode messages using the Caesar cipher. We
+Your goal is to turn your micro:bit into a machine that can **encode** messages using the Caesar cipher. We
 call the message to be encrypted *plain text* and the encrypted message *cipher text*. 
 
 There is a trick you can use to encrypt, or shift the message. The trick relies on the fact that your
