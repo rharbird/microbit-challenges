@@ -6,18 +6,18 @@ The BBC micro:bit is a tiny computer that you can use to create all kinds of pro
 the possibilities are endless. Let's take a look at the features that you can use in your designs:
 
  * 25 red LED lights that can flash messages.
- * Two programmable buttons (A and B) that can be used to tell the microbit when to start and stop things.
+ * Two programmable buttons (A and B) that can be used to tell the micro:bit when to start and stop things.
  * A thermistor to measure the temperature.
  * A light sensor to measure the change in light.
  * An accelerometer to detect motion.
  * A magnetometer to tell you which direction you’re heading in.
- * A radio and a Bluetooth connection to interact with other devices.
+ * A radio and a Bluetooth Low Energy connection to interact with other devices.
 
 .. image:: microbit-front-back.jpg
    :scale: 60%
    :align: center
 
-In this tutorial you will create your first micro:bit program; after that, well we've listed a few ideas but it's really up to you.
+Now you will create your first micro:bit program; after that, well we've listed a few ideas but it's really up to you.
 
 Your First Program
 ===================
@@ -49,17 +49,27 @@ Let's go through this line-by-line::
 
 	while True: 
 
-This means do something (whatever follows this statement and is indented) forever and ever and ever. This is called  a loop, it's a bit like a gliffy that's stuck on repeat.  ``True`` and ``False`` have a special meaning in python. ``True`` is always, well ``True``. The rest of the program is straightforward::
+This means do something (whatever follows this statement and is indented) forever and ever and ever. This is called  a loop, it's a bit like a video clip that's stuck on repeat.  ``True`` and ``False`` have a special meaning in python. ``True`` is always, well ``True``. The rest of the program is straightforward::
 
 	from microbit import *
 
 	while True:
     	    display.show('Hello UCL!')
             display.show(Image.BUTTERFLY)
-    
+	    print('Hi There!!!')    
     	    sleep(2000)
       
-This displays ``Hello UCL`` on the LED display one character at a time and then shows the butterfly. You might be wondering why we've asked the 
+This displays ``Hello UCL`` on the LED display one character at a time and then shows the butterfly. 
+The statement ``print('Hi There!!')``, will print the message in the REPL. Press the REPL button in the menu now to show the REPL window:
+
+
+.. image:: mu_repl_button.jpg
+   :scale: 60%
+   :align: center
+
+The REPL window shows us messages from the micro:bit and also allows us to send commands directly to the micro:bit. For now, we'll just be using the REPL to see messages that we print and error messages. 
+
+You might be wondering why we've asked the 
 micro:bit to sleep for ``2000``! This value is in microseconds so we've really only asked it to sleep for 2 seconds. That will give us enough time to see the image before the micro:bit starts all over again.
 
 
@@ -74,7 +84,7 @@ Final checks. Is your micro:bit connected to your computer? Yes? Then press the 
 
 Make a change 
 -------------
-Change the text that is displayed on the screen and make it scroll across the LED display. You can do this by changing the word ``show`` to ``scroll``. Don't forget to save your program and remember to  ``flash`` the new code to the microbit.
+Change the text that is displayed on the screen and make it scroll across the LED display. You can do this by changing the word ``show`` to ``scroll``. Don't forget to save your program and remember to  ``flash`` the new code to the micro:bit.
 
 .. image:: high_five.png
    :scale: 60%
