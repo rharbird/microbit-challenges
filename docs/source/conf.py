@@ -34,7 +34,7 @@ extensions = [
     'sphinx.ext.mathjax',
 #
 # Rae Harbird: commented out because causing problems on readthedocs.io
-#    'sphinx.ext.githubpages',
+    'sphinx.ext.githubpages',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -105,7 +105,7 @@ exclude_patterns = []
 # If true, sectionauthor and moduleauthor directives will be shown in the
 # output. They are ignored by default.
 #
-show_authors = False
+# show_authors = False
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -117,7 +117,7 @@ pygments_style = 'sphinx'
 # keep_warnings = False
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
-todo_include_todos = True
+# todo_include_todos = True
 
 
 # -- Options for HTML output ----------------------------------------------
@@ -140,7 +140,6 @@ todo_include_todos = True
 # "<project> v<release> documentation" by default.
 #
 # html_title = u'microbit_tutorials v1'
-html_title=None
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
 # html_short_title = None
@@ -256,20 +255,20 @@ latex_elements = {
 
      # The font 
      #
-'fontpkg': '\usepackage[scaled]{helvet}',
+	# 'fontpkg': '\usepackage[scaled]{helvet}',
 
      # Additional stuff for the LaTeX preamble.
      #
-     'preamble': '\\renewcommand\\familydefault{\\sfdefault}\\usepackage[T1]{fontenc}\\titleformat{\\chapter}{\\Large\\bfseries}{}{0pt}{\\huge}',
+     # 'preamble': '\\renewcommand\\familydefault{\\sfdefault}\\usepackage[T1]{fontenc}\\titleformat{\\chapter}{\\Large\\bfseries}{}{0pt}{\\huge}',
      # Latex figure (float) alignment
      #
-'figure_align': 'htbp',
+# 'figure_align': 'htbp',
 
 # Set some other options to empty so that they are ignored.
 
 #    'fncychap': '\usepackage[Bjornestrup]{fncychap}',
-    'releasename': "",
-    'printindex': '',
+#    'releasename': "",
+#    'printindex': '',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -317,10 +316,10 @@ latex_domain_indices = False
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'microbit_tutorials', u'microbit_tutorials Documentation',
-     [author], 1)
-]
+# man_pages = [
+#     (master_doc, 'microbit_tutorials', u'microbit_tutorials Documentation',
+#     [author], 1)
+# ]
 
 # If true, show URL addresses after external links.
 #
@@ -332,11 +331,11 @@ man_pages = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'microbit_tutorials', u'microbit_tutorials Documentation',
-     author, 'microbit_tutorials', 'One line description of project.',
-     'Miscellaneous'),
-]
+# texinfo_documents = [
+#    (master_doc, 'microbit_tutorials', u'microbit_tutorials Documentation',
+#     author, 'microbit_tutorials', 'One line description of project.',
+#     'Miscellaneous'),
+# ]
 
 # Documents to append as an appendix to all manuals.
 #
