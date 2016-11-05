@@ -34,7 +34,7 @@ extensions = [
     'sphinx.ext.mathjax',
 #
 # Rae Harbird: commented out because causing problems on readthedocs.io
-    'sphinx.ext.githubpages',
+#    'sphinx.ext.githubpages',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
