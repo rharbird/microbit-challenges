@@ -60,10 +60,6 @@ copyright = u'2015-2016, Multiple authors'
 # built documents.
 #
 
-yotta_module = json.load(open('../module.json'))
-
-# The short X.Y version.
-version = yotta_module['version']
 # The full version, including alpha/beta/rc tags.
 release = version
 
