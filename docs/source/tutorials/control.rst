@@ -1,6 +1,6 @@
-*******
-Control
-*******
+******************
+Control Structures
+******************
 Sometimes you need to control what happens in your program, do you need to repeat something over and over again? 
 Loops will help you there. Perhaps you only want something to happen if a particular event has occurred? Take a look at conditions
 to help you there. Of course, in any program you will likely use all of these to make your micro:bit function and that's where 
@@ -23,6 +23,25 @@ LEDs on two sides of the display to make a track. You can use a ``for`` loop to 
 	   display.set_pixel(0,i,9) 	# set the pixel in column 0, row i to 9 
 	   display.set_pixel(4,i,9)	# set the pixel in column 4, row i to 9 
 
+Here is another example::
+
+
+
+
+
+
+
+The ``for loop`` lets you execute a loop a specific number of times using a counter. The outer loop::
+
+        for x in range(0,5)
+
+will execute the loop five times substituting ``x`` consecutive values in the range ``0`` to ``4`` for ``x`` each time. The loop will stop before it reaches the final value in the range.
+
+The inner loop::
+
+        for y in range(0,5):
+
+will execute the loop five times substituting ``y`` consecutive values in the range ``0`` to ``4`` for ``y`` each time. The loop will stop before it reaches the final value in the range.
 
 While loops
 -----------
