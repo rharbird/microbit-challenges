@@ -41,7 +41,7 @@ Write the Code
 --------------
 We will use a special text editor to write our programs, it looks like the one shown here: 
 
-.. image:: mu_getting_started.jpg
+.. image:: getting_started.jpg
    :scale: 60%
    :align: center
 
@@ -83,7 +83,7 @@ Final checks. Is your micro:bit connected to your computer? Yes? Then press the 
 
 You should see the message and the image displayed on the micro:bit and the message "Hello There!!" should be printed on the REPL.
 
-.. image:: mu_getting_started_repl.jpg
+.. image:: mu_first_program_repl.jpg
    :scale: 60%
    :align: center
 
