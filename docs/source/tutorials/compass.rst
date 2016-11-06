@@ -10,7 +10,6 @@ through which a current is running.
 
 .. image:: compass.jpg
    :scale: 80 %
-   :align: left
 
 The interpretation of magnetic
 field strength is not easy. The driver for the magnetometer returns

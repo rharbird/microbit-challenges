@@ -7,17 +7,18 @@ create something for yourselves.  You can use the micro:bit to play simple tunes
 .. By default the music module expects the speaker to be connected via pin 0. 
 .. .. image:: pin0-gnd.png
 
-..warning:: You cannot control the volume of the sound level from the micro:bit. Please be very careful if you are using headphones. A speaker is a better choice for work with sound.
+If you are using a speaker, you can Connect your micro:bit using crocodile clips like this: 
+
+.. image:: connect_speaker.jpg
+   :scale: 80 %
+
+.. warning:: You cannot control the volume of the sound level from the micro:bit. Please be very careful if you are using headphones. A speaker is a better choice for work with sound.
 
 If you are using headphones you can use crocodile clips to connect your micro:bit to some headphones like this: 
 
 .. image:: connect_headphones.jpg
    :scale: 80 %
 
-If you are using a speaker, you can Connect your micro:bit using crocodile clips like this: 
-
-.. image:: connect_speaker.jpg
-   :scale: 80 %
 
 
 Basic Functions

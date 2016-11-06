@@ -7,7 +7,7 @@ The thermometer on the micro:bit is embedded in one of the chips – and chips g
 
 .. image:: thermometer.jpg
    :scale: 80 %
-   :align: left
+
 
 Basic Functions
 ================

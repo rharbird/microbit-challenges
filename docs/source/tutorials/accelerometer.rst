@@ -6,7 +6,6 @@ The accelerometer can measure accelerations of between +2g to -2g.
 
 .. image:: accelerometer.jpg
    :scale: 80 %
-   :align: left
 
 The micro:bit measures movement along
 three axes:

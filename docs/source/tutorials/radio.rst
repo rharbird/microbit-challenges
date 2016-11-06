@@ -6,7 +6,6 @@ messages.
 
 .. image:: radio.jpg
    :scale: 80 %
-   :align: left
 
 
 Basic Functions
