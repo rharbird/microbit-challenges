@@ -6,7 +6,7 @@ Thermometer
 The thermometer on the micro:bit is embedded in one of the chips – and chips get warm when you power them up. Consequently, it doesn’t measure room temperature all that well. The chip that is used to measure temperature can be found on the left hand side of the back of the micro:bit:
 
 .. image:: thermometer.jpg
-   :scale: 60 %
+   :scale: 80 %
    :align: left
 
 Basic Functions

@@ -6,6 +6,9 @@ Loops will help you there. Perhaps you only want something to happen if a partic
 to help you there. Of course, in any program you will likely use all of these to make your micro:bit function and that's where 
 things get interesting.
 
+.. image:: control_structures_icons.jpg
+   :align: left
+
 
 Loops
 =====
