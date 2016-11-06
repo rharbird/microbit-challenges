@@ -143,3 +143,5 @@ Ideas for Projects with the Accelerometer
 * Using the BBC micro:bit music library, play a note based on the the reading from the accelerometer. Hint: set the pitch to the value of the accelerometer measurement.
 * Display the characters 'L' or 'R' depending on whether the BBC micro:bit is tilted to the left or the right.
 * Make the LEDs light up when the magnitude of the acceleration is greater than 1024 milli-gs.
+* Shake the micro:bit to make the LEDs light up.
+* Make a dice, hint: use one of the Python random functions. Type ``import random`` at the top of your program and use ``random.randrange(start, stop)``. This will generate a random number between ``start`` and ``stop`` - 1.

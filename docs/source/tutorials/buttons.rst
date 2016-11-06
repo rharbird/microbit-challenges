@@ -10,7 +10,7 @@ The micro:bit has two buttons: labelled ``A`` and ``B``.
    :scale: 60 %
    :align: left
 
-You can use the buttons to get input from the user. Perhaps you'd like to start your program with a button press 
+You can use the buttons to get input from the user. Perhaps you'd like to start or stop your program with a button press 
 or maybe you'd like to know how many times each button has been pressed. 
 
 Basic Functions
@@ -19,7 +19,7 @@ Basic Functions
 Checking whether a button is pressed
 ------------------------------------
 
-Sometimes we just want a program to wait until something happens, for example: we could ask the microbit to wait until, say, button 
+Sometimes we just want a program to wait until something happens, for example: we could ask the micro:bit to wait until, say, button 
 ``A`` is pressed and then print a message. We could do that like this::
 
 	from microbit import *
@@ -32,7 +32,7 @@ Let's break this up into parts. The first bit::
 
 	while True:
 
-This is a standard way to tell the microbit to repeat whatever code follows it forever and ever and ever ..... you get the idea.
+This is a standard way to tell the micro:bit to repeat whatever code follows it forever and ever and ever ..... you get the idea.
 The next line looks similar to normal English::
 
         while True:
@@ -50,6 +50,8 @@ we can use an ``if`` with an ``else`` like this::
 	    else:
 		display(Image.ASLEEP)
 
+This means, if button ``A`` is pressed then display an ``A`` on the LED screen, otherwise, display ``Image.ASLEEP``.
+
 Counting the number of presses
 ------------------------------
 Sometimes you might want to count the number of button presses in a time period. You can do this using the 
@@ -63,7 +65,7 @@ Sometimes you might want to count the number of button presses in a time period.
             display.scroll(str(count))
 
 The micro:bit will sleep for 3 seconds and then wake up and check how many times button ``A`` was pressed. The number of presses is 
-stored in a variable called ``count``. We can't print numbers directly on the LED screen so we convert ``count`` to a string and then display it. 
+stored in a variable called ``count``. We can't print numbers directly on the LED screen so we convert ``count`` to a string and then display it. Can you think of another way to do this? (Hint: check whether the button has been pressed and add 1 to a counter if it has). 
 
 Advanced Functions
 ===================
@@ -91,7 +93,7 @@ The code above displays the letter corresponding to the button. If both buttons 
 Has the button been pressed?
 ----------------------------
 The problem with using ``is_pressed()`` is that unless you are pressing the button at that precise moment then you won't 
-find out whether the button was ever pressed or not.  
+detect whether the button was ever pressed or not.  
 
 The ``was_pressed()`` function is useful is you want to write code that
 occasionally checks whether the button has been pushed but then goes on to
@@ -119,9 +121,9 @@ the button has been pressed. You’ll see this more clearly if you make
 the delay bigger.
 
 Now try using ``button_a.isPressed()`` instead of ``button_a.was_pressed()``. What you will find is 
-that if you press the button while the code is delaying the Engduino will never realise that you pressed it at all.
+that if you press the button while the code is delaying the micro:bit will never realise that you pressed it at all.
  
 Ideas for Projects with the Buttons
 ===================================
 * Change what is displayed when you press the button.
-* Games that need user input…
+* Games that need user input… can you make one up?

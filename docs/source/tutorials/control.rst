@@ -36,10 +36,10 @@ temperature data in the corner of a classroom. Here is an example of some code t
 	    display.scroll("Hello UCL)
 
 This code will repeatedly display the message ``Hello UCL``. You will likely have at least one ``while True:`` loop in your program
-to keep the microbit going.
+to keep the micro:bit going.
 
 But what if you want to do an action only whilst something is happening? Perhaps you would like to display an image
-if the temperature on the microbit goes below a certain value so you'll need to test the temperature::
+if the temperature on the micro:bit goes below a certain value so you'll need to test the temperature::
 
 	from microbit import *
 	

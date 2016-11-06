@@ -1,16 +1,23 @@
 ****************
 Music
 ****************
-This is a quick guide to some of the things you can do with Micro:bit music. The idea is that you can use this information to experiment and 
-create something for yourselves.  You can use the Micro:bit to play simple tunes, provided that you connect a speaker to your board. 
+This is a quick guide to some of the things you can do with micro:bit music. The idea is that you can use this information to experiment and 
+create something for yourselves.  You can use the micro:bit to play simple tunes, provided that you connect a speaker to your board. 
 
 .. By default the music module expects the speaker to be connected via pin 0. 
 .. .. image:: pin0-gnd.png
 
-If you are using headphones you can Connect your Micro:bit to some headphones like this: 
+..warning:: You cannot control the volume of the sound level from the micro:bit. Please be very careful if you are using headphones. A speaker is a better choice for work with sound.
+
+If you are using headphones you can use crocodile clips to connect your micro:bit to some headphones like this: 
 
 .. image:: connect_headphones.jpg
-   :scale: 60 %
+   :scale: 80 %
+
+If you are using a speaker, you can Connect your micro:bit using crocodile clips like this: 
+
+.. image:: connect_speaker.jpg
+   :scale: 80 %
 
 
 Basic Functions
@@ -39,7 +46,7 @@ MicroPython has quite a lot of built-in melodies. Here's some of them, try them 
  
 Make your own tune
 -------------------
-Here is a snippet of code showing how to play a sound. The number after the 
+You can write your own tune, here is a snippet of code showing how to play a sound. The number after the 
 note is the octave and an octave can be a number from 1 to 8. The number after the colon says how long the note will
 last::
 	from microbit import *
@@ -77,8 +84,9 @@ frequency or note is controlled by a ``for`` loop::
 		for freq in range(1760, 880, -16):
 			music.pitch(freq, 6)
 	 
+Can you guess what this does? Each time around the loop a new frequency is calculated by adding (or subtracting) 16. 
 
 Ideas for Projects with Music 
 ==============================
 * Make up your own tune.
-* Make a musical instrument. Change the pitch of the sound based on the readings from the accelerometer.  
+* Make a musical instrument. Change the pitch of the sound played based on the readings from the accelerometer.  

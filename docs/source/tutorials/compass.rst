@@ -25,7 +25,7 @@ Before doing anything else, you should calibrate your BBC micro:bit but beware:
 
     Calibrating the compass will cause your program to pause until calibration
     is complete. Calibration consists of a little game to draw a circle on the
-    LED display by rotating the device.`
+    LED display by rotating the device.
 
 
 Basic Functions
@@ -62,7 +62,7 @@ The 180/PI is because the angle returned is in radians rather than degrees.  For
 
    compass.heading()
 
-This gives the compass heading, as an integer in the range from 0 to 360, representing the angle in degrees, clockwise, with north as 0.
+This gives the compass heading, as an integer in the range from 0 to 360, representing the angle in degrees, clockwise, with north as 0. You will still to calibrate the device before you use ``compass.heading``.
 
 Ideas for Projects with the Compass
 ===================================

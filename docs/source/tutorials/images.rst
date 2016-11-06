@@ -7,7 +7,7 @@ There are 25 LEDs  set out like the picture below. The LEDs are numbered from (0
 
 
 .. image:: happy.png
-   :scale: 60 %
+   :scale: 40 %
 
 
 Basic Functions
@@ -22,6 +22,8 @@ You can display characters on the LED display very easily like this::
 
     display.show("Hello")
 
+The characters you display must be within a pair of quotes, either " " or ' '. 
+ 
 MicroPython comes with lots of built-in pictures to show on the display.
 For example, to make the device appear happy you type::
 
@@ -46,7 +48,7 @@ To continuously scroll a string across the display you can use::
 
     from microbit import *
 
-    display.scroll('Hello!')
+    display.scroll("Hello!")
 
 
 Clear the display
@@ -79,6 +81,18 @@ to set all the LEDs one at a time::
     for x in range(0, 5):
     	for y in range(0, 5):
     	    display.set_pixel(x,y,9)  
+
+The ``for loop`` lets you execute a loop a specific number of times using a counter. The outer loop::
+
+	for x in range(0,5)
+
+will execute the loop five times substituting ``x`` consecutive values in the range ``0`` to ``4`` for ``x`` each time. The loop will stop before it reaches the final value in the range.
+
+The inner loop::
+
+	for y in range(0,5):
+
+will execute the loop five times substituting ``y`` consecutive values in the range ``0`` to ``4`` for ``y`` each time. The loop will stop before it reaches the final value in the range.
 
 DIY images
 ----------
@@ -138,12 +152,10 @@ the animation lasts forever) by saying ``loop=True``. Furthermore, we tell it
 that we want the delay between each image to be only 100 milliseconds (a tenth
 of a second) with the argument ``delay=100``.
 
-
 Now, here's how to create your own animation.  First you need to create a list.
+Here is a list of boats::
 
-This is how you'd represent this list in Python::
-
-    shopping = ["Eggs", "Bacon", "Tomatoes" ]
+    all_boats = [boat1, boat2, boat3, boat4, boat5, boat6]
 
 You can store anything in a list with Python, even images. 
 In my example I'm going to
@@ -158,7 +170,7 @@ I'm going to create 6 images and put them into a list called ``all_boats``::
                   "99999:"
                   "09990")
 
-    ;boat2 = Image("00000:"
+    boat2 = Image("00000:"
                   "05050:"
                   "05050:"
                   "05050:"
@@ -198,3 +210,4 @@ Projects with LED Display
 * Try out some of the built-in images to see what they look like. 
 * Animate the ``Image.ALL_ARROWS`` list. How do you avoid looping forever (hint: the opposite of ``True`` is ``False``). Can you change the speed of the animation?
 * Make your own image. Next try to make it fade out and then fade in again?
+* Make a sprite, use a single LED on the display. Can you make it jump when you press a button?
