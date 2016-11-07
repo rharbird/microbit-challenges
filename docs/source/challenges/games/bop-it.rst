@@ -34,7 +34,7 @@ Collect points for these stages:
 +---------------------------------------------------------+------------+
 | **Tasks** 		                                  | **Points** |
 +=========================================================+============+
-| Display a welcome message.                               | 	     1 |
+| Display a welcome message.                              | 	     1 |
 +---------------------------------------------------------+------------+
 | Create loop for the game which repeats every second.    |      1     |
 | Prompt the player to press either button ``A``          |            |
