@@ -23,7 +23,7 @@ A variable can be thought of as a box that the computer can use to store a value
 
 .. image variable.jpg
 
-In Python we must give the variables we want to use a name and once we have done that we can start to use them, assigning and manipulating values. Here is an example::
+In Python we must give the variables we want to use a name and once we have done that we can start to use them, assigning and manipulating values::
 
 	from microbit import *
 
@@ -44,29 +44,34 @@ Operations
 
 Numbers
 ^^^^^^^
-It is possible to manipulate numeric values using the basic arithmetic operators: ``+,-,*,/`` in the same way as you would with a calculator. 
-Let's look at an example using arithmetic operators. Imagine that you want to convert the temperature you read from the microbit in Celsius to Fahrenheit::
+You can use numeric values with the basic arithmetic operators: ``+,-,*,/`` in the same way as you would with a calculator. 
+Let's look at an example using arithmetic operators. Imagine that you want to convert the temperature you read from the microbit in Celsius to Fahrenheit, you could use code like this::
 	celsiusTemp = temperature()
 	fahrenheitTemp = celsiusTemp * 9 / 5 + 32  
 
 The special operator ``%``, called ``mod`` is used to calculate the remainder when one value is divided by another. For example: maybe you'd like to know whether a number is odd or even, you could try dividing it by 2, if it is even then there will be no remainder::
+
 	theNumber = 3
 	if theNumber % 2 == 1:
 	   print("The number is odd")
 	else:
 	   print("The number is even")
 
+If the remainder is equal to 1 then this program will print the message "The number is odd", otherwise. the program will print the message "The number is even". You might have written this program in a different way, everybody's programs will be different even when there are only a few lines of code.
 
 
 Strings
 ^^^^^^^
 The main thing to note about strings is that you can add them together, or concatenate them, with a ``+`` symbol. The code::
+
 	name = "Hayley"
 
 	message = "Well done " + name + ". You are a winner!"
+
 Will concatenate the items on the right hand side of the ``=`` and put the result in the variable called message.
 
-You cannot join numbers and strings together; you must first convert the number to a string if you want to do that::
+You cannot join numbers and strings together; you must first convert the number to a string using the ``str()`` function if you want to do that::
+
 	x = temperature
 	if temperature < 6:
 	   display.scroll("Cold" + str(temperature))
@@ -99,9 +104,12 @@ Python has a set of comparison operators that allow us to write comparisons easi
 Using Comparisons
 ^^^^^^^^^^^^^^^^^
 
-.. image:: booleanLogic.jpg 
+.. figure:: booleanLogic.jpg 
 
-The result of a comparison is either ``True`` or ``False``. True and False are special values known as Bolean values  and we can use can use them to determine what our programs will do. You may have already used some examples that do this, here is an example:: 
+	Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
+
+The result of a comparison is either ``True`` or ``False``. True and False are special values known as Bolean values  and we can use can use them to determine what our programs will do. You may have already used some examples that do this. In this example, the micro:bit will show an arrow pointing in the direction
+of the tilt in the x axis:: 
 
 	from microbit import *
 	
@@ -118,4 +126,11 @@ The result of a comparison is either ``True`` or ``False``. True and False are s
 Lists
 -----
 
-Lists are useful for storing several values together.
+.. figure:: booleanLogic.jpg 
+ 
+	Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
+
+Lists are useful for storing several values together. Let's say we want to store a player's score, we could use a list like the one pictured above. Let's see how to write that in Python.
+
+
+

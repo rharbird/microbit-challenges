@@ -3,7 +3,7 @@ Control Structures
 ******************
 Sometimes you need to control what happens in your program, do you need to repeat something over and over again? 
 Loops will help you there. Perhaps you only want something to happen if a particular event has occurred? Take a look at conditions
-to help you there. Of course, in any program you will likely use all of these to make your micro:bit function and that's where 
+to help you there. Of course, in any program you will likely use all of these to make your micro:bit do what you want and that's where 
 things get interesting.
 
 .. image:: control_structures_icons.jpg
@@ -102,7 +102,8 @@ Functions and methods are used in programming to 'parcel up' useful snippets of 
 
 Using Functions
 ---------------
-A really useful thing about functions is that we can use them in more than one program if we want to. In the same way we can use functions that other people have written too. In python, useful functions can be bundled up into modules (although you don't have to do this), the random module is a good example. To use functions in the random module we must first `import` the module. Once we've done that, we can use any of the functions in that module. Here are two examples of functions in the random module that you might find useful.
+A great thing about functions is that we can use them in more than one program if we want to. In the same way we can use functions that other people have written too. In python, useful functions can be bundled up into modules (although you don't have to do this), the random module is a good example. To use functions in the random module we must first `import` the module. Once we've done that, we can use any of the functions in that module. Here are two examples of functions in the random module that you might .
+nt to use.
 
 Random number in a range
 ^^^^^^^^^^^^^^^^^^^^^^^^
