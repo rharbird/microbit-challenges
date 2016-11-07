@@ -4,12 +4,10 @@ Music
 This is a quick guide to some of the things you can do with micro:bit music. The idea is that you can use this information to experiment and 
 create something for yourselves.  You can use the micro:bit to play simple tunes, provided that you connect a speaker to your board. 
 
-.. By default the music module expects the speaker to be connected via pin 0. 
-.. .. image:: pin0-gnd.png
-
 If you are using a speaker, you can Connect your micro:bit using crocodile clips like this: 
 
 .. figure:: connect_speaker.jpg
+
    Image from: <https://www.kitronik.co.uk/blog/microbit-alarm-kitronik-university/>
 
 .. warning:: You cannot control the volume of the sound level from the micro:bit. Please be very careful if you are using headphones. A speaker is a better choice for work with sound.
