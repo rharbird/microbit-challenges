@@ -38,7 +38,7 @@ Here is another example.  You could use a ``for loop`` to set all the LEDs on on
 
 The ``for loop`` lets you execute a loop a specific number of times using a counter. The outer loop::
 
-        for x in range(0,5)
+        for x in range(0,5):
 
 will execute the loop five times substituting ``x`` for consecutive values in the range ``0`` to ``4`` each time. The loop will stop before it reaches 5, the final value in the range.
 

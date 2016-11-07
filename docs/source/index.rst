@@ -6,17 +6,24 @@
 BBC Micro:bit Tutorials
 ========================
 
-	These tutorial sheets are designed to give students an introduction to the features of the 
-	Micro:bit.  Short practical examples are provided and students are invited to design solutions to problems 
-	using the fundamental building blocks presented. This learning approach was developed by 
-	Prof. Stephen Hailes at UCL in designing the teaching material for the `Engduino <http://www.engduino.org>`_ 
-	and has been reused here. The design of the Micro:bit was strongly inflienced by the 
-	Engduino and some of the content is taken directly from the Engduino tutorial sheets.  
-	Likewise, in some places, the content is an abridged version of the 
-	`BBC Micro:bit MicroPython documentation <http://microbit-micropython.readthedocs.io>`_.  
+These tutorial sheets are designed to give students an introduction to the features of the
+Micro:bit.  Short practical examples are provided and students are invited to design solutions to problems
+using the fundamental building blocks presented.
 
-	The tutorial sheets are also useful in a classroom setting when students are offline. 
-	The Challenge sheets can be used for team competitions or just for fun!
+
+Teaching students to code by using a microprocessor and embedded sensors
+on the board, was an approach inspired by Prof. Stephen Hailes at UCL. (His team also designed the Engduino, see <http://www.engduino.org>).
+Steve created the teaching material for the
+Engduino and some of that content is reused here.
+The design of the Micro:bit was strongly influenced by the
+Engduino and some of this material is taken directly from the Engduino tutorial sheets.
+Likewise, in some places, the content is an abridged version of the
+BBC Micro:bit MicroPython documentation at <http://microbit-micropython.readthedocs.io>.
+
+The Challenge sheets can be used for team competitions or just for fun! Some of them were adapted from the
+exercises by M. Atkinson on the website Multiwingspan, <http://multiwingspan.co.uk/micro.php>.
+
+If you would like to contribute, go ahead! Install git and create a branch. It would be great to have more challenges and some projects.
 
 .. toctree::
    :maxdepth:1
@@ -31,6 +38,7 @@ BBC Micro:bit Tutorials
    tutorials/music
    tutorials/radio
    tutorials/control
+   tutorials/data_types
 
 .. toctree::
    :maxdepth:1
