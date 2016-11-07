@@ -1,6 +1,6 @@
-**************
-Caesar Cipher
-**************
+**********************
+Caesar Cipher - Part I
+**********************
 
 .. tabularcolumns:: |L|l|
 

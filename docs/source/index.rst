@@ -14,7 +14,7 @@ using the fundamental building blocks presented.
 
 
 Teaching students to code using a microprocessor with embedded sensors
-on the board enables learners to get immediate feedback from their code without having to learn any electronics beforehand.  This approach to learning coding was designed by  Prof. Stephen Hailes, UCL. His team devwloped the Engduino expressly for this purpose (see <http://www.engduino.org>).
+on the board enables learners to get immediate feedback from their code without having to learn any electronics beforehand.  This approach to learning coding was designed by  Prof. Stephen Hailes, UCL. His team developed the Engduino expressly for this purpose (see <http://www.engduino.org>).
 
 The design of the micro:bit was strongly influenced by the
 Engduino and some of this material is taken directly from the Engduino tutorial sheets.

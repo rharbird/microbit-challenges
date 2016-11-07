@@ -25,17 +25,18 @@ Collect points for these stages:
 +---------------------------------------------------------+------------+
 | **Tasks** 		                                  | **Points** |
 +=========================================================+============+
-| Display a welcome message.                               | 	     1 |
+| Display a welcome message.                              | 	     1 |
 +---------------------------------------------------------+------------+
 | Create loop for the game which repeats every second.    |      1     |
 +---------------------------------------------------------+------------+
 | Create a player sprite in any column in the bottom row. |            |
 | Display the pixel at maximum brightness.                |            |
++---------------------------------------------------------+------------+
 | Move the player sprite 1 pixel upwards each time the    |      1     |
 | loop repeats. If the player sprite is in row 0, move    |            |
 | the player sprite back to row 4.                        |            |
 | Hint: store the position of the                         |            |
-| player in a list ``player = [0,0]``.                    |            |
+| player in a list: ``player = [0,0]``.                   |            |
 +---------------------------------------------------------+------------+
 |                                                         |            |
 | Move the player sprite to the right if button           |            |

@@ -1,6 +1,6 @@
-****************************
-Decrypting the Caesar Cipher 
-****************************
+***********************
+Caesar Cipher - Part II 
+***********************
 
 .. tabularcolumns:: |L|l|
 
@@ -13,9 +13,9 @@ Decrypting the Caesar Cipher
 Description
 ===========
 
-Humans have been interested in hiding messages for as long as they have been able to communicate by writing things
-down. One of the earliest ciphers known is the Caesar cipher, named after Julius Caesar. It was used by the 
-Roman emporer to communicate with troops on the battlefield. Using the Caesar cipher you can encrypt or decrypt all the letters in a message by shifting the alphabet a number of places. The figure below shows how to encrypt a message with a shift of 3 letters:
+This challenge is about decrypting messages that have been encoded using the Caesar cipher. If you haven't tried encrypting messages with the Caesar cipher then maybe you could attempt that first.
+
+Using the Caesar cipher you can encrypt or decrypt all the letters in a message by shifting the alphabet a number of places. The figure below shows how to encrypt a message with a shift of 3 letters:
 
 .. figure:: shift.png
 

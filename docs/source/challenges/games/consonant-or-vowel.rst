@@ -39,6 +39,7 @@ Collect points for these stages:
 | of vowels. Hint: ``vowels = ['A', 'E', 'I', 'O', 'U']`` |            |
 |                                                         |            |
 +---------------------------------------------------------+------------+
+|                                                         |            |
 | Randomly select either consonants or vowels.            |            |
 |  Hint: use ``random.randint(0,1)``.                     |      1     |
 | Randomly select a letter from the list.                 |            |

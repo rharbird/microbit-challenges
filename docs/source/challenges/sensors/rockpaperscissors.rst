@@ -36,7 +36,7 @@ Collect points for these stages:
 +---------------------------------------------------------+------------+
 |                                                         |            |
 | Everyone should know how to play Rock, Paper, Scissors. |    7       |
-| Play the game and make up your own instructions for     |            |
-| challenge.                                              |            |
+| Play the game without using a computer                  |            |
+| and make up your own instructions for the challenge.    |            |
 |                                                         |            |
 +---------------------------------------------------------+------------+

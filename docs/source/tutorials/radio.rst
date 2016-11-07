@@ -11,16 +11,28 @@ messages.
 Basic Functions
 ================
 
-Getting ready - setting a group number
---------------------------------------
-Before you can use the radio you must turn it on.  Once the radio is on it will hear the messages from any other micro:bit that is within range. If you 
-only want share messages within a group of devices then each micro:bit in the group must be configured to share the same group identifier. The address must be a number between ``0`` and ``255``. You can do that like this::
+Getting ready 
+-------------
+Before you can use the radio you must remember to ``import`` the radio library and to turn the radio on on.  Once the radio is on it will hear the messages from any other micro:bit that is within range:: 
 
 	from microbit import *
 	import radio		
 
 	radio.on()			# Switch the radio on.
-	radio.config(group=40)	# Set the group number to 40
+
+Setting a channel number
+^^^^^^^^^^^^^^^^^^^^^^^^
+If you only want share messages within a group of devices then each micro:bit in the group must be configured to share the same channel number. The channel number must be a number between ``0`` and ``100``. You can do that like this::
+
+	radio.config(channel=19)	# Set the channel number to 19 
+
+It is important to do this if you are in a room with other people using their micro:bits because otherwise your micro:bit will overhear all the messages nearby and that is not what you want generally. 
+
+Setting the power level
+^^^^^^^^^^^^^^^^^^^^^^^
+Finally, you should set the power level for the radio, by default, your micro:bit will be transmitting on power level 0 which means that your messages might not get transmitted very far. The power level can be a value between ``0`` and ``7``::
+
+	radio.config(power=7)	# Set the power level to 7 
 
 Sending and receiving a message
 -------------------------------
@@ -45,10 +57,14 @@ Your micro:bit is smart, it can send and receive messages in quick succession. J
 	import radio
 
 	radio.on()
+	radio.config(channel=19)	# Choose your own channel number
+	radio.config(power=7)		# Turn the signal up to full strength 
 
+	my_message = "Be nice to yu turkeys dis christmas, Cos' turkeys just wanna hav fun, Turkeys are cool, turkeys are wicked, An every turkey has a Mum."
+	
 	# Event loop.
 	while True:
-		radio.send('secret message') 
+		radio.send(my_message') 
 		incoming = radio.receive()
 		if incoming is not None:
 		    display.show(incoming)
@@ -62,4 +78,3 @@ Ideas for Projects with the Radio
 =================================
 * Send a message every time button ``A`` is pressed.
 * You will need a pair of micro:bits. Program one micro:bit to receive messages and print the message received using the ``print()`` method. eave this micro:bit plugged into your computer with a USB cable. Program the other micro:bit to send accelerometer readings or the temperature readings in messages every second. Unplug this micro:bit and use a battery pack to power it. Congratulations! you have created a data logger!   
-* How far can you place one micro:bit away from another before it can no longer receive messages? Can you find out how to change the signal strength with ``radio.config()``?

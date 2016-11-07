@@ -21,7 +21,7 @@ been many variants which test your reactions with light, sound and action.
 
 	The original bop-it design, source: Wikipedia
 
-In the version of the game you create, the player must press the correct button,  A or B, in under 1 second. If the player
+In the version of the game you create, the player must press the correct button,  `A` or `B`, in under 1 second. If the player
 presses the wrong button, the game ends. If they press the right button, they get a point and can play again.
 
 
@@ -34,7 +34,7 @@ Collect points for these stages:
 +---------------------------------------------------------+------------+
 | **Tasks** 		                                  | **Points** |
 +=========================================================+============+
-| Display a welcome messge.                               | 	     1 |
+| Display a welcome message.                               | 	     1 |
 +---------------------------------------------------------+------------+
 | Create loop for the game which repeats every second.    |      1     |
 | Prompt the player to press either button ``A``          |            |

@@ -3,25 +3,23 @@ Data Types
 
 We will use values of different types in our micro:bit programs, for example: we could capture acceleration values from the accelerometer. Alternatively, we might want to count the number of button presses the user has made or to show a message to the user telling them the temperature of the room. In order to do these things we need to be able to describe the data we want to use. Python, and most other programming languages, recognise several data types including:
 
-* Integers - used for whole numbers.
-* Floats - used for numbers that contain decimal points or for fractions.
-* Strings - used for a combination of any characters that we want to treat as text such as letters, numbers and symbols.  
-* Boolean - used for True and False.
+* Integers - these are whole numbers.
+* Floats - these are numbers that contain decimal points or for fractions.
+* Strings - these can contain a combination of any characters that we want to treat as text such as letters, numbers and symbols.  
+* Boolean - used for True and False values.
 
 In a simple program we might use all of these. Here are the data types we could use for a program storing information about our favourite micro:bit games:
 
-.. image:: dataTypes.png
+.. figure:: dataTypes.png
+   Image from: <http://www.bbc.co.uk/education/guides/zwmbgk7/revision/3>
 
 Variables
 ---------
 
-A variable can be thought of as a box that the computer can use to store a value. The value held in that box can change or ‘vary’.  All variables are made up of three parts:
+A variable can be thought of as a box that the computer can use to store a value. The value held in that box can change or ‘vary’.  All variables are made up of three parts: a name, a type and a value. Here are three variables of different types:
 
-* a name
-* a type
-* a value
-
-.. image variable.jpg
+.. figure:: variable.jpg
+   Image from: <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables>
 
 In Python we must give the variables we want to use a name and once we have done that we can start to use them, assigning and manipulating values::
 
@@ -126,11 +124,59 @@ of the tilt in the x axis::
 Lists
 -----
 
-.. figure:: booleanLogic.jpg 
+.. figure:: lists.jpg 
  
 	Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
 
-Lists are useful for storing several values together. Let's say we want to store a player's score, we could use a list like the one pictured above. Let's see how to write that in Python.
+Lists are useful for storing several values together. Let's say we want to store a player's scores, we could use a list like the one pictured above. The list has one box for each value. The cells or boxes are knwn as `elelments`. 
+
+Let's see how to use a list in Python. To create a list we can tell Python the name  of the list and what it will contain:: 
+
+	from microbit import *
+
+	highScores = [25, 20, 10, 15, 30]       # Create a list and store some values in it.
 
 
+Finding the value of one of the elements in a list is easy as long as you remember that Python counts the elements from '0'. In our ``highScores`` list above, ``highScores[0]`` is 25 and ``highScores[3]`` is 15.
 
+Not surprisingly, Python has some features to help us do things with lists. The code snippet below will go through the array elements one by one so that we can sum them and calculate the average high score::
+
+	print("Average High Score: ") 		# Now calculate the average
+
+	total = 0
+	for score in highScores: 		# For each element ...
+		total = total + score
+
+	average = total / len(highScores)  # Use the len() function here to find the length of the array 
+	print(average)  
+
+Add to a List
+^^^^^^^^^^^^^
+There will be times when we don't know how large to make an array in advance or what the values in the list are going to be. You might want to fill a list with
+temperature readings or accelerometer values, for example.  This code illustrates how you can do that:: 
+
+	from microbit import *
+
+	recordedTemperature = [] 		# Create an empty list
+	for i in range(100):			# Add 100 temperature values
+		recordedTemperature.append(temperature())
+		sleep(1000)			 
+
+The ``for`` loop is executed 100 times and ``i`` will have values from 0 to 99. This will measure the temperature every second for 100 seconds and append the value on to the end of the list. 
+
+
+Delete from a List
+^^^^^^^^^^^^^^^^^^
+There are two ways to delete elements from lists that are helpful, you might want to delete an element with a particular value from a list::
+
+	highScores.delete(24)
+
+This will delete the first element with the value 24.
+Alternatively, you might want to delete an element at a specific position, if you know it:: 
+ 
+	highScores.pop(3)
+
+This will delete or 'pop' the element at the given position in the list. Note that::
+
+	highScores.pop() 
+will delete the last element in the list.
