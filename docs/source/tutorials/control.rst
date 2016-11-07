@@ -9,7 +9,7 @@ things get interesting.
 .. image:: control_structures_icons.jpg
    :align: left
 
-You have already seen how to write instructions or statements sequentially, in the remainder of this chapter we will look at loops, conditions and functions.
+You have already seen how to write instructions or statements sequentially and generated input and output. In the remainder of this chapter we will look at loops, selection and functions.
 
 Loops
 =====
@@ -74,8 +74,8 @@ if the temperature on the micro:bit goes below a certain value so you'll need to
 
 	display.clear()
 
-Conditions
-==========
+Selection
+=========
 Choices, choices, choices. Sometimes you want to trigger an action if something specific has happened. We can use an ``if ... else`` statement for that.
 In this example we display a flashing heart if button ``A`` is pressed and a happy face if button ``B`` is pressed. If no buttons are pressed then we display a ghost:: 
 
@@ -96,9 +96,9 @@ In this example we display a flashing heart if button ``A`` is pressed and a hap
 
 Notice how we have shortened ``else if`` to become ``elif``, you don't have to do this if you don't want to, it just saves typing.
 
-Functions and Methods
-======================
-Functions and methods are used in programming to 'parcel up' useful snippets of code and use them whenever we want. You have likely already used both functions and methods without really realising that is what you are doing. In this tutorial we will not discuss methods further but we will explain how to use functions and how to write your own. 
+Functions 
+=========
+Functions and methods are used in programming to 'parcel up' useful snippets of code and use them whenever we want. You have likely already used both functions and methods without us needing to talk about it. In this tutorial we will not discuss methods further but we will explain how to use functions and how to write your own. 
 
 Using Functions
 ---------------
