@@ -17,6 +17,7 @@ In this project, we will use the accelerometer to make a spirit level.
 
 .. figure::  spirit.jpg
    :scale: 60 %
+
    Image source: Wikipedia
 
 A spirit level, like the one in the picture above, is used to tell whether a surface is flat. If you put a spirit level on a flat surface the bubble will rest in the 

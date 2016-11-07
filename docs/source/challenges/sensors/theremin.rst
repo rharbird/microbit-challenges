@@ -19,6 +19,7 @@ The theremin was invented in 1920 by Léon Theremin, an early Russian electronic
 For those that are musical it is worth knowing that the Theremin inspired Robert Moog to invent the synthesiser, so, although it’s a little-used instrument, it has had a powerful effect on the history of music.
 
 .. figure::  leon_theremin.jpg
+
    Image: Leon Theremin, source: Wikipedia
 
 
