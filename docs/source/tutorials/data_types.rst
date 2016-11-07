@@ -11,7 +11,6 @@ We will use values of different types in our micro:bit programs, for example: we
 In a simple program we might use all of these. Here are the data types we could use for a program storing information about our favourite micro:bit games:
 
 .. figure:: dataTypes.png
-   :scale: 60 %
 
    Image from: <http://www.bbc.co.uk/education/guides/zwmbgk7/revision/3>
 
@@ -107,6 +106,7 @@ Using Comparisons
 ^^^^^^^^^^^^^^^^^
 
 .. figure:: booleanLogic.jpg 
+   :scale: 60 %
 
 	Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
 
