@@ -7,6 +7,7 @@ create something for yourselves.  You can use the micro:bit to play simple tunes
 If you are using a speaker, you can Connect your micro:bit using crocodile clips like this: 
 
 .. figure:: connect_speaker.jpg
+   :scale: 150 %
 
    Image from: <https://www.kitronik.co.uk/blog/microbit-alarm-kitronik-university/>
 
@@ -15,7 +16,7 @@ If you are using a speaker, you can Connect your micro:bit using crocodile clips
 If you are using headphones you can use crocodile clips to connect your micro:bit to some headphones like this: 
 
 .. image:: connect_headphones.jpg
-   :scale: 60 %
+   :scale: 70 %
 
 
 

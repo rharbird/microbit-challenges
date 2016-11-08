@@ -17,12 +17,14 @@ In a simple program we might use all of these. Here are the data types we could 
 Variables
 ---------
 
-A variable can be thought of as a box that the computer can use to store a value. The value held in that box can change or ‘vary’.  All variables are made up of three parts: a name, a type and a value. Here are three variables of different types:
+A variable can be thought of as a box that the computer can use to store a value. The value held in that box can change or ‘vary’.  All variables are made up of three parts: a name, a type and a value. In the figure below there are three variables of different types:
 
 .. figure:: variable.jpg
    :scale: 60 %
 
    Image from: <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables>
+
+The variable ``name`` contains the string ``Bob``, the variable ``winner`` contains the value ``True`` and the variable ``score`` contains the value ``35``.
 
 In Python we must give the variables we want to use a name and once we have done that we can start to use them, assigning and manipulating values::
 
@@ -36,7 +38,7 @@ In Python we must give the variables we want to use a name and once we have done
 	   sleep(2000)
 	   print("Number of presses: " + str(count))
 
-In this code, we count the number of button presses for button 'A' and print out the count every 2 seconds.
+Here we have used the variable ``myCount`` to count the number of button presses for button ``A``.  Can you tell what else this snippet of code does?
 
 
 
@@ -58,7 +60,7 @@ The special operator ``%``, called ``mod`` is used to calculate the remainder wh
 	else:
 	   print("The number is even")
 
-If the remainder is equal to 1 then this program will print the message "The number is odd", otherwise. the program will print the message "The number is even". You might have written this program in a different way, everybody's programs will be different even when there are only a few lines of code.
+If the remainder is equal to 1 then this program will print the message "The number is odd", otherwise. the program will print the message "The number is even". You might have written this program in a different way, This shows that people think about problems in different ways and not two programs are likely to be the same. 
 
 
 Strings
@@ -69,7 +71,7 @@ The main thing to note about strings is that you can add them together, or conca
 
 	message = "Well done " + name + ". You are a winner!"
 
-Will concatenate the items on the right hand side of the ``=`` and put the result in the variable called message.
+Will concatenate the items on the right hand side of the ``=`` and put the result in the variable called ``message``.
 
 You cannot join numbers and strings together; you must first convert the number to a string using the ``str()`` function if you want to do that::
 
@@ -80,13 +82,19 @@ You cannot join numbers and strings together; you must first convert the number 
 
 Comparisons
 -----------
+
+.. figure:: booleanLogic.jpg 
+   :scale: 60 %
+
+   Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
+
 Often in programming we want to compare one value to another, a kind of test. We use these tests or comparisons in selection or loops. Here are some examples of comaparisons written in English::
 
 	score is greater than 100
 	name equals "Harry"
  	x acceleration is not equal to 0
 
-Python has a set of comparison operators that allow us to write comparisons easily. They are shown in the table below:
+Python has a set of comparison operators that allow us to write comparisons easily:
 
 .. tabularcolumns:: |L|l|
 
@@ -102,15 +110,17 @@ Python has a set of comparison operators that allow us to write comparisons easi
 | !=                             | not equal to                           |
 +--------------------------------+----------------------------------------+
 
+Rewriting the comparisons above in Python would be::
+
+	score > 100
+	name ==  "Harry"
+ 	acceleration  != 0
+
+
 Using Comparisons
 ^^^^^^^^^^^^^^^^^
 
-.. figure:: booleanLogic.jpg 
-   :scale: 60 %
-
-	Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
-
-The result of a comparison is either ``True`` or ``False``. True and False are special values known as Bolean values  and we can use can use them to determine what our programs will do. You may have already used some examples that do this. In this example, the micro:bit will show an arrow pointing in the direction
+The result of a comparison is either ``True`` or ``False``. ``True`` and ``False`` are special values known as **Boolean values**  and we can use can use them to determine what our programs will do. You may have already used some examples that do this. In this example, the micro:bit will show an arrow pointing in the direction
 of the tilt in the x axis:: 
 
 	from microbit import *
@@ -130,22 +140,24 @@ Lists
 
 .. figure:: lists.jpg 
  
-	Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
+   Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
 
-Lists are useful for storing several values together. Let's say we want to store a player's scores, we could use a list like the one pictured above. The list has one box for each value. The cells or boxes are knwn as `elelments`. 
+Lists are useful for storing several values together. Let's say we want to store a player's scores, we could use a list like the one pictured above. The list has one box for each value. The cells or boxes are known as `elelments`. 
 
 Let's see how to use a list in Python. To create a list we can tell Python the name  of the list and what it will contain:: 
 
 	from microbit import *
 
 	highScores = [25, 20, 10, 15, 30]       # Create a list and store some values in it.
+	print(highScores[0]			# Print 25
+	print(highScores[3]			# Print 15
 
 
 Finding the value of one of the elements in a list is easy as long as you remember that Python counts the elements from '0'. In our ``highScores`` list above, ``highScores[0]`` is 25 and ``highScores[3]`` is 15.
 
 Not surprisingly, Python has some features to help us do things with lists. The code snippet below will go through the array elements one by one so that we can sum them and calculate the average high score::
 
-	print("Average High Score: ") 		# Now calculate the average
+	print("Average High Score: ") 		
 
 	total = 0
 	for score in highScores: 		# For each element ...
