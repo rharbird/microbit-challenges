@@ -18,6 +18,7 @@ been many variants which test your reactions with light, sound and action.
 
 
 .. figure:: bop_it.jpg
+   :scale: 60 %
 
    The original bop-it design, source: Wikipedia
 
