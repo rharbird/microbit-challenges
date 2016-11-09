@@ -149,8 +149,8 @@ Let's see how to use a list in Python. To create a list we can tell Python the n
 	from microbit import *
 
 	highScores = [25, 20, 10, 15, 30]       # Create a list and store some values in it.
-	print(highScores[0]			# Print 25
-	print(highScores[3]			# Print 15
+	print(highScores[0])			# Print 25
+	print(highScores[3])			# Print 15
 
 
 Finding the value of one of the elements in a list is easy as long as you remember that Python counts the elements from '0'. In our ``highScores`` list above, ``highScores[0]`` is 25 and ``highScores[3]`` is 15.
