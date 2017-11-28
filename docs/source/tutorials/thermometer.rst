@@ -13,13 +13,14 @@ Basic Functions
 ================
 There is only one basic function for the thermometer – to get the temperature, which comes back as an integer in degrees Celsius:: 
 
-    from microbit import *
+   from microbit import *
+   
+   
+while True:
+    temp = temperature()
+    display.scroll(str(temp))
+    sleep(500)
 
-
-    while True:
-        temp = temperature() 
-	display.show(temp)
-	sleep(500)
 
 Compile and run the code and see what happens.
 
