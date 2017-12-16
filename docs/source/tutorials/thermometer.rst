@@ -18,7 +18,7 @@ There is only one basic function for the thermometer – to get the temperature,
 
     while True:
         temp = temperature() 
-	display.show(temp)
+	display.show(str(temp))
 	sleep(500)
 
 Compile and run the code and see what happens.
