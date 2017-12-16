@@ -47,7 +47,7 @@ we can use an ``if`` with an ``else`` like this::
             if button_a.is_pressed():
                 display.scroll("A")
 	    else:
-		display(Image.ASLEEP)
+		display.show(Image.ASLEEP)
 
 This means, if button ``A`` is pressed then display an ``A`` on the LED screen, otherwise, display ``Image.ASLEEP``.
 
@@ -60,7 +60,7 @@ Sometimes you might want to count the number of button presses in a time period.
 
         while True:
 	    sleep(3000)
-            count = button_a.get(_presses()
+            count = button_a.get_presses()
             display.scroll(str(count))
 
 The micro:bit will sleep for 3 seconds and then wake up and check how many times button ``A`` was pressed. The number of presses is 
