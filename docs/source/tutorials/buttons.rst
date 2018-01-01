@@ -60,7 +60,7 @@ Sometimes you might want to count the number of button presses in a time period.
 
         while True:
 	    sleep(3000)
-            count = button_a.get(_presses()
+            count = button_a.get_presses()
             display.scroll(str(count))
 
 The micro:bit will sleep for 3 seconds and then wake up and check how many times button ``A`` was pressed. The number of presses is 
@@ -109,7 +109,7 @@ something else. In this way you need never miss a button press again::
 	    if button_a.was_pressed(): 
 	        display.scroll("A")
 	    else:
-		display(Image.ASLEEP)
+		display.scroll(Image.ASLEEP)
 	    sleep(1000)
 
 What you’ll see is that the display will show an ``A`` for a second
