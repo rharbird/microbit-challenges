@@ -15,11 +15,10 @@ There is only one basic function for the thermometer – to get the temperature,
 
    from microbit import *
    
-   
-while True:
-    temp = temperature()
-    display.scroll(str(temp) + 'C')
-    sleep(500)
+   while True:
+      temp = temperature()
+      display.scroll(str(temp) + 'C')
+      sleep(500)
 
 
 Compile and run the code and see what happens.
