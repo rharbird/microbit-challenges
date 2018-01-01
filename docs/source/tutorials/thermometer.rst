@@ -18,7 +18,7 @@ There is only one basic function for the thermometer – to get the temperature,
    
 while True:
     temp = temperature()
-    display.scroll(str(temp))
+    display.scroll(str(temp) + 'C') 
     sleep(500)
 
 
