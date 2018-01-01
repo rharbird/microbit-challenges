@@ -64,7 +64,7 @@ Your micro:bit is smart, it can send and receive messages in quick succession. J
 	
 	# Event loop.
 	while True:
-		radio.send(my_message') 
+		radio.send(my_message) 
 		incoming = radio.receive()
 		if incoming is not None:
 		    display.show(incoming)
