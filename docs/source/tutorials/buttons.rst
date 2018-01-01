@@ -47,7 +47,7 @@ we can use an ``if`` with an ``else`` like this::
             if button_a.is_pressed():
                 display.scroll("A")
 	    else:
-		display(Image.ASLEEP)
+		display.scroll(Image.ASLEEP)
 
 This means, if button ``A`` is pressed then display an ``A`` on the LED screen, otherwise, display ``Image.ASLEEP``.
 
