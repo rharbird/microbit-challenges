@@ -77,4 +77,4 @@ If you print the incoming message, you will see that sometimes it contains the v
 Ideas for Projects with the Radio
 =================================
 * Send a message every time button ``A`` is pressed.
-* You will need a pair of micro:bits. Program one micro:bit to receive messages and print the message received using the ``print()`` method. eave this micro:bit plugged into your computer with a USB cable. Program the other micro:bit to send accelerometer readings or the temperature readings in messages every second. Unplug this micro:bit and use a battery pack to power it. Congratulations! you have created a data logger!   
+* You will need a pair of micro:bits. Program one micro:bit to receive messages and print the message received using the ``print()`` method. Leave this micro:bit plugged into your computer with a USB cable. Program the other micro:bit to send accelerometer readings or the temperature readings in messages every second. Unplug this micro:bit and use a battery pack to power it. Congratulations! you have created a data logger!   
