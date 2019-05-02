@@ -65,7 +65,7 @@ Collect points for these stages:
 |                                                         |            |
 | In your program you should store the    		  |      1     |
 | message you want to translate in a string like this:	  |            |
-| ``message = 'KEEP THIS A SECRET```.                     |            |
+| ``message = 'KEEP THIS A SECRET'``.                     |            |
 |                                                         |            |
 |                                                         |            |
 +---------------------------------------------------------+------------+
