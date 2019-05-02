@@ -64,7 +64,7 @@ Collect points for these stages:
 |                                                         |            |
 | In your program you should store the                    |      1     |
 | encrypted message in a string like this: 		  |            |
-| ``encrypted_message = 'QKKV OZ G YKIXKZ```.             |            |
+| ``encrypted_message = 'QKKV OZ G YKIXKZ'``.             |            |
 |                                                         |            |
 |                                                         |            |
 +---------------------------------------------------------+------------+
