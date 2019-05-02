@@ -70,7 +70,7 @@ The statement ``print('Hi There!!')``, will print the message in the REPL. Press
 The REPL window shows us messages from the micro:bit and also allows us to send commands directly to the micro:bit. For now, we'll just be using the REPL to see messages that we print and error messages. 
 
 You might be wondering why we've asked the 
-micro:bit to sleep for ``2000``! This value is in microseconds so we've really only asked it to sleep for 2 seconds. That will give us enough time to see the image before the micro:bit starts all over again.
+micro:bit to sleep for ``2000``! This value is in milliseconds so we've really only asked it to sleep for 2 seconds. That will give us enough time to see the image before the micro:bit starts all over again.
 
 
 Upload the Code
