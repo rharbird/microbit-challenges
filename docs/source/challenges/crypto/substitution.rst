@@ -47,7 +47,7 @@ Collect points for these stages:
 |                                                         |            |
 | In this version of your program you should store the    |      1     |
 | message to encode in a string like this: 		  |            |
-| ``message = 'KEEP THIS A SECRET```.                     |            |
+| ``message = 'KEEP THIS A SECRET'``.                     |            |
 |                                                         |            |
 |                                                         |            |
 +---------------------------------------------------------+------------+
