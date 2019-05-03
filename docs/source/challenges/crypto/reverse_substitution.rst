@@ -45,7 +45,7 @@ Collect points for these stages:
 |                                                         |            |
 | In this version of your program you should store the    |      1     |
 | message to be decrypted in a string like this:   	  |            |
-| ``encrypted_message = 'IGGW PC V UGZQGC```.             |            |
+| ``encrypted_message = 'IGGW PC V UGZQGC'``.             |            |
 |                                                         |            |
 |                                                         |            |
 +---------------------------------------------------------+------------+
