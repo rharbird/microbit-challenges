@@ -32,7 +32,7 @@ Collect points for these stages:
 +---------------------------------------------------------+------------+
 |                                                         |            |
 | Add some code so that the message is sent when button   |    1       |
-| a is pressed.                                           |            |
+| ``A`` is pressed.                                       |            |
 |                                                         |            |
 +---------------------------------------------------------+------------+
 |                                                         |            |
