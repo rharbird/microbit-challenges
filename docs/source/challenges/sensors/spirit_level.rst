@@ -53,7 +53,7 @@ Collect points for these stages:
 +---------------------------------------------------------+------------+
 |                                                         |            |
 | If the micro:bit is tilted to the right, display an     |     2      |
-| arrow pointing leftwards.                               |            |
+| arrow pointing rightwards.                              |            |
 |                                                         |            |
 +---------------------------------------------------------+------------+
 |                                                         |            |
