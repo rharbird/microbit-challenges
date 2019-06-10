@@ -17,7 +17,7 @@ This challenge is about decrypting messages that have been encoded using the Cae
 
 Using the Caesar cipher you can encrypt or decrypt all the letters in a message by shifting the alphabet a number of places. The figure below shows how to encrypt a message with a shift of 3 letters:
 
-.. figure:: shift.png
+.. figure:: assets/shift.png
 
 Your goal is to turn your micro:bit into a machine that can **decode** messages that have been encrypted 
 using the Caesar cipher. We call the encrypted message *cipher text* and the decrypted message *plain text*. 

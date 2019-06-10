@@ -15,7 +15,7 @@ Description
 In this project, we will use the accelerometer to make a spirit level.  
 
 
-.. figure::  spirit.jpg
+.. figure::  assets/spirit.jpg
    :scale: 60 %
 
    Image source: Wikipedia
