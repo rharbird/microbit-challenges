@@ -10,7 +10,7 @@ We will use values of different types in our micro:bit programs, for example: we
 
 In a simple program we might use all of these. Here are the data types we could use for a program storing information about our favourite micro:bit games:
 
-.. figure:: dataTypes.png
+.. figure:: assets/dataTypes.png
 
    Image from: <http://www.bbc.co.uk/education/guides/zwmbgk7/revision/3>
 
@@ -19,7 +19,7 @@ Variables
 
 A variable can be thought of as a box that the computer can use to store a value. The value held in that box can change or ‘vary’.  All variables are made up of three parts: a name, a type and a value. In the figure below there are three variables of different types:
 
-.. figure:: variable.jpg
+.. figure:: assets/variable.jpg
    :scale: 60 %
 
    Image from: <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables>
@@ -83,7 +83,7 @@ You cannot join numbers and strings together; you must first convert the number 
 Comparisons
 -----------
 
-.. figure:: booleanLogic.jpg 
+.. figure:: assets/booleanLogic.jpg 
    :scale: 60 %
 
    Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
@@ -138,7 +138,7 @@ of the tilt in the x axis::
 Lists
 -----
 
-.. figure:: lists.jpg 
+.. figure:: assets/lists.jpg 
  
    Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
 

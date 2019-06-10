@@ -6,7 +6,7 @@ Buttons
 
 The micro:bit has two buttons: labelled ``A`` and ``B``.
 
-.. image:: microbit_button.jpg
+.. image:: assets/microbit_button.jpg
    :scale: 50 %
 
 You can use the buttons to get input from the user. Perhaps you'd like to start or stop your program with a button press 

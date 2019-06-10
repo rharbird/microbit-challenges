@@ -4,7 +4,7 @@ Radio
 Your micro:bit has a radio chip that can be used to transmit and receive
 messages.
 
-.. image:: radio.jpg
+.. image:: assets/radio.jpg
    :scale: 80 %
 
 

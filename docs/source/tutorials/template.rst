@@ -3,7 +3,7 @@ The Name for the sensor
 ***********************
 High level description of the sensor and picture if necessary, for example:
 
-.. image:: compass.jpg
+.. image:: assets/compass.jpg
 
 
 Basic Functions

@@ -6,7 +6,7 @@ This is a quick guide to some of the things you can do with the LED display. The
 There are 25 LEDs  set out like the picture below. The LEDs are numbered from (0,0) in the  top left hand corner, to (4,4) in the bottom right hand corner. You can use the LEDs like a very tiny screen to display  single characters, a string of characters or  a small picture like the smiley face here.  The LEDs can be set to different brightnesses.  Let's find out how to use them.
 
 
-.. image:: happy.png
+.. image:: assets/happy.png
    :scale: 40 %
 
 

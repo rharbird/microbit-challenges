@@ -6,7 +6,7 @@ Loops will help you there. Perhaps you only want something to happen if a partic
 to help you there. Of course, in any program you will likely use all of these to make your micro:bit do what you want and that's where 
 things get interesting.
 
-.. image:: control_structures_icons.jpg
+.. image:: assets/control_structures_icons.jpg
    :align: left
 
 You have already seen how to write instructions or statements sequentially and generated input and output. In the remainder of this chapter we will look at loops, selection and functions.

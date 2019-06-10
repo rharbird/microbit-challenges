@@ -6,7 +6,7 @@ create something for yourselves.  You can use the micro:bit to play simple tunes
 
 If you are using a speaker, you can connect your micro:bit using crocodile clips like this: 
 
-.. figure:: connect_speaker.jpg
+.. figure:: assets/connect_speaker.jpg
    :scale: 150 %
 
    Image from: <https://www.kitronik.co.uk/blog/microbit-alarm-kitronik-university/>
@@ -15,7 +15,7 @@ If you are using a speaker, you can connect your micro:bit using crocodile clips
 
 If you are using headphones you can use crocodile clips to connect your micro:bit to some headphones like this: 
 
-.. image:: connect_headphones.jpg
+.. image:: assets/connect_headphones.jpg
    :scale: 70 %
 
 
@@ -49,6 +49,7 @@ Make your own tune
 You can write your own tune, here is a snippet of code showing how to play a sound. The number after the 
 note is the octave and an octave can be a number from 1 to 8. The number after the colon says how long the note will
 last::
+	
 	from microbit import *
 	import music
 

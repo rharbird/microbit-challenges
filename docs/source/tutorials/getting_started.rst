@@ -13,7 +13,7 @@ the possibilities are endless. Let's take a look at the features that you can us
  * A magnetometer to tell you which direction you’re heading in.
  * A radio and a Bluetooth Low Energy connection to interact with other devices.
 
-.. image:: microbit-front-back.jpg
+.. image:: assets/microbit-front-back.jpg
    :scale: 60%
    :align: center
 
@@ -23,7 +23,7 @@ Your First Program
 ===================
 Coding using the micro:bit is composed of these 4 steps. You can expect to go around the loop  quite a few times before you get your code working.
 
-.. image:: microbit_lifecycle.jpg
+.. image:: assets/microbit_lifecycle.jpg
    :scale: 60%
    :align: center
 
@@ -33,7 +33,7 @@ Design the Code
 
 First of all you are going to write a program to display the message “Hello UCL!” followed by an image on the display of your micro:bit. There's not much planning and design to do here, but just so that you understand what a plan might look like:
 
-.. image:: microbit_plan.jpg
+.. image:: assets/microbit_plan.jpg
    :scale: 70%
    :align: center
 
@@ -41,7 +41,7 @@ Write the Code
 --------------
 We will use a special text editor to write our programs, it looks like the one shown here: 
 
-.. image:: getting_started.jpg
+.. image:: assets/getting_started.jpg
    :scale: 60%
    :align: center
 
@@ -63,7 +63,7 @@ This displays ``Hello UCL`` on the LED display one character at a time and then 
 The statement ``print('Hi There!!')``, will print the message in the REPL. Press the REPL button in the menu now to show the REPL window:
 
 
-.. image:: mu_repl_button.jpg
+.. image:: assets/mu_repl_button.jpg
    :scale: 60%
    :align: center
 
@@ -77,13 +77,13 @@ Upload the Code
 ----------------
 Final checks. Is your micro:bit connected to your computer? Yes? Then press the flash button:
 
-.. image:: mu_flash.jpg
+.. image:: assets/mu_flash.jpg
    :scale: 60%
    :align: center
 
 You should see the message and the image displayed on the micro:bit and the message "Hello There!!" should be printed on the REPL.
 
-.. image:: mu_first_program_repl.jpg
+.. image:: assets/mu_first_program_repl.jpg
    :scale: 60%
    :align: center
 
@@ -92,7 +92,7 @@ Make a change
 -------------
 Change the text that is displayed on the screen and make it scroll across the LED display. You can do this by changing the word ``show`` to ``scroll``. Don't forget to save your program and remember to  ``flash`` the new code to the micro:bit.
 
-.. image:: high_five.png
+.. image:: assets/high_five.png
    :scale: 60%
    :align: center
 
