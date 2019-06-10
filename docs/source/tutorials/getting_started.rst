@@ -2,7 +2,7 @@
 Micro:bit - Getting Started 
 ****************************
 
-The BBC micro:bit is a tiny computer that you can use to create all kinds of projects from robots to musical instruments – 
+The BBC micro:bit is a programmable micro-computer that can be used to create all kinds of projects from robots to musical instruments – 
 the possibilities are endless. Let's take a look at the features that you can use in your designs:
 
  * 25 red LED lights that can flash messages.
@@ -13,18 +13,34 @@ the possibilities are endless. Let's take a look at the features that you can us
  * A magnetometer to tell you which direction you’re heading in.
  * A radio and a Bluetooth Low Energy connection to interact with other devices.
 
-.. image:: assets/microbit-front-back.jpg
-   :scale: 60%
+.. image:: assets/microbit-hardware-access.jpg
+   :scale: 40%
    :align: center
+   
+Source: https://microbit.org/guide/features/
 
-Now you will create your first micro:bit program; after that, well we've listed a few ideas but it's really up to you.
+You can program micro:bit using several languages: MicroPython, C++ or JavaScript. This tutorial will focus on programming micro:bit using
+MicroPython, but feel free to explore a section on other languages here_.
+
+.. _here: https://microbit.org/code/
+
+
+Now you will create your first micro:bit program; after that you can check out some ideas listed on this page or build a project of your own.
+
+Setting Up Your Environment
+===========================
+
+Before you start coding, you will need a source-code editor to be able to write, load and run programs on your micro:bit.
+In this tutorial, we are using Mu editor, which you can download here_.
+
+.. _here: https://codewith.mu/en/
 
 Your First Program
 ===================
 Coding using the micro:bit is composed of these 4 steps. You can expect to go around the loop  quite a few times before you get your code working.
 
 .. image:: assets/microbit_lifecycle.jpg
-   :scale: 60%
+   :scale: 70%   
    :align: center
 
 
