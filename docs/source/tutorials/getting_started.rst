@@ -20,9 +20,9 @@ the possibilities are endless. Let's take a look at the features that you can us
 Source: https://microbit.org/guide/features/
 
 You can program micro:bit using several languages: MicroPython, C++ or JavaScript. This tutorial will focus on programming micro:bit using
-MicroPython, but feel free to explore a section on other languages here_.
+MicroPython, but feel free to explore out section on other languages_.
 
-.. _here: https://microbit.org/code/
+.. _other languages: https://microbit.org/code/
 
 
 Now you will create your first micro:bit program; after that you can check out some ideas listed on this page or build a project of your own.
@@ -31,13 +31,25 @@ Setting Up Your Environment
 ===========================
 
 Before you start coding, you will need a source-code editor to be able to write, load and run programs on your micro:bit.
-In this tutorial, we are using Mu editor, which you can download here_.
+There are several possibilities, but for ease of use we are using Mu editor in this tutorial, which you can download here_.
 
 .. _here: https://codewith.mu/en/
 
+Once you have the editor installed, run it and plug your micro:bit into your computer.
+As easy example and to make sure your micro:bit works properly, this short program will show "Hello UCL" letter by letter, display a heart, wait for 2 seconds and repeat.
+
+.. image:: assets/first_program.gif
+   :align: center 
+
+The result on the micro:bit should look something like this:
+
+.. image:: assets/example_program.gif
+   :scale: 50% 
+   :align: center
+
 Your First Program
 ===================
-Coding using the micro:bit is composed of these 4 steps. You can expect to go around the loop  quite a few times before you get your code working.
+In general, the process of designing code is composed of these 4 steps. You can expect to go around the loop  quite a few times before you get your code working.
 
 .. image:: assets/microbit_lifecycle.jpg
    :scale: 70%   
