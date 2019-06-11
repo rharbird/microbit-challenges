@@ -49,6 +49,7 @@ Numbers
 ^^^^^^^
 You can use numeric values with the basic arithmetic operators: ``+,-,*,/`` in the same way as you would with a calculator. 
 Let's look at an example using arithmetic operators. Imagine that you want to convert the temperature you read from the microbit in Celsius to Fahrenheit, you could use code like this::
+
 	celsiusTemp = temperature()
 	fahrenheitTemp = celsiusTemp * 9 / 5 + 32  
 
@@ -195,4 +196,5 @@ Alternatively, you might want to delete an element at a specific position, if yo
 This will delete or 'pop' the element at the given position in the list. Note that::
 
 	highScores.pop() 
+
 will delete the last element in the list.

@@ -11,7 +11,7 @@ Basic Functions
 Describe the basic functions.
 
 Advanced Functions
-================
+==================
 Describe the more advanced functions if there are any.
 
 Ideas for Projects with the Compass
