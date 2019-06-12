@@ -2,7 +2,7 @@
 Micro:bit - Getting Started 
 ****************************
 
-The BBC micro:bit is a programmable micro-computer that can be used to create all kinds of projects from robots to musical instruments – 
+The BBC micro:bit is a programmable micro-computer - microcontroller - that can be used to create all kinds of projects from robots to musical instruments – 
 the possibilities are endless. Let's take a look at the features that you can use in your designs:
 
  * 25 red LED lights that can flash messages.
@@ -22,8 +22,12 @@ Source: https://microbit.org/guide/features/
 You can program micro:bit using several languages: MicroPython, C++ or JavaScript. This tutorial will focus on programming micro:bit using
 MicroPython, but feel free to explore out section on other languages_.
 
-.. _other languages: https://microbit.org/code/
+.. _languages: https://microbit.org/code/
 
+MicroPython is a version of Python_ , that's designed to run on microcontrollers like micro:bit. Programming in Python is basically 
+writing a series of steps to be executed (it's an *imperative* language), as you will see below when writing your first program.  
+
+.. _Python: https://www.python.org/
 
 Now you will create your first micro:bit program; after that you can check out some ideas listed on this page or build a project of your own.
 
@@ -35,17 +39,7 @@ There are several possibilities, but for ease of use we are using Mu editor in t
 
 .. _here: https://codewith.mu/en/
 
-Once you have the editor installed, run it and plug your micro:bit into your computer.
-As easy example and to make sure your micro:bit works properly, this short program will show "Hello UCL" letter by letter, display a heart, wait for 2 seconds and repeat.
-
-.. image:: assets/first_program.gif
-   :align: center 
-
-The result on the micro:bit should look something like this:
-
-.. image:: assets/example_program.gif
-   :scale: 50% 
-   :align: center
+Once you have the editor installed, run it and plug micro:bit into your computer.
 
 Your First Program
 ===================
@@ -59,69 +53,78 @@ In general, the process of designing code is composed of these 4 steps. You can 
 Design the Code
 ----------------
 
-First of all you are going to write a program to display the message “Hello UCL!” followed by an image on the display of your micro:bit. There's not much planning and design to do here, but just so that you understand what a plan might look like:
+First of all you are going to write a program to display the message “Hello UCL!” followed by an image on the display of your micro:bit and print "Hi there" to Mu console. 
+It's a good practice to think about what you want your code to do and how you're going to do it before you start writing. There's not much planning and design to do here,
+but just so that you understand what a plan might look like:
 
-.. image:: assets/microbit_plan.jpg
+.. image:: assets/first_program_list.png
    :scale: 70%
    :align: center
 
-Write the Code
---------------
-We will use a special text editor to write our programs, it looks like the one shown here: 
-
-.. image:: assets/getting_started.jpg
-   :scale: 60%
-   :align: center
+There are two ways to display the output of your code: you either use outputs available on the micro:bit (eg. the LEDs) or the REPL (Read Print Evaluate Loop) 
+console available in the editor using the ``print`` statement. The console is especially useful for finding bugs (errors) in your code or trying out
+new concepts or ideas.  
 
 Let's go through this line-by-line::
 
 	while True: 
 
-This means do something (whatever follows this statement and is indented) forever and ever and ever. This is called  a loop, it's a bit like a video clip that's stuck on repeat.  ``True`` and ``False`` have a special meaning in python. ``True`` is always, well ``True``. The rest of the program is straightforward::
+This means do something (whatever follows this statement and is indented) while the condition following ``while`` is true. In this case, the condition is the keyword ``True``, 
+means that this loop will go on forever - it's the same as writing (5 > 1).  
+The rest of the program is straightforward::
 
 	from microbit import *
 
 	while True:
     	    display.show('Hello UCL!')
             display.show(Image.BUTTERFLY)
-	    print('Hi There!!!')    
+	        print('Hello World!')    
     	    sleep(2000)
       
-This displays ``Hello UCL`` on the LED display one character at a time and then shows the butterfly. 
+This displays ``Hello UCL!`` on the LED display and then shows the butterfly. 
 The statement ``print('Hi There!!')``, will print the message in the REPL. Press the REPL button in the menu now to show the REPL window:
-
 
 .. image:: assets/mu_repl_button.jpg
    :scale: 60%
    :align: center
 
-The REPL window shows us messages from the micro:bit and also allows us to send commands directly to the micro:bit. For now, we'll just be using the REPL to see messages that we print and error messages. 
+The REPL window shows us messages from the micro:bit and also allows us to send commands directly to the micro:bit. For now, we'll just be using the REPL 
+to see messages that we print and error messages. 
 
-You might be wondering why we've asked the 
-micro:bit to sleep for ``2000``! This value is in milliseconds so we've really only asked it to sleep for 2 seconds. That will give us enough time to see the image before the micro:bit starts all over again.
+Upload your program
+--------------------
 
+Now click on the Flash button in Mu and see what happens.
 
-Upload the Code
-----------------
-Final checks. Is your micro:bit connected to your computer? Yes? Then press the flash button:
+.. image:: assets/first_program.gif
+   :scale: 70%
+   :align: center 
 
-.. image:: assets/mu_flash.jpg
-   :scale: 60%
+The result on the micro:bit should look something like this:
+
+.. image:: assets/example_program.gif
+   :scale: 40% 
    :align: center
 
-You should see the message and the image displayed on the micro:bit and the message "Hello There!!" should be printed on the REPL.
+Now try to open the REPL console:
 
-.. image:: assets/mu_first_program_repl.jpg
-   :scale: 60%
-   :align: center
-
+.. image:: assets/first_program_console.png 
 
 Make a change 
 -------------
-Change the text that is displayed on the screen and make it scroll across the LED display. You can do this by changing the word ``show`` to ``scroll``. Don't forget to save your program and remember to  ``flash`` the new code to the micro:bit.
 
-.. image:: assets/high_five.png
-   :scale: 60%
-   :align: center
+The best way to learn what something is for is to try and change your code (and read the documentation, obviously).
 
-You have written your first program. Carry on and see what else you can do with the micro:bit.
+Are you wondering what the delay is for? Is it necessary? Try deleting it.
+What happens if you replace ``True`` by ``False``?
+What happens when you replace ``scroll`` by ``show``?
+
+Now you have written your first program. Carry on and see what else you can do with the micro:bit <\|°_°\|>.
+
+.. note:: If you feel confused or if you feel like you need more guidance to start programming, don't feel discouraged! There is a lot of free online courses that are great at going through basics of programming with Python, like this one_. Try to go through a first few lessons, and everything will make more sense!
+
+.. _one: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2 
+
+.. seealso::  micro:bit documentation_ for Python.
+
+.. _documentation: https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html 
