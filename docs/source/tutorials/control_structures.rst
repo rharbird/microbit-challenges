@@ -1,15 +1,18 @@
 ******************
 Control Structures
 ******************
-Sometimes you need to control what happens in your program, do you need to repeat something over and over again? 
-Loops will help you there. Perhaps you only want something to happen if a particular event has occurred? Take a look at conditions
-to help you there. Of course, in any program you will likely use all of these to make your micro:bit do what you want and that's where 
-things get interesting.
+
+The first program in Getting Started section consisted of sequential execution of steps. However, the vast majority of times you will need a more complex structure 
+for your code, whether it is control over which statements get executed or how many times they get executed. This is why control structures introduced in this section,
+such as loops or conditional statements, are crucial. 
 
 .. image:: assets/control_structures_icons.jpg
    :align: left
 
-You have already seen how to write instructions or statements sequentially and generated input and output. In the remainder of this chapter we will look at loops, selection and functions.
+Conditional statements
+======================
+
+
 
 Loops
 =====
