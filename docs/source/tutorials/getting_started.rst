@@ -20,7 +20,8 @@ the possibilities are endless. Let's take a look at the features that you can us
 Source: https://microbit.org/guide/features/
 
 You can program micro:bit using several languages: MicroPython, C++ or JavaScript. This tutorial will focus on programming micro:bit using
-MicroPython, but feel free to explore out section on other languages_.
+MicroPython, but if you already are familiar with Python, or you're looking for extra challenge, look at the section with other languages_. C/C++ might be 
+useful in particular, as it's the main language used to program embedded devices.
 
 .. _languages: https://microbit.org/code/
 
@@ -28,8 +29,6 @@ MicroPython is a version of Python_ , that's designed to run on microcontrollers
 writing a series of steps to be executed (it's an *imperative* language), as you will see below when writing your first program.  
 
 .. _Python: https://www.python.org/
-
-Now you will create your first micro:bit program; after that you can check out some ideas listed on this page or build a project of your own.
 
 Setting Up Your Environment
 ===========================
@@ -129,6 +128,27 @@ Now you have written your first program. Carry on and see what else you can do w
 
 .. _one: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2 
 
-.. seealso:: Read full micro:bit documentation_ for MicroPython.
+.. seealso:: See the full micro:bit documentation_ for MicroPython.
 
 .. _documentation: https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html 
+
+
+Programming micro:bit with other laguages
+==========================================
+
+As mentioned above, micro:bit can also be programmed using JavaScript and C/C++. 
+
+JavaScript
+-----------
+
+Online editor and documentation for JavaScript can be found on micro:bit's page_.
+
+.. _page: https://makecode.microbit.org/#
+
+C/C++
+----
+
+Micro:bit is programmable using Mbed online compiler. You can watch their getting started video_ for a basic set up. 
+
+.. _video: https://os.mbed.com/platforms/Microbit/#getting-started-video
+.. _documentation:
