@@ -67,21 +67,25 @@ new concepts or ideas.
 
 Let's go through this line-by-line::
 
+    from microbit import *
+
+Importing packages (like microbit) in Python makes us able to use functions or objects which are not defined in pure Python. In this case it's for example ``display`` or ``show``. ::     
+
 	while True: 
 
 This means do something (whatever follows this statement and is indented) while the condition following ``while`` is true. In this case, the condition is the keyword ``True``, 
-means that this loop will go on forever - it's the same as writing (5 > 1).  
+means that this loop will go on forever - it's the same as writing (5 > 1), which evaluates to ``True`` in the end anyway.  
 The rest of the program is straightforward::
 
 	from microbit import *
 
 	while True:
     	    display.show('Hello UCL!')
-            display.show(Image.BUTTERFLY)
+            display.show(Image.HEART)
 	        print('Hello World!')    
     	    sleep(2000)
       
-This displays ``Hello UCL!`` on the LED display and then shows the butterfly. 
+This displays ``Hello UCL!`` on the LED display and then shows the heart. 
 The statement ``print('Hi There!!')``, will print the message in the REPL. Press the REPL button in the menu now to show the REPL window:
 
 .. image:: assets/mu_repl_button.jpg
@@ -125,6 +129,6 @@ Now you have written your first program. Carry on and see what else you can do w
 
 .. _one: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2 
 
-.. seealso::  micro:bit documentation_ for Python.
+.. seealso:: Read full micro:bit documentation_ for MicroPython.
 
 .. _documentation: https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html 
