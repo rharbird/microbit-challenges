@@ -54,11 +54,13 @@ Design the Code
 
 First of all you are going to write a program to display the message “Hello UCL!” followed by an image on the display of your micro:bit and print "Hi there" to Mu console. 
 It's a good practice to think about what you want your code to do and how you're going to do it before you start writing. There's not much planning and design to do here,
-but just so that you understand what a plan might look like:
+but just so that you understand what a plan might look like::
 
-.. image:: assets/first_program_list.png
-   :scale: 70%
-   :align: center
+    Repeat forever:
+        Scroll "Hello UCL!" across the LED display
+        Display a heart icon 
+        Print "Hello World!" on a console
+        Delay for 2 seconds
 
 There are two ways to display the output of your code: you either use outputs available on the micro:bit (eg. the LEDs) or the REPL (Read Print Evaluate Loop) 
 console available in the editor using the ``print`` statement. The console is especially useful for finding bugs (errors) in your code or trying out
@@ -87,8 +89,8 @@ The rest of the program is straightforward::
 This displays ``Hello UCL!`` on the LED display and then shows the heart. 
 The statement ``print('Hi There!!')``, will print the message in the REPL. Press the REPL button in the menu now to show the REPL window:
 
-.. image:: assets/mu_repl_button.jpg
-   :scale: 60%
+.. image:: assets/mu_repl_bar.png
+   :scale: 70%
    :align: center
 
 The REPL window shows us messages from the micro:bit and also allows us to send commands directly to the micro:bit. For now, we'll just be using the REPL 
@@ -118,11 +120,13 @@ Make a change
 
 The best way to learn what something is for is to try and change your code (and read the documentation, obviously).
 
+                                    <\|°_°\|>
+
 Are you wondering what the delay is for? Is it necessary? Try deleting it.
 What happens if you replace ``True`` by ``False``?
 What happens when you replace ``scroll`` by ``show``?
 
-Now you have written your first program. Carry on and see what else you can do with the micro:bit <\|°_°\|>.
+Now you have written your first program. Next sections will tell you more about writing more complex programms and about further uses of micro:bit.
 
 .. note:: If you feel confused or if you feel like you need more guidance to start programming, don't feel discouraged! There is a lot of free online courses that are great at going through basics of programming with Python, like this one_. Try to go through a first few lessons, and everything will make more sense!
 
@@ -146,8 +150,14 @@ Online editor and documentation for JavaScript can be found at micro:bit's page_
 .. _page: https://makecode.microbit.org/#
 
 C/C++
-----
+-----
 
 Micro:bit is programmable using Mbed online compiler. You can watch their getting started video_ for a basic set up. 
 
 .. _video: https://os.mbed.com/platforms/Microbit/#getting-started-video
+
+while True:
+    display.scroll("Hello UCL!")
+    display.show(Image.HEART)
+    print("Hellow World!")
+    sleep(2000)
