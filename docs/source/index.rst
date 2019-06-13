@@ -32,16 +32,17 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    :maxdepth:1
    :caption: Tutorials
 
-   tutorials/getting_started
-   tutorials/images
-   tutorials/buttons
-   tutorials/accelerometer
-   tutorials/compass
-   tutorials/thermometer
-   tutorials/music
-   tutorials/radio
-   tutorials/control
-   tutorials/data_types
+   tutorials/getting_started.rst 
+   tutorials/control.rst
+   tutorials/data_types.rst	
+   tutorials/images.rst
+   tutorials/buttons.rst
+   tutorials/accelerometer.rst
+   tutorials/compass.rst
+   tutorials/thermometer.rst
+   tutorials/music.rst
+   tutorials/radio.rst
+
 
 .. toctree::
    :maxdepth:1
