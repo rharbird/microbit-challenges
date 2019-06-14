@@ -41,7 +41,7 @@ and calculate the average high score::
 	print(average)  
 
 Add to a List
---------------
+^^^^^^^^^^^^^^
 There will be times when we don't know how large to make an array in advance or what the values in the list are going to be. You might want to fill a list with
 temperature readings or accelerometer values, for example.  This code illustrates how you can do that:: 
 
@@ -56,7 +56,7 @@ The ``for`` loop is executed 100 times and ``i`` will have values from 0 to 99. 
 
 
 Delete from a List
--------------------
+^^^^^^^^^^^^^^^^^^^
 There are two ways to delete elements from lists that are helpful, you might want to delete an element with a particular value from a list::
 
 	highScores.delete(24)
@@ -79,9 +79,35 @@ will delete the last element in the list.
 You might be thinking, whether string is a list. Even though string is an array of characters and we can even do similar operations on them (like slicing),
 they are both different structures with different methods (try to type ``dir(str)`` and ``dir(list)`` in your console). 
 
+
 Tuples
 =======
 
+Tuples are similar to lists in that the are used to store an ordered sequence of items.::
 
+    highScoresImmutable = 25, 20, 10, 15, 30
+
+You can retrieve values in the same way as in lists, but the most important difference is, that tuples are `immutable`. This means, that while in the ``highScores`` list above, you can change the value of infividual elements,::
+
+    highScores[0] = 42
+
+once you define a tuple, you cannot change the value it stores.  
+
+Sets
+=====
+
+Unlike lists and tuples, sets hold an unordered collection of elements with no duplicates. This makes them suitable to use for testing membership or removing 
+duplicate elements.
 
 Dictionaries
+=============
+
+Dictionary is an unordered set of key:value pairs. It's a rule that all keys are unique and have no duplicates. Unlike lists or tuples, which are indexed by numbers, 
+you can retrieve a value by using the key as an index.
+
+For example, you can store the number of times you've read each of your books::
+
+    library_register = { 'Guards! Guards!': 1,
+                         'Hitchhiker's Guide To The Galaxy': 3
+                         'Twilight': 0
+                         'Lord of The Rings': 5 }              
