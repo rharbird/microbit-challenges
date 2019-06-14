@@ -57,6 +57,25 @@ You cannot join numbers and strings together; you must first convert the number 
 	if temperature < 6:
 	   display.scroll("Cold" + str(temperature))
 
+Booleans
+^^^^^^^^^
+
+Logical operations
+-------------------
+
++----------+--------------------------------+-------------------+
+| Operator |  Evaluates to `True` if:       | Example           |
++==========+================================+===================+
+| and      |  Both operands are true        | ``True and True`` |
++----------+--------------------------------+-------------------+
+| or       |  At least one operand is true  | ``True or False`` |
++----------+--------------------------------+-------------------+
+| not      |  Operand is false              | ``not False``     |
++----------+--------------------------------+-------------------+
+	
+
+
+
 Comparisons
 -----------
 
