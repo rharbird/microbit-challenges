@@ -1,15 +1,16 @@
-*****************
+****************
 Data Structures
 ****************
 
 Lists
------
+======
 
 .. figure:: assets/lists.jpg 
  
    Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
 
-Lists are useful for storing several values together. Let's say we want to store a player's scores, we could use a list like the one pictured above. The list has one box for each value. The cells or boxes are known as `elelments`. 
+Lists are a datastructures used to store any data type (or structure) in an ordered manner. Let's say we want to store a player's scores, we could use a list like the 
+one pictured above. The list has one box for each value. The data stored in a list are called `elements`. 
 
 Let's see how to use a list in Python. To create a list we can tell Python the name  of the list and what it will contain:: 
 
@@ -20,9 +21,15 @@ Let's see how to use a list in Python. To create a list we can tell Python the n
 	print(highScores[3])			# Print 15
 
 
-Finding the value of one of the elements in a list is easy as long as you remember that Python counts the elements from '0'. In our ``highScores`` list above, ``highScores[0]`` is 25 and ``highScores[3]`` is 15.
+Finding the value of one of the elements in a list is easy as long as you remember that Python counts the elements from '0'. In our ``highScores`` list above, 
+``highScores[0]`` is 25 and ``highScores[3]`` is 15.
 
-Not surprisingly, Python has some features to help us do things with lists. The code snippet below will go through the array elements one by one so that we can sum them and calculate the average high score::
+Here you can also see that particular elements in a list cna be accessed by indexing. Furthermore, it is possible to slice lists to get only a part of a list depending
+on the index. If you only want the first three, you can write ``highScores[0:3]``, or, since we are starting at 0, we can shorten it to ``highScores[:3]``. Mind that
+the right endpoint is alway excluded, so the 'slice' above refers to the mathematical interval ``[0:2]``.
+
+Not surprisingly, Python has some features to help us do things with lists. The code snippet below will go through the array elements one by one so that we can sum them 
+and calculate the average high score::
 
 	print("Average High Score: ") 		
 
@@ -34,7 +41,7 @@ Not surprisingly, Python has some features to help us do things with lists. The 
 	print(average)  
 
 Add to a List
-^^^^^^^^^^^^^
+--------------
 There will be times when we don't know how large to make an array in advance or what the values in the list are going to be. You might want to fill a list with
 temperature readings or accelerometer values, for example.  This code illustrates how you can do that:: 
 
@@ -49,7 +56,7 @@ The ``for`` loop is executed 100 times and ``i`` will have values from 0 to 99. 
 
 
 Delete from a List
-^^^^^^^^^^^^^^^^^^
+-------------------
 There are two ways to delete elements from lists that are helpful, you might want to delete an element with a particular value from a list::
 
 	highScores.delete(24)
@@ -65,6 +72,16 @@ This will delete or 'pop' the element at the given position in the list. Note th
 
 will delete the last element in the list.
 
+.. seealso: You can look here_ to see more useful native functions on lists.
+
+.. _here: https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences
+
+You might be thinking, whether string is a list. Even though string is an array of characters and we can even do similar operations on them (like slicing),
+they are both different structures with different methods (try to type ``dir(str)`` and ``dir(list)`` in your console). 
+
 Tuples
+=======
+
+
 
 Dictionaries
