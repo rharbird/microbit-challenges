@@ -31,7 +31,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
 .. toctree::
    :maxdepth:1
    :caption: Tutorials
-   
+
    tutorials/getting_started.rst 
    tutorials/images.rst
    tutorials/buttons.rst
@@ -48,6 +48,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    basics/data_types.rst 
    basics/variables.rst
    basics/control.rst
+   basics/data_structures.rst
    basics/functions.rst
 
    
