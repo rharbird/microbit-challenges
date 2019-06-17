@@ -6,6 +6,21 @@ In order to accurately capture various types of data, programming languages prov
 Each case, whether it is gathering acceleration values from the accelerometer or counting the number of times a button was pressed, requires a different degree
 of precision, which is why Python and most other programming languages recognise several data types for representing values, including:
 
+
++-----------------+------------------------------------------------------+--------------------+
+| *Data Type*     | *Description*                                        | *Example*          |
++=================+======================================================+====================+
+| Integers        | Whole numbers                                        | ``42``             |
++-----------------+------------------------------------------------------+--------------------+
+| Floats          | Numbers with decimap point, fractions                | ``3.1415``         |
++-----------------+------------------------------------------------------+--------------------+
+| Complex numbers | Numbers with both real and an imaginary component    | ``1 + 3j``         |
++-----------------+------------------------------------------------------+--------------------+
+| Strings         | Sequences of characters delimited by quotation marks | ``"Hello World!"`` |
++-----------------+------------------------------------------------------+--------------------+
+| Booleans        | Values representing true and false values            | ``False``          |
++-----------------+------------------------------------------------------+--------------------+
+
 * Integers: whole numbers ``42`` 
 * Floating point numbers: numbers that contain decimal points or for fractions ``3.1415``
 * Complex numbers: numbers that depict both real and imaginary components  ``2+3j``
