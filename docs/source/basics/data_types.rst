@@ -2,9 +2,8 @@
 Data Types
 ***********
 
-You will need different types of values to capture data, for example: you could capture acceleration values from the accelerometer. Alternatively, you might 
-want to count the number of button presses the user has made or to show a message to the user telling them the temperature of the room. In order to do these things 
-we need to be able to describe the data we want to use. Python, and most other programming languages, recognise several data types including:
+You will need different types of values to capture data (eg.: acceleration values from the accelerometer, counting the number of times a button was pressed). In order to
+do these things we need to be able to describe the data we want to use. Python and most other programming languages, recognise several data types including:
 
 * Integers: whole numbers ``42`` 
 * Floating point numbers: numbers that contain decimal points or for fractions ``3.1415``
@@ -148,6 +147,6 @@ show an arrow changing in direction according to acceleration::
 	
 	    elif  x_acceleration < 50:
 	         display.show(Image.ARROW_W) 
-			 
+
 		else:
 			 display.shiw(Image.ARROW_S)	 
