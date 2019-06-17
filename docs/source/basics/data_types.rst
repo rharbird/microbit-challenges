@@ -2,8 +2,9 @@
 Data Types
 ***********
 
-You will need different types of values to capture data (eg.: acceleration values from the accelerometer, counting the number of times a button was pressed). In order to
-do these things we need to be able to describe the data we want to use. Python and most other programming languages, recognise several data types including:
+In order to accurately capture various types of data, programming languages provide us with different data types to allow us to represent them properly.
+Each case, whether it is gathering acceleration values from the accelerometer or counting the number of times a button was pressed, requires a different degree
+of precision, which is why Python and most other programming languages recognise several data types for representing values, including:
 
 * Integers: whole numbers ``42`` 
 * Floating point numbers: numbers that contain decimal points or for fractions ``3.1415``
