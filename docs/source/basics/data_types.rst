@@ -39,6 +39,9 @@ Let's look at an example using arithmetic operators. Imagine that you want to co
 	celsiusTemp = temperature()
 	fahrenheitTemp = celsiusTemp * 9 / 5 + 32  
 
+Python recognises two division operators: ``/`` and ``//``. First one outputs the result you'd expect, but the second one does integer division: whatever the result	
+is always the floor of the resul. This means that if the result is a floating point number, it's always rounded down.
+
 The special operator ``%``, called ``mod`` is used to calculate the remainder when one value is divided by another. For example: maybe you'd like to know whether a number is odd or even, you could try dividing it by 2, if it is even then there will be no remainder::
 
 	theNumber = 3
