@@ -61,7 +61,7 @@ that they can be concatenated with a ``+`` symbol::
 
 	name = "Hayley"
 
-	message = "Well done " + name + ". You are a winner!"
+	message = "Well done " + name + ". You are victorious!"
 
 This will concatenate the items on the right hand side of the ``=`` and put the result in the variable called ``message``.
 
@@ -70,6 +70,10 @@ To join numbers and strings together, you must first convert the number to a str
 	x = temperature
 	if temperature < 6:
 	   display.scroll("Cold" + str(temperature))
+
+..seealso:: Python natively provides a lot of methods_, which makes using strings much easier and will save you a lot of time (although you can try to implement them on your own) 
+
+.. _methods: https://www.programiz.com/python-programming/methods/string
 
 Booleans
 ---------
