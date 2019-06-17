@@ -8,7 +8,7 @@ of precision, which is why Python and most other programming languages recognise
 
 
 +-----------------+------------------------------------------------------+--------------------+
-| *Data Type*     | *Description*                                        | *Example*          |
+| **Data Type**   | **Description**                                      | **Example**        |
 +=================+======================================================+====================+
 | Integers        | Whole numbers                                        | ``42``             |
 +-----------------+------------------------------------------------------+--------------------+
@@ -42,7 +42,7 @@ Let's look at an example using arithmetic operators. Imagine that you want to co
 Python recognises two division operators: ``/`` and ``//``. First one outputs the result you'd expect, but the second one does integer division: whatever the result	
 is always the floor of the resul. This means that if the result is a floating point number, it's always rounded down.
 
-The special operator ``%``, called ``mod`` is used to calculate the remainder when one value is divided by another. For example: maybe you'd like to know whether a number is odd or even, you could try dividing it by 2, if it is even then there will be no remainder::
+Operator ``%``, called ``mod`` is used to calculate the remainder when one value is divided by another. For example: maybe you'd like to know whether a number is odd or even, you could try dividing it by 2, if it is even then there will be no remainder::
 
 	theNumber = 3
 	if theNumber % 2 == 1:
@@ -117,15 +117,15 @@ Logical operations
 
 Logical operator test not the value of specific variables, but for the truth value of its operands.
 
-+----------+--------------------------------+-------------------+
-| Operator |  Evaluates to ``True`` if:     | Example           |
-+==========+================================+===================+
-| and      |  Both operands are true        | ``True and True`` |
-+----------+--------------------------------+-------------------+
-| or       |  At least one operand is true  | ``True or False`` |
-+----------+--------------------------------+-------------------+
-| not      |  Operand is false              | ``not False``     |
-+----------+--------------------------------+-------------------+
++--------------+---------------------------------+-------------------+
+| **Operator** |  **Evaluates to ``True`` if:**  | **Example**       |
++==============+=================================+===================+
+| and          |  Both operands are true         | ``True and True`` |
++--------------+---------------------------------+-------------------+
+| or           |  At least one operand is true   | ``True or False`` |
++--------------+---------------------------------+-------------------+
+| not          |  Operand is false               | ``not False``     |
++--------------+---------------------------------+-------------------+
 	
 
 Membership operations
@@ -133,13 +133,13 @@ Membership operations
 
 Membership operators are useful to determine presence of en element in a sequence.
 
-+----------+----------------------------------------------------------+--------------------------+
-| Operator | Evaluates to ``True`` if:                                | Example                  | 
-+==========+==========================================================+==========================+
-|   in     | A variable value is in the specified sequence            | ``x in [1, 2, 3, 4]``    |
-+----------+----------------------------------------------------------+--------------------------+
-| not in   | Does not find a variable value in the specified sequence | ``x not in [1, 2, 3, 4]``|
-+----------+----------------------------------------------------+--------------------------------+
++--------------+----------------------------------------------------------+--------------------------+
+| **Operator** | **Evaluates to ``True`` if:**                            | **Example**              | 
++==============+==========================================================+==========================+
+|   in         | A variable value is in the specified sequence            | ``x in [1, 2, 3, 4]``    |
++--------------+----------------------------------------------------------+--------------------------+
+| not in       | Does not find a variable value in the specified sequence | ``x not in [1, 2, 3, 4]``|
++--------------+----------------------------------------------------+--------------------------------+
 
 Using Boolean operations
 ^^^^^^^^^^^^^^^^^^^^^^^^^
