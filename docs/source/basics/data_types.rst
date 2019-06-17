@@ -3,9 +3,8 @@ Data Types
 ***********
 
 In order to accurately capture various types of data, programming languages provide us with different data types to allow us to represent them properly.
-Each case, whether it is gathering acceleration values from the accelerometer or counting the number of times a button was pressed, requires a different degree
-of precision, which is why Python and most other programming languages recognise several data types for representing values, including:
-
+Each case, whether it is gathering acceleration values from the accelerometer or counting the number of times a button was pressed, requires a different approach, 
+which is why Python and most other programming languages recognise several data types for representing values, including:
 
 +-----------------+------------------------------------------------------+--------------------+
 | **Data Type**   | **Description**                                      | **Example**        |
@@ -33,16 +32,17 @@ Operations
 
 Numbers
 --------
-You can use numeric values with the basic arithmetic operators: ``+,-,*,/`` in the same way as you would with a calculator. 
-Let's look at an example using arithmetic operators. Imagine that you want to convert the temperature you read from the microbit in Celsius to Fahrenheit, you could use code like this::
+Basic arithmetic operators: ``+,-,*,/`` are used in the same way as you would with a calculator. 
+Let's look at an example using arithmetic operators the temperature read by the microbit in Celsius to Fahrenheit::
 
 	celsiusTemp = temperature()
 	fahrenheitTemp = celsiusTemp * 9 / 5 + 32  
 
-Python recognises two division operators: ``/`` and ``//``. First one outputs the result you'd expect, but the second one does integer division: whatever the result	
-is always the floor of the resul. This means that if the result is a floating point number, it's always rounded down.
+..note:: Python recognises two division operators: ``/`` and ``//``. First one outputs the result you'd expect, but the second one does integer division: the 
+return value is actually the floor of the result. This means that the return value is always rounded down.
 
-Operator ``%``, called ``mod`` is used to calculate the remainder when one value is divided by another. For example: maybe you'd like to know whether a number is odd or even, you could try dividing it by 2, if it is even then there will be no remainder::
+Operator ``%``, called ``mod`` is used to calculate the remainder when one value is divided by another. For example: maybe you'd like to know whether a number is odd or 
+even, you could try dividing it by 2, if it is even then there will be no remainder::
 
 	theNumber = 3
 	if theNumber % 2 == 1:
