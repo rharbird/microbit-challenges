@@ -50,21 +50,22 @@ even, you could try dividing it by 2, if it is even then there will be no remain
 	else:
 	   print("The number is even")
 
-If the remainder is equal to 1 then this program will print the message "The number is odd", otherwise. the program will print the message "The number is even". You 
-might have written this program in a different way. This shows that people think about problems in different ways and not two programs are likely to be the same. 
+If the remainder is equal to 1 then this program will print the message "The number is odd", otherwise. the program will print the message "The number is even". 
+You might have written this program in a different way. This shows that people think about problems in different ways and not two programs are likely to be the same. 
 
 
 Strings
 --------
-The main thing to note about strings is that you can add them together, or concatenate them, with a ``+`` symbol. The code::
+As stated above, strings (``str`` type in Python) are sequences of characters, with a length limited only by the memory of your machine. An important thing to note is 
+that they can be concatenated with a ``+`` symbol::
 
 	name = "Hayley"
 
 	message = "Well done " + name + ". You are a winner!"
 
-Will concatenate the items on the right hand side of the ``=`` and put the result in the variable called ``message``.
+This will concatenate the items on the right hand side of the ``=`` and put the result in the variable called ``message``.
 
-You cannot join numbers and strings together; you must first convert the number to a string using the ``str()`` function if you want to do that::
+To join numbers and strings together, you must first convert the number to a string using the ``str()`` function if you want to do that::
 
 	x = temperature
 	if temperature < 6:
