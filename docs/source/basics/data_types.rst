@@ -23,7 +23,7 @@ Operations
 ===========
 
 Numbers
-^^^^^^^
+--------
 You can use numeric values with the basic arithmetic operators: ``+,-,*,/`` in the same way as you would with a calculator. 
 Let's look at an example using arithmetic operators. Imagine that you want to convert the temperature you read from the microbit in Celsius to Fahrenheit, you could use code like this::
 
@@ -43,7 +43,7 @@ might have written this program in a different way. This shows that people think
 
 
 Strings
-^^^^^^^
+--------
 The main thing to note about strings is that you can add them together, or concatenate them, with a ``+`` symbol. The code::
 
 	name = "Hayley"
@@ -59,12 +59,12 @@ You cannot join numbers and strings together; you must first convert the number 
 	   display.scroll("Cold" + str(temperature))
 
 Booleans
-^^^^^^^^^
-A Boolean value is a value that is either ``True`` or ``False``, also represented by `1` and `0`. In python, there is a number of operations that allow you to 
-manipulate and eva  
+---------
+A Boolean value is a value that is either ``True`` or ``False``, also represented by `1` and `0`. In python, there is a number of operations that 
+allow you to manipulate boolean expressions.  
 
 Comparisons
------------
+^^^^^^^^^^^^
 
 .. figure:: assets/booleanLogic.jpg 
    :scale: 60 %
@@ -100,29 +100,8 @@ Rewriting the comparisons above in Python would be::
 	name ==  "Harry"
  	acceleration  != 0
 
-
-Using Comparisons
-^^^^^^^^^^^^^^^^^
-
-The result of a comparison is either ``True`` or ``False``. ``True`` and ``False`` are special values known as **Boolean values**  and we can use can use them to determine what our programs will do. You may have already used some examples that do this. In this example, the micro:bit will show an arrow pointing in the direction
-of the tilt in the x axis:: 
-
-	from microbit import *
-	
-	while True:
-	
-	    x_acceleration = accelerometer.get_x()
-	
-	    if x_acceleration > 100:
-	         display.show(Image.ARROW_E)
-	
-	    if  x_acceleration < 100:
-	         display.show(Image.ARROW_W) 
-
-
-
 Logical operations
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 +----------+--------------------------------+-------------------+
 | Operator |  Evaluates to ``True`` if:     | Example           |
@@ -136,7 +115,7 @@ Logical operations
 	
 
 Membership operations
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 +----------+----------------------------------------------------+--------------------------+
 | Operator | Evaluates to ``True`` if:                          | Example                  | 
@@ -146,3 +125,20 @@ Membership operations
 | not in   | Does not find a variable in the specified sequence | ``x not in [1, 2, 3, 4]``|
 +----------+----------------------------------------------------+--------------------------+
 
+Using Boolean operations
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You may have already used some examples that do this. In this example, the micro:bit will 
+show an arrow pointing in the direction of the tilt in the x axis:: 
+
+	from microbit import *
+	
+	while True:
+	
+	    x_acceleration = accelerometer.get_x()
+	
+	    if x_acceleration > 100:
+	         display.show(Image.ARROW_E)
+	
+	    if  x_acceleration < 100:
+	         display.show(Image.ARROW_W) 
