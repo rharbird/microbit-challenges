@@ -71,8 +71,8 @@ Comparisons
 
    Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
 
-Often in programming we want to compare one value to another, a kind of test. We use these tests or comparisons in selection or loops. Here are some examples of 
-comaparisons written in English::
+Comparison operations are useful to test variable values in conditional statements or loops. Here are some examples of 
+comparisons written in English::
 
 	score is greater than 100
 	name equals "Harry"
@@ -103,6 +103,8 @@ Rewriting the comparisons above in Python would be::
 Logical operations
 ^^^^^^^^^^^^^^^^^^^
 
+Logical operator test not the value of specific variables, but for the truth value of its operands.
+
 +----------+--------------------------------+-------------------+
 | Operator |  Evaluates to ``True`` if:     | Example           |
 +==========+================================+===================+
@@ -117,28 +119,35 @@ Logical operations
 Membership operations
 ^^^^^^^^^^^^^^^^^^^^^^
 
-+----------+----------------------------------------------------+--------------------------+
-| Operator | Evaluates to ``True`` if:                          | Example                  | 
-+==========+====================================================+==========================+
-|   in     | Finds a variable in the specified sequence         | ``x in [1, 2, 3, 4]``    |
-+----------+----------------------------------------------------+--------------------------+
-| not in   | Does not find a variable in the specified sequence | ``x not in [1, 2, 3, 4]``|
-+----------+----------------------------------------------------+--------------------------+
+Membership operators are useful to determine presence of en element in a sequence.
+
++----------+----------------------------------------------------------+--------------------------+
+| Operator | Evaluates to ``True`` if:                                | Example                  | 
++==========+==========================================================+==========================+
+|   in     | A variable value is in the specified sequence            | ``x in [1, 2, 3, 4]``    |
++----------+----------------------------------------------------------+--------------------------+
+| not in   | Does not find a variable value in the specified sequence | ``x not in [1, 2, 3, 4]``|
++----------+----------------------------------------------------+--------------------------------+
 
 Using Boolean operations
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You may have already used some examples that do this. In this example, the micro:bit will 
-show an arrow pointing in the direction of the tilt in the x axis:: 
+show an arrow changing in direction according to acceleration:: 
 
 	from microbit import *
 	
 	while True:
-	
 	    x_acceleration = accelerometer.get_x()
+
+		if (x_acceleration <= 100) and (x_acceleration >= 50):
+			 display.show(Image.ARROW_N)
+
+	    elif x_acceleration > 100:
+	         display.show(Image.ARROW_E) 
 	
-	    if x_acceleration > 100:
-	         display.show(Image.ARROW_E)
-	
-	    if  x_acceleration < 100:
+	    elif  x_acceleration < 50:
 	         display.show(Image.ARROW_W) 
+			 
+		else:
+			 display.shiw(Image.ARROW_S)	 
