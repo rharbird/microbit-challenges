@@ -21,12 +21,6 @@ of precision, which is why Python and most other programming languages recognise
 | Booleans        | Values representing true and false values            | ``False``          |
 +-----------------+------------------------------------------------------+--------------------+
 
-* Integers: whole numbers ``42`` 
-* Floating point numbers: numbers that contain decimal points or for fractions ``3.1415``
-* Complex numbers: numbers that depict both real and imaginary components  ``2+3j``
-* Strings: sequences of characters delimited by quotation marks ``"Hello World!"``
-* Booleans: used for True and False values ``True``
-
 In a simple program you might use all of these. Here are the data types you could use for a program storing information about your micro:bit games:
 
 .. figure:: assets/dataTypes.png
