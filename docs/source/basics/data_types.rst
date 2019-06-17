@@ -44,8 +44,8 @@ return value is actually the floor of the result. This means that the return val
 Operator ``%``, called ``mod`` is used to calculate the remainder when one value is divided by another. For example: maybe you'd like to know whether a number is odd or 
 even, you could try dividing it by 2, if it is even then there will be no remainder::
 
-	theNumber = 3
-	if theNumber % 2 == 1:
+	number = 3
+	if number % 2 == 1:
 	   print("The number is odd")
 	else:
 	   print("The number is even")
