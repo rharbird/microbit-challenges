@@ -2,7 +2,7 @@
 Data Types
 ***********
 
-We will use values of different types in our micro:bit programs, for example: we could capture acceleration values from the accelerometer. Alternatively, we might 
+You will need different types of values to capture data, for example: you could capture acceleration values from the accelerometer. Alternatively, you might 
 want to count the number of button presses the user has made or to show a message to the user telling them the temperature of the room. In order to do these things 
 we need to be able to describe the data we want to use. Python, and most other programming languages, recognise several data types including:
 
@@ -12,7 +12,7 @@ we need to be able to describe the data we want to use. Python, and most other p
 * Strings: sequences of characters delimited by quotation marks ``"Hello World!"``
 * Booleans: used for True and False values ``True``
 
-In a simple program we might use all of these. Here are the data types we could use for a program storing information about our favourite micro:bit games:
+In a simple program you might use all of these. Here are the data types you could use for a program storing information about your micro:bit games:
 
 .. figure:: assets/dataTypes.png
 
@@ -38,7 +38,8 @@ The special operator ``%``, called ``mod`` is used to calculate the remainder wh
 	else:
 	   print("The number is even")
 
-If the remainder is equal to 1 then this program will print the message "The number is odd", otherwise. the program will print the message "The number is even". You might have written this program in a different way, This shows that people think about problems in different ways and not two programs are likely to be the same. 
+If the remainder is equal to 1 then this program will print the message "The number is odd", otherwise. the program will print the message "The number is even". You 
+might have written this program in a different way. This shows that people think about problems in different ways and not two programs are likely to be the same. 
 
 
 Strings
@@ -59,31 +60,8 @@ You cannot join numbers and strings together; you must first convert the number 
 
 Booleans
 ^^^^^^^^^
-
-Logical operations
--------------------
-
-+----------+--------------------------------+-------------------+
-| Operator |  Evaluates to `True` if:       | Example           |
-+==========+================================+===================+
-| and      |  Both operands are true        | ``True and True`` |
-+----------+--------------------------------+-------------------+
-| or       |  At least one operand is true  | ``True or False`` |
-+----------+--------------------------------+-------------------+
-| not      |  Operand is false              | ``not False``     |
-+----------+--------------------------------+-------------------+
-	
-
-Membership operations
-----------------------
-
-+---------------------------------------------------------------+
-| Operator | Evaluates to `True` if:                            |
-+==========+====================================================+
-|   in     | Finds a variable in the specified sequence         |
-+----------+----------------------------------------------------+
-| not in   | Does not find a variable in the specified sequence |
-+----------+----------------------------------------------------+
+A Boolean value is a value that is either ``True`` or ``False``, also represented by `1` and `0`. In python, there is a number of operations that allow you to 
+manipulate and eva  
 
 Comparisons
 -----------
@@ -93,7 +71,8 @@ Comparisons
 
    Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
 
-Often in programming we want to compare one value to another, a kind of test. We use these tests or comparisons in selection or loops. Here are some examples of comaparisons written in English::
+Often in programming we want to compare one value to another, a kind of test. We use these tests or comparisons in selection or loops. Here are some examples of 
+comaparisons written in English::
 
 	score is greater than 100
 	name equals "Harry"
@@ -139,4 +118,31 @@ of the tilt in the x axis::
 	
 	    if  x_acceleration < 100:
 	         display.show(Image.ARROW_W) 
+
+
+
+Logical operations
+-------------------
+
++----------+--------------------------------+-------------------+
+| Operator |  Evaluates to ``True`` if:     | Example           |
++==========+================================+===================+
+| and      |  Both operands are true        | ``True and True`` |
++----------+--------------------------------+-------------------+
+| or       |  At least one operand is true  | ``True or False`` |
++----------+--------------------------------+-------------------+
+| not      |  Operand is false              | ``not False``     |
++----------+--------------------------------+-------------------+
+	
+
+Membership operations
+----------------------
+
++----------+----------------------------------------------------+--------------------------+
+| Operator | Evaluates to ``True`` if:                          | Example                  | 
++==========+====================================================+==========================+
+|   in     | Finds a variable in the specified sequence         | ``x in [1, 2, 3, 4]``    |
++----------+----------------------------------------------------+--------------------------+
+| not in   | Does not find a variable in the specified sequence | ``x not in [1, 2, 3, 4]``|
++----------+----------------------------------------------------+--------------------------+
 
