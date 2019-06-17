@@ -120,7 +120,7 @@ Rewriting the comparisons above in Python would be::
 Logical operations
 ^^^^^^^^^^^^^^^^^^^
 
-Logical operator test not the value of specific variables, but for the truth value of its operands.
+Logical operators test the truth value of their operands.
 
 +--------------+---------------------------------+-------------------+
 | **Operator** |  **Evaluates to ``True`` if:**  | **Example**       |
@@ -136,7 +136,7 @@ Logical operator test not the value of specific variables, but for the truth val
 Membership operations
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Membership operators are useful to determine presence of en element in a sequence.
+Membership operators are useful to determine presence of an element in a sequence.
 
 +--------------+----------------------------------------------------------+--------------------------+
 | **Operator** | **Evaluates to ``True`` if:**                            | **Example**              | 
