@@ -5,12 +5,10 @@ Data Structures
 Lists
 ======
 
-.. figure:: assets/lists.jpg 
- 
-   Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
-
 Lists are a datastructures used to store any data type (or structure) in an ordered manner. Let's say we want to store a player's scores, we could use a list like the 
-one pictured above. The list has one box for each value. The data stored in a list are called `elements`. 
+one pictured above. The list has one "box" for each value. The data stored in a list are called `elements`. 
+
+.. figure:: assets/list_arrow.png 
 
 Let's see how to use a list in Python. To create a list we can tell Python the name  of the list and what it will contain:: 
 
