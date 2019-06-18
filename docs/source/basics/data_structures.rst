@@ -69,12 +69,11 @@ This will delete or 'pop' the element at the given position in the list. Note th
 will delete the last element in the list.
 
 
-.. seealso: You can look here_ to see more useful native functions on lists.
+.. seealso:: You can look here_ to see more useful native functions on lists.
 
 .. _here: https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences
 
-.. _note: You might be thinking, whether string is a list. Even though string is an array of characters and we can even do similar operations on them (like slicing),
-they are both different structures with different methods (try to type ``dir(str)`` and ``dir(list)`` in your console). 
+.. note:: You might be thinking, whether string is a list. Even though string is an array of characters and we can even do similar operations on them (like slicing), they are both different structures with different methods (try to type ``dir(str)`` and ``dir(list)`` in your console). 
 
 
 Tuples
