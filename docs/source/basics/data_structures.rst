@@ -40,10 +40,8 @@ and calculate the average high score::
 	average = total_score / len(high_scores)  # Use the len() function here to find the length of the array 
 	print(average)  
 
-Add to a List
-^^^^^^^^^^^^^^
-There will be times when we don't know how large to make an array in advance or what the values in the list are going to be. You might want to fill a list with
-temperature readings or accelerometer values, for example.  This code illustrates how you can do that:: 
+Since you don't necessarily know what values in the list are going to be, or how large the list will be, it's useful to use the ``append`` function. 
+In this way you can for example fill a list with temperature readings or accelerometer values:: 
 
 	from microbit import *
 
@@ -55,9 +53,7 @@ temperature readings or accelerometer values, for example.  This code illustrate
 The ``for`` loop is executed 100 times and ``i`` will have values from 0 to 99. This will measure the temperature every second for 100 seconds and append the value on to the end of the list. 
 
 
-Delete from a List
-^^^^^^^^^^^^^^^^^^^
-There are two ways to delete elements from lists that are helpful, you might want to delete an element with a particular value from a list::
+Deleting items from a list is just as straightforward::
 
 	high_scores.delete(24)
 
@@ -72,11 +68,12 @@ This will delete or 'pop' the element at the given position in the list. Note th
 
 will delete the last element in the list.
 
+
 .. seealso: You can look here_ to see more useful native functions on lists.
 
 .. _here: https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences
 
-You might be thinking, whether string is a list. Even though string is an array of characters and we can even do similar operations on them (like slicing),
+.. _note: You might be thinking, whether string is a list. Even though string is an array of characters and we can even do similar operations on them (like slicing),
 they are both different structures with different methods (try to type ``dir(str)`` and ``dir(list)`` in your console). 
 
 
