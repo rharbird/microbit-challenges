@@ -2,9 +2,9 @@
 Control Structures
 ******************
 
-The first program in Getting Started section consisted of sequential execution of steps. However, the vast majority of times you will need a more complex structure 
-for your code, whether it is control over which statements get executed or how many times they get executed. This is when you'll need to use control structures 
-introduced in this section, such as loops or conditional statements. 
+The first program in Getting Started section consisted of sequential execution of tasks. However, the vast majority of times you will need a more complex structure 
+for your code - whether it is control over which statements get executed or how many times they get executed. This is when control structures introduced in this section
+- such as loops or conditional statements - come in handy. 
 
 .. image:: assets/control_structures_diagram.png
    :align: center
@@ -79,6 +79,7 @@ The inner loop::
 will execute the loop five times substituting ``y`` for consecutive values in the range ``0`` to ``4`` each time. Again, the loop will stop before it reaches the final value in the range.
 
 
+
 While loops
 -----------
 One of the most common things you might want to do with a ``while`` loop is to do something forever, that is until the micro:bit
@@ -103,4 +104,3 @@ if the temperature on the micro:bit goes below a certain value so you'll need to
 	    sleep(1000)
 
 	display.show(Image.HAPPY)
-
