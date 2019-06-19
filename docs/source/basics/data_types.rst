@@ -144,7 +144,7 @@ Membership operators are useful to determine presence of an element in a sequenc
 |   in         | A variable value is in the specified sequence            | ``x in [1, 2, 3, 4]``    |
 +--------------+----------------------------------------------------------+--------------------------+
 | not in       | Does not find a variable value in the specified sequence | ``x not in [1, 2, 3, 4]``|
-+--------------+----------------------------------------------------+--------------------------------+
++--------------+----------------------------------------------------+-----+--------------------------+
 
 Using Boolean operations
 ^^^^^^^^^^^^^^^^^^^^^^^^^
