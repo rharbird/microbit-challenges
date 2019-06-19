@@ -22,10 +22,10 @@ which is why Python and most other programming languages recognise several data 
 
 In a simple program you might use all of these. Here are the data types you could use for a program storing information about your micro:bit games:
 
-.. figure:: assets/dataTypes.png
-	:align: center
-
-    Image from: <http://www.bbc.co.uk/education/guides/zwmbgk7/revision/3>
+.. figure:: assets/dataTypes.png 
+	 :align: center
+     
+	 Source: <http://www.bbc.co.uk/education/guides/zwmbgk7/revision/3>
 
 
 Operations
@@ -86,8 +86,9 @@ Comparisons
 
 .. figure:: assets/booleanLogic.jpg 
    :scale: 60 %
+   :align: center
 
-   Image from <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
+   Source: <http://www.bbc.co.uk/education/guides/zy9thyc/revision>
 
 Comparison operations are useful to test variable values in conditional statements or loops. Here are some examples of 
 comparisons written in English::

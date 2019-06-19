@@ -7,8 +7,9 @@ parts: a name, a type and a value. In the figure below there are three variables
 
 .. figure:: assets/variable.jpg
    :scale: 60 %
+   :align: center
 
-   Image from: <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables>
+   Source: <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables>
 
 The variable ``name`` contains the string ``Bob``, the variable ``winner`` contains the value ``True`` and the variable ``score`` contains the value ``35``.
 
