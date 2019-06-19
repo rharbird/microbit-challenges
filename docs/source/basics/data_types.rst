@@ -23,8 +23,9 @@ which is why Python and most other programming languages recognise several data 
 In a simple program you might use all of these. Here are the data types you could use for a program storing information about your micro:bit games:
 
 .. figure:: assets/dataTypes.png
+	:align: center
 
-   Image from: <http://www.bbc.co.uk/education/guides/zwmbgk7/revision/3>
+    Image from: <http://www.bbc.co.uk/education/guides/zwmbgk7/revision/3>
 
 
 Operations
