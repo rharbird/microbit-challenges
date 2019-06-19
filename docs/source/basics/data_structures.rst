@@ -9,6 +9,9 @@ Lists are a datastructures used to store any data type (or structure) in an orde
 one pictured above. The list has one "box" for each value. The data stored in a list are called `elements`. 
 
 .. figure:: assets/list_arrow.png 
+	 :align: center
+     
+	 A list.
 
 Let's see how to use a list in Python. To create a list we can tell Python the name  of the list and what it will contain:: 
 
@@ -67,7 +70,7 @@ This will delete or 'pop' the element at the given position in the list. Note th
 will delete the last element in the list.
 
 
-.. seealso:: You can look here_ to see more useful native functions on lists.
+.. tip:: You can look here_ to see more useful native functions on lists.
 
 .. _here: https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences
 
