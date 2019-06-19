@@ -167,4 +167,4 @@ show an arrow changing in direction according to acceleration::
 	         display.show(Image.ARROW_W) 
 
 		else:
-			 display.shiw(Image.ARROW_S)	 
+			 display.show(Image.ARROW_S)	 
