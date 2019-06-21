@@ -22,13 +22,7 @@ is called a class::
             self.score = score
 
         def change_name(self, name):
-            self.name = name    
-
-    player_1 = Player("teapot418")
-    player_2 = Player("r00t")
-
-    player_1.update_score(40)
-    player_2.change_name("bott0m")        
+            self.name = name           
                                                           
 
 This example shows a prototype for a Player object. A player has a class attribute ``total_count``, that keep count of all the instances of objects of class Player. 
@@ -36,7 +30,18 @@ A class attribute is the same for any instance of class Player, and so you can f
 Other attributes are instance attributes name and score, which can be updated using class methods ``update_score()`` and ``change_name``.  
 
 It is possible to define an ``__init__()`` method for your class, which can take in other arguments to specify an initial state of an object. In this way, when we 
-instantiate an object ``player_1`` below, the player's initial score will be zero, his name will be as specified and ``total_count`` will increment by one.::
+instantiate an object ``player_1`` below, the player's initial score will be zero, name will be as specified and ``total_count`` will increment by one.::
+
+    player_1 = Player("teapot418")
+    player_2 = Player("r00t")
+
+    player_1.update_score(40)
+    player_2.change_name("bott0m")
+
+Now just to note, the keyword ``self``  has no special meaning in Python, but you should use it, if only for the reason of making your code more readable (you can read more
+on ``self`` in this blogpost_ by Guido van Rossum - the man behind Python)  
+
+.. _blogpost: http://neopythonic.blogspot.com/2008/10/why-explicit-self-has-to-stay.html
 
 class Snake:
         total_count = 0
