@@ -34,11 +34,9 @@ is called a class::
 This example shows a prototype for a Player object. A player has a class attribute ``total_count``, that keep count of all the instances of objects of class Player. 
 A class attribute is the same for any instance of class Player, and so you can find out the total count of players through any of them.
 Other attributes are instance attributes name and score, which can be updated using class methods ``update_score()`` and ``change_name``.  
-  
- It has position and direction attributes and methods that move the snake and show it on 
-the LED display. Variables within a class are either class or instance variables. A class variable is the same for all instances of the class, 
- It is possible to define an ``__init__()`` method for your class, which can take in other arguments to specify an initial state of an object. In defining an
-``__init__()`` method, a snake object has an initial position of 0, 0 and western direction. ::
+
+It is possible to define an ``__init__()`` method for your class, which can take in other arguments to specify an initial state of an object. In this way, when we 
+instantiate an object ``player_1`` below, the player's initial score will be zero, his name will be as specified and ``total_count`` will increment by one.::
 
 class Snake:
         total_count = 0
