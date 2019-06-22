@@ -6,7 +6,9 @@ Classes and Objects
 	 :align: center
 
 Python is an object-oriented language - it's based on the concept of "objects" that contain some fields (variables) and methods (functions). It's procedures can modify
-it's attributes (fields) - it has a "self" awareness.
+it's attributes (fields) - it has a "self" awareness. Everything in Python is an objects - whether it's an integer or a list. How would you describe a list object?
+What attributes does it have? 
+
 To create an instance of an object, you first need to construct a "prototype", that will define what the object will look like and what's it capable of. The prototype
 is called a class::
 
@@ -60,6 +62,8 @@ assigned to. In this way, we can create a ``counter`` attribute for our ``player
         player_1.counter += 1
 
     print(player_1.counter)    
+
+
 
 class Snake:
         total_count = 0
