@@ -74,8 +74,10 @@ There are many more nuances and useful characteristics of classes that we don't 
 .. _documentation: https://docs.python.org/3/tutorial/classes.html#a-word-about-names-and-objects
 
 .. figure:: assets/snake_nokia.png 
+    :scale: 70%
+    :align: center
 
-To give you another example of using classes, here is a Snake class that could be used for our version of Snake game (you'll know if you ever had a Nokia).:: 
+To give you another example of using classes, here is a Snake class that could be used for a micro:bit version of the Snake game (you'll know if you ever had a Nokia). :: 
 
     class Snake:
 
