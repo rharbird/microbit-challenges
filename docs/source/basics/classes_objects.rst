@@ -76,14 +76,15 @@ There are many more nuances and useful characteristics of classes that we don't 
 
 .. _documentation: https://docs.python.org/3/tutorial/classes.html#a-word-about-names-and-objects
 
+
+To give you another example of using classes, here is a Snake class that one could use for a snake game. 
+
 class Snake:
-        total_count = 0
 
         def __init__(self):
             self.x_position = 0
             self.y_position = 0
             self.direction = "w"
-            self.__class__.total_count += 1
 
         def move_snake(self, x_position, y_position, direction):
             self.x_position = x_position
