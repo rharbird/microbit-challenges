@@ -40,12 +40,26 @@ instantiate an object ``player_1`` below, the player's initial score will be zer
 
 Now just to note, the keyword ``self``  has no special meaning in Python, it is just a convention. You should use it if only for the reason of making your code more 
 readable to others or yourself when you come back to it after some time (you can read more on discussion of ``self`` in this blogpost_ by Guido van Rossum).
-Now you might wonder, Why does calling methods on ``player_1`` or ``player_2`` work with one argument only, while the methods had two arguments in their definition? Surely Python raises
-an error in this case. As you may have guessed, the instance object - ``player_1`` - is passed as the first argument, and is actually equivalent to saying
- ``Player.update_score(player_1, 40)``. 
-
+Now you might wonder, Why does calling methods on ``player_1`` or ``player_2`` work with one argument only, while the methods had two arguments in their definition? 
+Surely Python raises an error in this case. As you may have guessed, the instance object - ``player_1`` - is passed as the first argument, and is actually equivalent to 
+saying ``Player.update_score(player_1, 40)``. 
 
 .. _blogpost: http://neopythonic.blogspot.com/2008/10/why-explicit-self-has-to-stay.html
+
+
+To access attributes, the usual way of accessing attributes in Python is used: ``obj.name``. For example, to access the name of a Player object: ::
+
+    print(player_1.name)
+
+To create an attribute for a class, you don't have to declare it in the class definition - they are like local variables in that they spring into existence when they're 
+assigned to. In this way, we can create a ``counter`` attribute for our ``player_1`` object. What does the following program output then? ::
+
+    player_1.counter = 0
+
+    while (player_1.counter < 10):
+        player_1.counter += 1
+
+    print(player_1.counter)    
 
 class Snake:
         total_count = 0
