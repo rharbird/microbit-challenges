@@ -38,8 +38,12 @@ instantiate an object ``player_1`` below, the player's initial score will be zer
     player_1.update_score(40)
     player_2.change_name("bott0m")
 
-Now just to note, the keyword ``self``  has no special meaning in Python, but you should use it, if only for the reason of making your code more readable (you can read more
-on ``self`` in this blogpost_ by Guido van Rossum - the man behind Python)  
+Now just to note, the keyword ``self``  has no special meaning in Python, it is just a convention. You should use it if only for the reason of making your code more 
+readable to others or yourself when you come back to it after some time (you can read more on discussion of ``self`` in this blogpost_ by Guido van Rossum).
+Now you might wonder, Why does calling methods on ``player_1`` or ``player_2`` work with one argument only, while the methods had two arguments in their definition? Surely Python raises
+an error in this case. As you may have guessed, the instance object - ``player_1`` - is passed as the first argument, and is actually equivalent to saying
+ ``Player.update_score(player_1, 40)``. 
+
 
 .. _blogpost: http://neopythonic.blogspot.com/2008/10/why-explicit-self-has-to-stay.html
 
