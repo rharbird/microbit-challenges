@@ -6,8 +6,12 @@ Classes and Objects
 	 :align: center
 
 Python is an object-oriented language - it's based on the concept of "objects" that contain some fields (variables) and methods (functions). It's procedures can modify
-it's attributes (fields) - it has a "self" awareness. Everything in Python is an objects - whether it's an integer or a list. How would you describe a list object?
-What attributes does it have? 
+it's attributes (fields). Everything in Python is an object - whether it's an integer or a list. 
+
+``Object`` is a very handy concept to make a model of something abstract. Take a list. How would you describe a list object? What attributes does it have? How do you
+know something is a list? 
+
+.. tip: Do you remember the ``dir(ClassName)`` command? It lists all the attributes and methods of a required class, such as ``dir(str)``. 
 
 To create an instance of an object, you first need to construct a "prototype", that will define what the object will look like and what's it capable of. The prototype
 is called a class::
