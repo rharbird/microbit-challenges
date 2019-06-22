@@ -64,3 +64,17 @@ friends with a message containing their name and age. Our program might look lik
 		
 The function ``printBirthdayGreeting`` composes the birthday message for us and returns a string. We have used the python function ``str()`` to turn ``age``, 
 which is a number, into a string.  You don't have to use functions or return values in your functions unless you want to.	
+
+Scope
+======
+
+Imagine you want to use the slightly modified ``printBirthdayGreeting()`` function from before and you want to increment age every time the function is called: ::
+
+	name = "Johann"
+	age = 32
+
+	def printBirthdayGreeting():
+		age += 1
+	    return "Happy Birthday " + name + ", you are " + str(age) + " years old" 
+
+Can you spot what is wrong? If you try to run it in a shell, you'll probably get this message: `` UnboundLocalError: local variable 'age' referenced before assignment``.
