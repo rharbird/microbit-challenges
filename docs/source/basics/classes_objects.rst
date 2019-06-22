@@ -2,9 +2,6 @@
 Classes and Objects
 ********************
 
-.. figure:: assets/snake.png 
-	 :align: center
-
 Python is an object-oriented language - it's based on the concept of "objects" that contain some fields (variables) and methods (functions). It's procedures can modify
 it's attributes (fields). Everything in Python is an object - whether it's an integer or a string. 
 
@@ -76,25 +73,26 @@ There are many more nuances and useful characteristics of classes that we don't 
 
 .. _documentation: https://docs.python.org/3/tutorial/classes.html#a-word-about-names-and-objects
 
+.. figure:: assets/snake_nokia.png 
 
-To give you another example of using classes, here is a Snake class that one could use for a snake game. 
+To give you another example of using classes, here is a Snake class that could be used for our version of Snake game (you'll know if you ever had a Nokia).:: 
 
-class Snake:
+    class Snake:
 
-        def __init__(self):
-            self.x_position = 0
-            self.y_position = 0
-            self.direction = "w"
+            def __init__(self):
+                self.x_position = 0
+                self.y_position = 0
+                self.direction = "w"
 
-        def move_snake(self, x_position, y_position, direction):
-            self.x_position = x_position
-            self.y_position = y_position 
-            self.direction = direction
+            def move_snake(self, x_position, y_position, direction):
+                self.x_position = x_position
+                self.y_position = y_position 
+                self.direction = direction
 
-        def show_snake(self):
-            display.set_pixel(self.x_position, self.y_position, 9)
-            sleep(600)
-            display.set_pixel(self.x_position, self.y_position, 0)
+            def show_snake(self):
+                display.set_pixel(self.x_position, self.y_position, 9)
+                sleep(600)
+                display.set_pixel(self.x_position, self.y_position, 0)
 
     # Create an instance of a Snake object
     python = Snake()
@@ -106,17 +104,5 @@ class Snake:
     python.move_snake(python.x_position + 1, python.y_position)   
    
 
-We can access object's attributes and call methods on it. What prints out to the console in this case?::
-
-    python = Snake()
-    mamba = Snake()
-
-    mamba.x_position = 1
-    python.x_position = 2
-
-    Snake().x_position = 3
-
-    print(mamba.x_position)
-    print(python.x_position)
-
-Another thing that might help you understand to concept of objects and classes, is to bear in mind that everything in Python is an object. Take a list, for instance
+.. figure:: assets/snake.png 
+	 :align: center
