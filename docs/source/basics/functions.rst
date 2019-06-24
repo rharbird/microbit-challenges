@@ -86,14 +86,44 @@ within the function is different from the global one, it's possible to use the s
 Can you explain what happened above now?
 
 ``age`` outside of ``printBirthdayGreeting()`` function is a global variable. However, when we want to access it inside the function, Python considers it to be a new
-local variable. How do we solve this? We use the keyword ``global``: ::
+local variable. How do we solve this? We declare the variable ``age`` as ``global``: ::
 
 	name = "Johann"
-		age = 32
+	age = 32
 
-		def printBirthdayGreeting():
-			global age += 1
-			return "Happy Birthday " + name + ", you are " + str(age) + " years old"
+	def printBirthdayGreeting():
+		global age
+		age += 1
+		return "Happy Birthday " + name + ", you are " + str(age) + " years old"
 
 
 This will let Python now, that the age variable we mean is the one in global namespace.
+
+A curious case arises with the use of nested functions. So let's say you want to change a local variable of the ``justAnExample()`` function using the nested
+function: ::
+
+	def justAnExample():
+		def continuingExample():
+			variable = "Inner function that changes everything!"
+
+		variable = "Outer function"
+		continuingExample()
+
+		print(variable)
+
+	justAnExample() 
+
+You already know why this does not work. But how do you fix it? You cannot declare the variable global, because it's within a function - it's local and there 
+is another local scope within the ``continuingExample()`` function. To resolve this situation, you can declare a variable to be ``nonlocal``: ::
+
+	def justAnExample():
+		def continuingExample():
+			nonlocal variable
+			variable = "Inner function that changes everything!"
+
+		variable = "Outer function"
+		continuingExample()
+
+		print(variable)
+
+	justAnExample() 
