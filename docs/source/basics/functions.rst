@@ -78,3 +78,22 @@ Imagine you want to use the slightly modified ``printBirthdayGreeting()`` functi
 	    return "Happy Birthday " + name + ", you are " + str(age) + " years old" 
 
 Can you spot what is wrong? If you try to run it in a shell, you'll probably get this message: `` UnboundLocalError: local variable 'age' referenced before assignment``.
+
+To understand this, we have to talk about scope. Scope is an area in which a variable is defined, can be accessed and written to. From this point of viex, we know two 
+types of variables: global and local. By default, all variables defined within a function are local - you cannot access them outside the function. And since the scope
+within the function is different from the global one, it's possible to use the same name for two different variables.
+
+Can you explain what happened above now?
+
+``age`` outside of ``printBirthdayGreeting()`` function is a global variable. However, when we want to access it inside the function, Python considers it to be a new
+local variable. How do we solve this? We use the keyword ``global``: ::
+
+	name = "Johann"
+		age = 32
+
+		def printBirthdayGreeting():
+			global age += 1
+			return "Happy Birthday " + name + ", you are " + str(age) + " years old"
+
+
+This will let Python now, that the age variable we mean is the one in global namespace.
