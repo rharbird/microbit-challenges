@@ -127,3 +127,9 @@ is another local scope within the ``continuingExample()`` function. To resolve t
 		print(variable)
 
 	justAnExample() 
+
+Now the code should print ``"Inner function that changes everything!"`` exactly the way we wanted.
+
+.. note:: To learn more about namespace and scope in Python, look at the documentation_.
+
+.. _documentation: https://docs.python.org/3/tutorial/classes.html
