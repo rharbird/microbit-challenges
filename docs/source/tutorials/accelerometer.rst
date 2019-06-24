@@ -45,7 +45,7 @@ so the LEDs are nearest the floor. The Z value should become positive at
 accelerations go up to ±2048 milli-g. That’s because this accelerometer is set
 to measure a maximum of ±2048 milli-g: the true number might be higher than that.
 
-If you've ever wondered how a mobile phone knows which up to show the images on
+If you've ever wondered how a mobile phone knows which way to show the images on
 its screen, it's because it uses an accelerometer in exactly the same way as
 the program above. Game controllers also contain accelerometers to help you
 steer and move around in games.
