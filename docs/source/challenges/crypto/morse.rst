@@ -10,7 +10,7 @@ Morse code was invented in 1836 by a group of people including the American arti
 .. figure:: assets/morse.png
    :scale: 60 %
 
-Source: raspberrypi.org
+    Source: raspberrypi.org
 
 Of course, you aren't limited to electrical pulses, you can transmit a Morse code message using light or even sound.  A Morse code message sent over electrical wires is known as a telegram, a message is 
 translated to Morse code by an operator at the sending end using a a telegraph key like the one pictured here.
@@ -34,7 +34,8 @@ Your goal is to turn your micro:bit into a machine that can encode messages usin
                    'H':'--.', 
                     ...  }
 
-In English, this means: the character 'A' should be substituted with the string '.-'; the character 'B' should be substituted with the string '-...' and so on. You can print a dictionary using::
+In English, this means: the character 'A' should be substituted with the string '.-'; the character 'B' should be substituted with the string '-...' and so on. You can 
+print a dictionary using::
 
     print(morse_code)
 
