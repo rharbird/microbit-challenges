@@ -26,9 +26,11 @@ In English this means: translate ``encrypted_char`` into an ascii number using t
 
 But hold on, there is one more thing that we need to do. If you look at the picture above, you will see that we need to wrap around going from A back to Z. To do this we need to add 26 (the number of letters in the alphabet) if we have gone past A::
 
-        ascii_char = ord(plaintext_char) - 4                       
+    ascii_char = ord(plaintext_char) - 4   
+
 	if ascii_char > ord('Z') 
 		ascii_char = ascii_char + 26
+
 	encrypted_char = chr(ascii_char) 
 
 Try this out, experiment using the REPL. 
