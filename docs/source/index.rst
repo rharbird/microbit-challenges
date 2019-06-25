@@ -66,6 +66,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    challenges/crypto/caesar_decrypt.rst  
    challenges/crypto/substitution.rst
    challenges/crypto/reverse_substitution.rst
+   challenges/crypto/vigenere.rst
    challenges/crypto/morse.rst		  
    challenges/sensors/spirit_level.rst
    challenges/sensors/theremin.rst
