@@ -1,14 +1,6 @@
 ***********************
 Caesar Cipher - Part II 
 ***********************
-
-.. tabularcolumns:: |L|l|
-
-+--------------------------------+----------------------+
-| **Total points possible**	 | **Uses**	        |
-+================================+======================+
-| 10			 	 | LED display          |
-+--------------------------------+----------------------+
 	
 Description
 ===========
@@ -40,61 +32,3 @@ But hold on, there is one more thing that we need to do. If you look at the pict
 	encrypted_char = chr(ascii_char) 
 
 Try this out, experiment using the REPL. 
-
-                                                                     
-Basic Challenge
-===============
-Collect points for these stages: 
-
-.. tabularcolumns:: |p{14cm}|R|
-
-+---------------------------------------------------------+------------+
-| **Tasks** 		                                  | **Points** |
-+=========================================================+============+
-| Display a welcome message.                              | 	 1     |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| You don't need a computer for this part!                |      2     |
-| Use a cipher wheel (ask your teacher) to encrypt a      |            | 
-| message about 10 characters long. 			  |            |
-| **Important:** remember how many characters you shifted |            |
-| the message.                                            |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| In your program you should store the                    |      1     |
-| encrypted message in a string like this: 		  |            |
-| ``encrypted_message = 'QKKV OZ G YKIXKZ'``.             |            |
-|                                                         |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Now display the message a character at a time using a   |      1     |
-| ``for`` loop. Hint: to get each character in the message|            |
-| use ``for c in message:``.				  |	       |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Use the ``ord()`` function to translate each character  |     1      |
-| into an ascii value and subtract the number of          |            |
-| characters that the ciphertext was shifted.             |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Make sure you have wrapped the result around.           |     1      |
-| Hint: Check whether the ascii value is less than 'A'.   |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Use ``chr()`` to translate each ascii                   |      2     |
-| character in the message to plain text.                 |            |
-| Hint: Don't decrypt the spaces.                         |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-|                                                         |            |
-| Display the plain text on the micro:bit and print       |      1     |
-| the plain text in the REPL using the ``print()`` 	  |            |
-| function.   						  |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+

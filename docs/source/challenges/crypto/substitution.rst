@@ -1,14 +1,6 @@
 *******************
 Substitution Cipher
 *******************
-
-.. tabularcolumns:: |L|l|
-
-+--------------------------------+----------------------+
-| **Total points possible**	 | **Uses**	        |
-+================================+======================+
-| 10			 	 | LED display          |
-+--------------------------------+----------------------+
 	
 Description
 ===========
@@ -25,50 +17,3 @@ call the message to be encrypted *plain text* and the encrypted message *cipher 
 
 In English, this means: the character 'A' should be substituted with the character 'V'; the character 'B' should be substituted with the character 'J' and so on. You can print a dictionary using ``print(cipher_key)``.
 Try this out, experiment using the REPL. 
-
-                                                                     
-Basic Task
-===========
-
-Collect points for these stages: 
-
-.. tabularcolumns:: |p{14cm}|R|
-
-+---------------------------------------------------------+------------+
-| **Tasks** 		                                  | **Points** |
-+=========================================================+============+
-| Display a welcome message.                              | 	 1     |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Create a dictionary containing the alphabet and the     |      2     |
-| corresponding cipher text. Print the dictionary using   |            |
-| the REPL.                                               |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| In this version of your program you should store the    |      1     |
-| message to encode in a string like this: 		  |            |
-| ``message = 'KEEP THIS A SECRET'``.                     |            |
-|                                                         |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Now display the message a character at a time using a   |      1     |
-| ``for`` loop. Hint: to get each character in the message|            |
-| use ``for c in message:``. 				  |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Use the dictionary you created to translate each        |     4      |
-| character in the message to a corresponding             |            |
-| encrypted character. Hint: ``cipher_key['A']`` will     |            |
-| give you the cipher character corresponding to the      |            |
-| letter 'A' in your dictionary.                          |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Display the encrypted text on the micro:bit display and |      1     |
-| print encrypted text in the REPL using the ``print()``  |            |
-| function.   						  |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+

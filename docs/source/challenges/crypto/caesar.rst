@@ -3,12 +3,6 @@ Caesar Cipher - Part I
 **********************
 
 .. tabularcolumns:: |L|l|
-
-+--------------------------------+----------------------+
-| **Total points possible**	     | **Uses**	            |
-+================================+======================+
-| 10			 	             | LED display, buttons |
-+--------------------------------+----------------------+
 	
 Description
 ===========
@@ -49,63 +43,3 @@ adding 4 to Z would land us on '^' in ASCII).
 	encrypted_char = chr(ascii_char) 
 
 Try this out, experiment using the REPL. 
-
-                                                                     
-Basic Challenge
-===============
-Collect points for these stages: 
-
-.. tabularcolumns:: |p{14cm}|R|
-
-+---------------------------------------------------------+------------+
-| **Tasks** 		                                      | **Points** |
-+=========================================================+============+
-| Display a welcome messge.                               | 	 1     |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| You need to find out from the player how many places    |      2     |
-| to shift the message. One way to do this is             |            |
-| to shift the message by the number of button presses    |            |
-| the user makes. Keep a count of how many times          |            |
-| button ``A`` is pressed. The player can press button    |            |
-| ``B`` to indicate they have finished.                   |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| In your program you should store the    		          |      1     |
-| message you want to translate in a string like this:	  |            |
-| ``message = 'KEEP THIS A SECRET'``.                     |            |
-|                                                         |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Now display the message a character at a time using a   |      1     |
-| ``for`` loop. Hint: to get each character in the message|            |
-| use ``for c in message:``. 				              |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Use the ``ord()`` function to translate each character  |     1      |
-| into an numeric value and add the number of characters  |            |
-| you want to shift.                                      |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Make sure you have wrapped the result around.           |     1      |
-| Hint: Check whether the shifted value is greater than   |            |
-| the numeric value for ``Z``.                            |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-|                                                         |            |
-| Use ``chr()`` to translate each number            	  |      2     |
-| back into a character 				                  |            |
-| Hint: Don't encrypt the spaces.                         |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Display the encrypted text on the micro:bit and print   |      1     |
-| encrypted text in the REPL using the ``print()`` 	      |            |
-| function.   						                      |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+

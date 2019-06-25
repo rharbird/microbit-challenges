@@ -2,14 +2,6 @@
 Morse Code
 **********
 
-.. tabularcolumns:: |L|l|
-
-+--------------------------------+----------------------+
-| **Total points possible**	 | **Uses**	        |
-+================================+======================+
-| 10			 	 | LED display, speaker |
-+--------------------------------+----------------------+
-	
 Description
 ===========
 
@@ -39,55 +31,3 @@ In English, this means: the character 'A' should be substituted with the string 
     print(morse_code)
 
 Try this out, experiment using the REPL. 
-
-                                                                     
-Basic Task
-===========
-Collect points for these stages: 
-
-.. tabularcolumns:: |p{14cm}|R|
-
-+---------------------------------------------------------+------------+
-| **Tasks** 		                                  | **Points** |
-+=========================================================+============+
-| Display a welcome message.                              | 	 1     |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Create a dictionary containing the alphabet and the     |      2     |
-| corresponding morse code. Print the dictionary using    |            |
-| the REPL.                                               |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| In this version of your program you should store the    |      1     |
-| message to encode in a string like this: 		  |            |
-| ``message = 'KEEP THIS A SECRET'``.                     |            |
-|                                                         |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Now display the message a character at a time using a   |      1     |
-| ``for`` loop. Hint: to get each character in the message|            |
-| use ``for c in message:``. 				  |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Use the dictionary you created to translate each        |     3      |
-| character in the message to a corresponding             |            |
-| encrypted character. Hint: ``morse_code['A']`` will     |            |
-| give you the morse code symbol corresponding to the     |            |
-| letter 'A' in your dictionary.                          |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Display the morse code on the micro:bit display and     |      1     |
-| print the code in the REPL using the ``print()``        |            |
-| function.   						  |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Connect a speaker to the micro:bit and play a series of |            |
-| of beeps to represent the morse code message.           |     1      |
-|                                                         |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+

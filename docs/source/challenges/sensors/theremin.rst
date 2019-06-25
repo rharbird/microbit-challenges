@@ -2,14 +2,6 @@
 Theremin
 ********
 
-.. tabularcolumns:: |L|l|
-
-+--------------------------------+------------------------+
-| **Total points possible**	 | **Uses**	          |
-+================================+========================+
-| 10			 	 | Accelerometer, speaker |
-+--------------------------------+------------------------+
-	
 Description
 ===========
 In this project, we will use the accelerometer to control the frequency of a tone.  
@@ -48,68 +40,3 @@ every time that we go around the loop like this::
 As you can see, if the array has more than 30 entries in it we will just delete the first entry, element number 0::
 
         readings.pop(0)
-
-                                                                     
-Basic Task
-===========
-Collect points for these stages: 
-
-.. tabularcolumns:: |p{14cm}|R|
-
-+---------------------------------------------------------+------------+
-| **Tasks** 		                                  | **Points** |
-+=========================================================+============+
-| We are going to use the accelerometer values in the x   | 	 1     |
-| axis. Write some code to print accelerometer values     |            |
-| for the x axis.                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Write down (on paper) the x axis values for the 	  |      1     |
-| accelerometer when you tilt the board left, when you    |            |
-| tilt the board                                          |            |
-| to the right and when the board is held flat, face-up.  |            |
-| We need to know the minimum and maximum values for the  |            |
-| range.                                                  |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Collect 30 accelerometer readings in a list.            |     2      |
-| Have a look at the notes above for some information     |            |
-| about this. Print the list to the REPL.                 |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Now let's try making some sound. Connect the speaker to |      1     |
-| the micro:bit using  some crocodile clips. 		  |            |
-| Import the music library ``import music`` and play      |            |
-| some sounds using ``music.pitch(frequency, time)``      |            |
-| where frequency is between 50 and 4000 Hz and time is   |            |
-| a value in milliseconds.                                |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| You need to translate the value of the accelerometer    |      1     |
-| reading into a sound frequency value. Can you think of  |            |
-| a way to do this?                                       |            |
-| Experiment with your program, print values to the REPL. |            |
-|                                                         |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-|                                                         |            |
-| Play a frequency that corresponds to the accelerometer  |     1      |
-| value.                                                  |            |
-|                                                         |            |
-+---------------------------------------------------------+------------+
-| You will find that the sound wavers because the         |            |
-| accelerometer values vary quickly. One way to address   |            |
-| this is to calculate the average value and play a .     |            |
-| frequency that corresponds to that.                     |            |
-|                                                         |     2      |
-| Calculate the average accerometer value and print it.   |            |
-| Hint: There are two python functions that can help us   |            | 
-| with that: ``sum(readings) / len(readings)``            |            | 
-| ``sum`` adds up all the elements of a list and ``len``  |	       | 
-| returns the length of a list so we have the total value |	       |
-| of all the accelrometer readings divided by the number  |            |
-| of readings.                                            |            |  
-+---------------------------------------------------------+------------+
