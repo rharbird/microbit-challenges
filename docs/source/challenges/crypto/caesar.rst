@@ -33,7 +33,7 @@ number and  add 4::
 In English this means: translate ``plaintext_char`` into a number using the ``ord()`` function and add 4, the number of characters we want to shift. 
 
 This works because characters in Python are encoded as numbers. One of the most popular (and smallest) systems is ASCII (American Standard Code for Information 
-Interchange). However, looking at the table below you can see that it only includes latin and some special characters. This is why Python's native encoding system is
+Interchange). However, looking at the table below you can see that it only includes latin and some special characters. This is why Python's (and most languages') native encoding system is
 UTF-8, which is also backwards compatible with ASCII. 
 
 .. figure:: assets/ascii_table.png
@@ -58,7 +58,7 @@ Collect points for these stages:
 .. tabularcolumns:: |p{14cm}|R|
 
 +---------------------------------------------------------+------------+
-| **Tasks** 		                                  | **Points** |
+| **Tasks** 		                                      | **Points** |
 +=========================================================+============+
 | Display a welcome messge.                               | 	 1     |
 +---------------------------------------------------------+------------+
