@@ -24,7 +24,15 @@ The message is converted back to normal text by another operator at the receivin
 
 Your goal is to turn your micro:bit into a machine that can encode messages using Morse code. We will call the message to be converted *plain text*.  You will need to store the alphabet with the morse code in your program. You can use a python *dictionary* to do this. Here is part of a python dictionary for morse code::
 
-    morse_code = { 'A':'.-', 'B':'-...', 'C':'---.', 'D':'-..', 'E':'.', 'F':'..-.', 'G':'..-.', 'H':'--.', ...  }
+    morse_code = { 'A':'.-', 
+                   'B':'-...',
+                   'C':'---.', 
+                   'D':'-..', 
+                   'E':'.', 
+                   'F':'..-.', 
+                   'G':'..-.', 
+                   'H':'--.', 
+                    ...  }
 
 In English, this means: the character 'A' should be substituted with the string '.-'; the character 'B' should be substituted with the string '-...' and so on. You can print a dictionary using::
 
