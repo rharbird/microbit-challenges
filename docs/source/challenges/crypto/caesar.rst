@@ -12,6 +12,9 @@ down. One of the earliest ciphers is known as the Caesar cipher, named after Jul
 Roman emporer to communicate with troops on the battlefield. Using the Caesar cipher you encrypt all the letters in a message by shifting the alphabet a number of places. The figure below shows how to encrypt a message with a shift of 3 letters:
 
 .. figure:: assets/shift.png
+   :align: center
+
+   Source: https://upload.wikimedia.org/wikipedia/commons/f/fa/Ascii-proper-color.svg
 
 Your goal is to turn your micro:bit into a machine that can **encode** messages using the Caesar cipher. We
 call the message to be encrypted *plain text* and the encrypted message *cipher text*. 
