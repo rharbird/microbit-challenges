@@ -59,7 +59,6 @@ If you would like to contribute to this resource, go ahead! Install git and crea
 
    challenges/games/bop-it.rst
    challenges/games/consonant-or-vowel.rst
-   challenges/games/obstacles.rst
    challenges/games/egg-basket.rst
    challenges/games/mouse-cheese.rst
    challenges/crypto/caesar.rst
