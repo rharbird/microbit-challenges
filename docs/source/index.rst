@@ -60,7 +60,6 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    challenges/games/bop-it.rst
    challenges/games/consonant-or-vowel.rst
    challenges/games/egg-basket.rst
-   challenges/games/mouse-cheese.rst
    challenges/crypto/caesar.rst
    challenges/crypto/caesar_decrypt.rst  
    challenges/crypto/substitution.rst
@@ -70,8 +69,6 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    challenges/sensors/spirit_level.rst
    challenges/sensors/theremin.rst
    challenges/sensors/radio.rst
-   challenges/sensors/pingpong.rst
-   challenges/sensors/rockpaperscissors.rst
 
 
 
