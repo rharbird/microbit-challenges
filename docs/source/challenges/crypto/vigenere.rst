@@ -2,8 +2,6 @@
 Vigenère Cipher
 ****************
 
-This is 
-
 This cipher, also called 'le chiffre indéchiffrable', was first described by Giovan Battista Belazzo. Although the concept is easy to understand, the cipher resisted 
 breaking for three centuries, until Friedrich Kasiski introduced a succesful general attack.  
 
