@@ -22,7 +22,7 @@ Then you use each letter of the key to determine the shift of every letter of th
     Key:        SNAKESNAKESN
     Ciphertext: SGTKGCNTNEOA
 
-You can try deciphering and deciphering your own messages. If you're up for a challenge, try to find the key and decrypt this ciphertext enciphered using Vigenère cipher:    
+You can try to encipher and decipher your own messages. If you're up for a challenge, try to find the key and decrypt this ciphertext enciphered using Vigenère cipher:    
 
     Wckl'g jwym avr tlvfqydnxkwn vyehqgxat oof im lhm nqmna oyrmavz. vi  qtfg gwym  hzpdfhs  wf  p  ahschgjxzg  idjtawyt  jbxivs  dhyars  zr  avr  ucktsaiympca  dd  lbungq  
     tur  naqh  ucgtq  bag  vcrhewpprbuu  rudxjh  bc  axyhnxl  vhfodl-­‐uhgrs  jbms  sdpfz.
