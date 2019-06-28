@@ -14,11 +14,10 @@ Your goal is to turn your micro:bit into a machine that can encode messages usin
 call the message to be encrypted *plain text* and the encrypted message *cipher text*. You will need to store the alphabet with the substition cipher in your program. 
 You can use a python dictionary to do this. A python dictionary for the substitution cipher above looks like this::
 
-	cipher_key =  {'A':'V', 
-				   'B':'J', 
-				   'C':'Z', 
-				   'D':'B',
-				     ...   }
+	key =  {'A':'V', 
+			'B':'J', 
+			'C':'Z', 
+			'D':'B',
+			  ...   }
 
-In English, this means: the character 'A' should be substituted with the character 'V'; the character 'B' should be substituted with the character 'J' and so on. You can print a dictionary using ``print(cipher_key)``.
 Try this out, experiment using the REPL. 
