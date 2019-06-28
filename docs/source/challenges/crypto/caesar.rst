@@ -43,4 +43,5 @@ adding 4 to Z would land us on '^' in ASCII).
 
 	encrypted_char = chr(ascii_char) 
 
-Try this out, experiment using the REPL. 
+Now try encrypting and then decrypting some messages of your own. 
+
