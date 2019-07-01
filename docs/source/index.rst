@@ -33,6 +33,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    :caption: Getting Started 
 
    introduction/getting_started.rst 
+   introduction/environment.rst
 
 .. toctree::
    :maxdepth:1
