@@ -30,9 +30,14 @@ If you would like to contribute to this resource, go ahead! Install git and crea
 
 .. toctree::
    :maxdepth:1
-   :caption: Tutorials
+   :caption: Getting Started 
 
-   tutorials/getting_started.rst 
+   introduction/getting_started.rst 
+   
+.. toctree::
+   :maxdepth:1
+   :caption: Tutorials 
+
    tutorials/images.rst
    tutorials/buttons.rst
    tutorials/accelerometer.rst
