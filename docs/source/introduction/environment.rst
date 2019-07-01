@@ -13,11 +13,13 @@ To download Mu, got to Mu website.
 .. _website: https://codewith.mu/en/
 
 You can choose different options to install Mu. The ones you'll most likely use is an installer for your device (Mac/Windows), or installation through
-Python package (pip) using `Command Prompt`_, which will be useful to know for installation of Python libraries. 
+Python package (pip) using `command line interface`_, which will be useful to know for installation of Python libraries. 
 
-.. figure: assets/installation_options.png
+.. figure:: assets/installation_options.PNG
+   :align: center
+   :scale: 70% 
 
 Once you have the editor installed, run it and plug micro:bit into your computer.
 
-Command Prompt
----------------
+Command Line Interface
+-----------------------
