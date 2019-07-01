@@ -33,7 +33,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    :caption: Getting Started 
 
    introduction/getting_started.rst 
-   
+
 .. toctree::
    :maxdepth:1
    :caption: Tutorials 
@@ -66,9 +66,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    challenges/games/consonant-or-vowel.rst
    challenges/games/egg-basket.rst
    challenges/crypto/caesar.rst
-   challenges/crypto/caesar_decrypt.rst  
    challenges/crypto/substitution.rst
-   challenges/crypto/reverse_substitution.rst
    challenges/crypto/vigenere.rst
    challenges/crypto/morse.rst		  
    challenges/sensors/spirit_level.rst
