@@ -7,9 +7,14 @@ There are four main editors you can use: in-browser micro:bit editor_, beginner 
 on a ChromeBook or just your regular Python editor to write Python files with a suite of command line commands (advanced).  
 
 For the purposes of the following tutorials we will be using the Mu editor, but feel free to use whatever suits you better.
-
+To download Mu, got to Mu website.
 
 .. _editor: https://python.microbit.org
-.. _here: https://codewith.mu/en/
+.. _website: https://codewith.mu/en/
+
+You can choose different options to install Mu. The ones you'll be most likely to use is your device (Mac/Windows) installer, or a Python package (pip) through 
+Command Prompt.
+
+.. figure: assets/installation_options.png
 
 Once you have the editor installed, run it and plug micro:bit into your computer.
