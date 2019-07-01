@@ -20,4 +20,4 @@ You can use a python dictionary to do this. A python dictionary for the substitu
 			'D':'B',
 			  ...   }
 
-Try this out, experiment using the REPL. 
+Try encrypting and decrypting your messages. 
