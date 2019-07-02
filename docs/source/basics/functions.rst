@@ -99,12 +99,21 @@ local variable. How do we solve this? We declare the variable ``age`` as ``globa
 
 This will let Python now, that the age variable we mean is the one in global namespace.
 
-.. warning:: Using glabal variable is generally a bad practice and you should avoid it, since it makes the purpose of your functions less obvious and you can end up with 
-'spaghetti' code. A better way to do this is to pass variable age as one of the arguments of the function::
-	
+.. warning:: Using global variables is generally a bad practice and you should avoid it, since it makes the purpose of your functions less obvious and you can end up with 
+			'spaghetti' code. A better way to do this is to pass variable age as one of the arguments of the function (example below).
+
+Here is an example for a function that passes variables as arguments::
+
 	def printBirthdayGreeting(name, age):
 		age += 1
 		return "Happy Birthday " + name + ", you are " + str(age) + " years old"
+
+
+.. tip:: You will be hearing about 'best practices' a lot. How do you determine what is a best practice and what is not? In general, best practice is what makes your
+	code more readable to others. You can look at style guides_ for a language you're coding in, but in the end it's always about good judgment, since no rule applies
+	to all cases. 
+
+.. _guides: https://www.python.org/dev/peps/pep-0008/
 
 A curious case arises with the use of nested functions. So let's say you want to change a local variable of the ``justAnExample()`` function using the nested
 function: ::
