@@ -6,3 +6,6 @@ In the same way you use a graphical user interface (GUI) to interact with your c
 interface (CLI) by issuing commands. 
 
 .. figure:: assets/cmd_help.gif
+   :align: center 
+        
+   Typing 'help' into Windows Command Prompt shows all the commands and what they do.
