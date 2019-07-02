@@ -99,7 +99,7 @@ local variable. How do we solve this? We declare the variable ``age`` as ``globa
 
 This will let Python now, that the age variable we mean is the one in global namespace.
 
-.. warning:: Using glabal variable is generally a bad practice and you should avoid it, since it makes the purpose functions less obvious and you can end up with 
+.. warning:: Using glabal variable is generally a bad practice and you should avoid it, since it makes the purpose of your functions less obvious and you can end up with 
 'spaghetti' code. A better way to do this is to pass variable age as one of the arguments of the function::
 	
 	def printBirthdayGreeting(name, age):
