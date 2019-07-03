@@ -30,6 +30,4 @@ writing a series of steps to be executed (it's an *imperative* language), as you
 
 .. _Python: https://www.python.org/
 
-
-
-
+The following sections will walk you through coding using micro:bit, including basics of programming and micro:bit's features.
