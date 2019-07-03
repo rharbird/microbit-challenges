@@ -34,6 +34,8 @@ If you would like to contribute to this resource, go ahead! Install git and crea
 
    introduction/getting_started.rst 
    introduction/environment.rst
+   introduction/first_program.rst
+   introduction/other_languages.rst
    introduction/cmd.rst
 
 .. toctree::
