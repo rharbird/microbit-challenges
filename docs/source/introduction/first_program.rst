@@ -1,6 +1,6 @@
-***************
+****************
 First Program
-**************
+****************
 
 In general, the process of designing code is composed of these 4 steps. You can expect to go around the loop  quite a few times before you get your code working.
 
