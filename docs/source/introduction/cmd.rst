@@ -11,5 +11,9 @@ interface (CLI) by issuing commands.
    Typing 'help' into Windows Command Prompt shows all the commands and what they do.
 
 CLI used to be the usual way of interacting with programs and OS in the past, as it has much fewer system requirements. Now the majority of users use the GUI, while CLI 
-has become a tool of the advanced users. Although it mey look daunting and mysterious at the beginning, it's a very efficient tool for carrying out configuration and other
-tasks.
+has become a tool of the advanced users. Although it mey look daunting and mysterious at the beginning, it's a very efficient tool for carrying out configuration and 
+other tasks, since its functionality goes beyond that of a GUI.
+
+The way you would use your CLI depends on your system, so it won't be covered in this tutorial. However, we encourage you to go and explore the basics (or advanced
+concepts) on your own.
+
