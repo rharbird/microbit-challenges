@@ -158,7 +158,8 @@ in a function - in a pass-by-value scenario, the argument is treated as a new lo
 an argument). In the case of pass-by-reference, the variable passed as an argument can be affected within a function. In Python, the method of parameter passing is 
 a specific combination of the two - parameter are passed by `value of object reference`_.
 
-
+For a really good explanation of passing parameters and the difference between different technqiues I would recommend you to read this `blogpost by Robert Heaton`_.
 
 .. _`value of object reference`:: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+.. _`blogpost by Robert Heaton`:: https://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/
 
