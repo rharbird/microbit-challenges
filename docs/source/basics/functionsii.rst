@@ -2,6 +2,9 @@
 Functions II
 **************
 
+Now that you know how to use functions in practice, there are several more concepts that will help you understand behaviour of functions not only in Python,
+but they will help you realise what to look for in documentation concerning other laguages as well.  
+
 Scope
 ======
 
