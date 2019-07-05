@@ -96,6 +96,9 @@ Sets
 Unlike lists and tuples, sets hold an unordered collection of elements with no duplicates. This makes them suitable to use for testing membership or removing 
 duplicate elements.
 
+.. figure:: assets/sets_i.png
+   :align: center
+
 Dictionaries
 =============
 
