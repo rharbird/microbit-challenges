@@ -47,6 +47,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    basics/control.rst
    basics/data_structures.rst
    basics/functions.rst
+   basics/functionsii.rst
    basics/classes_objects.rst
 
 .. toctree::
