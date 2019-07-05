@@ -68,6 +68,8 @@ which is a number, into a string.  You don't have to use functions or return val
 Scope
 ======
 
+Global and Local Variables
+
 Imagine you want to use the slightly modified ``printBirthdayGreeting()`` function from before and you want to increment age every time the function is called: ::
 
 	name = "Johann"
@@ -115,6 +117,9 @@ Here is an example for a function that passes variables as arguments::
 
 .. _guides: https://www.python.org/dev/peps/pep-0008/
 
+Nonlocal variables
+-------------------
+
 A curious case arises with the use of nested functions. So let's say you want to change a local variable of the ``justAnExample()`` function using the nested
 function: ::
 
@@ -160,6 +165,6 @@ a specific combination of the two - parameter are passed by `value of object ref
 
 For a really good explanation of passing parameters and the difference between different technqiues I would recommend you to read this `blogpost by Robert Heaton`_.
 
-.. _`value of object reference`:: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
-.. _`blogpost by Robert Heaton`:: https://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/
+.. _value of object reference: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+.. _blogpost by Robert Heaton: https://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/
 
