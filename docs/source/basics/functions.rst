@@ -69,6 +69,7 @@ Scope
 ======
 
 Global and Local Variables
+---------------------------
 
 Imagine you want to use the slightly modified ``printBirthdayGreeting()`` function from before and you want to increment age every time the function is called: ::
 
