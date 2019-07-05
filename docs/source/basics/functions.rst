@@ -153,6 +153,12 @@ Now the code should print ``"Inner function that changes everything!"`` exactly 
 Passing parameters
 ===================
 
-An important concept that will have a visible impact on the working of your functions is passing parameters. In Python, parameters are passed by `value of object reference`_.
+An important concept that will have a visible impact on the working of your functions is passing parameters. This describes the way a variable is treated as it's passed
+in a function - in a pass-by-value scenario, the argument is treated as a new local variable and has no influence on the original variable (if a variable was passed as
+an argument). In the case of pass-by-reference, the variable passed as an argument can be affected within a function. In Python, the method of parameter passing is 
+a specific combination of the two - parameter are passed by `value of object reference`_.
+
+
 
 .. _`value of object reference`:: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+
