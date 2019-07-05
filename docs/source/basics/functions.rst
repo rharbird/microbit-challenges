@@ -149,3 +149,10 @@ Now the code should print ``"Inner function that changes everything!"`` exactly 
 .. note:: To learn more about namespace and scope in Python, look at the documentation_.
 
 .. _documentation: https://docs.python.org/3/tutorial/classes.html
+
+Passing parameters
+===================
+
+An important concept that will have a visible impact on the working of your functions is passing parameters. In Python, parameters are passed by `value of object reference`_.
+
+.. _`value of object reference`:: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
