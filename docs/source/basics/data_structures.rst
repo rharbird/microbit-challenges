@@ -94,7 +94,28 @@ Sets
 =====
 
 Unlike lists and tuples, sets hold an unordered collection of elements with no duplicates. This makes them suitable to use for testing membership or removing 
-duplicate elements.
+duplicate elements. ::
+
+	set = {8, 12, 22}
+	set.add(42)
+	set.discard(42)
+
+	set.update([16, 32, 64]) 
+
+Since a set is an unordered collection of elements, indexing is not possible. Python natively supports typical set operation methods: ::
+
+	set_a = {1,2,3,4,5}
+	set_b = {4,5,6,7}
+	set_c = {1,2}
+
+	2 in set_a
+
+	set_a.intersection(set_b)
+	set_a.issuperset(set_c)
+
+For more methods, visit Python documentation_.
+
+.. _documentation: https://docs.python.org/2/library/stdtypes.html#set
 
 .. figure:: assets/sets_i.png
    :align: center
