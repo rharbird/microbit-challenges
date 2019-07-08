@@ -12,7 +12,7 @@ How would you describe a list object? What attributes does it have? When/How is 
 .. tip:: Do you remember the ``dir(ClassName)`` command? It lists all the attributes and methods of a required class, such as ``dir(str)``. 
 
 If you find you need an object that Python does not have, you can create your own. To create an instance of an object, you first need to construct a 
-"prototype", that will define what the object will look like and what it's capable of. The prototype
+"template", that will define what the object will look like and what it's capable of. The prototype
 is called a class::
 
     class Player():
