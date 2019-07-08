@@ -136,4 +136,13 @@ For example, you can store the highscores of all the players::
                       'terminat0r': 27,
                       'r00t': 150,
                       'dent': 42,
-                      'teapot418' : 0 }              
+                      'teapot418' : 0 } 
+
+	# Access elements
+	game_register['dent']
+
+	# Add or update and existing entry
+	game_register['pepper'] = 50
+
+	# Delete an entry
+	del game_register['pepper']				               
