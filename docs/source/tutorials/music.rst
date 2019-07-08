@@ -4,21 +4,20 @@ Music
 This is a quick guide to some of the things you can do with micro:bit music. The idea is that you can use this information to experiment and 
 create something for yourselves.  You can use the micro:bit to play simple tunes, provided that you connect a speaker to your board. 
 
-If you are using a speaker, you can connect your micro:bit using crocodile clips like this: 
-
-.. figure:: assets/connect_speaker.jpg
-   :align: center
-
-   Image from: <https://www.kitronik.co.uk/blog/microbit-alarm-kitronik-university/>
-
-.. warning:: You cannot control the volume of the sound level from the micro:bit. Please be very careful if you are using headphones. A speaker is a better choice for work with sound.
-
 If you are using headphones you can use crocodile clips to connect your micro:bit to some headphones like this: 
 
 ..  figure:: assets/headphones_connect.png
     :align: center	
     :scale: 70 %
 
+.. warning:: You cannot control the volume of the sound level from the micro:bit. Please be very careful if you are using headphones. A speaker is a safer choice for work with sound.
+
+If you are using a speaker, you can connect your micro:bit using crocodile clips like this: 
+
+.. figure:: assets/connect_speaker.jpg
+   :align: center
+
+   Source: <https://www.kitronik.co.uk/blog/microbit-alarm-kitronik-university/>
 
 
 Basic Functions
