@@ -130,7 +130,7 @@ Dictionaries
 Dictionary is an unordered set of key:value pairs. It's a rule that all keys are unique and have no duplicates. Unlike lists or tuples, which are indexed by numbers, 
 you can retrieve a value by using the key as an index.
 
-For example, you can store the highscores of all the players::
+For example, you can store the highscores of all the players: ::
 
     game_register = { 'googolplex': 100,
                       'terminat0r': 27,
@@ -145,4 +145,4 @@ For example, you can store the highscores of all the players::
 	game_register['pepper'] = 50
 
 	# Delete an entry
-	del game_register['pepper']				               
+	del game_register['pepper']		
