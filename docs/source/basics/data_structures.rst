@@ -113,6 +113,8 @@ Since a set is an unordered collection of elements, indexing is not possible. Py
 	set_a.intersection(set_b)
 	set_a.issuperset(set_c)
 
+An empty set is created using a `set()` method, as using braces creates an empty dicionary (see below).  	
+
 For more methods, visit Python documentation_.
 
 .. _documentation: https://docs.python.org/2/library/stdtypes.html#set
