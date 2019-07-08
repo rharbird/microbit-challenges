@@ -1,6 +1,6 @@
-****************
- Other laguages
-****************
+********************************************
+ Programming Micro:bit Using Other laguages
+********************************************
 
 As mentioned in the introduction, micro:bit can also be programmed using JavaScript and C/C++. 
 
