@@ -122,6 +122,8 @@ For more methods, visit Python documentation_.
 .. figure:: assets/sets_i.png
    :align: center
 
+   All elements within a set are unique
+
 Dictionaries
 =============
 
