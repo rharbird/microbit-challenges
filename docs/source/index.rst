@@ -40,6 +40,18 @@ If you would like to contribute to this resource, go ahead! Install git and crea
 
 .. toctree::
    :maxdepth:1
+   :caption: Micro:bit Tutorials 
+
+   tutorials/images.rst
+   tutorials/buttons.rst
+   tutorials/accelerometer.rst
+   tutorials/compass.rst
+   tutorials/thermometer.rst
+   tutorials/music.rst
+   tutorials/radio.rst
+
+.. toctree::
+   :maxdepth:1
    :caption: Basics of programming
 
    basics/data_types.rst 
@@ -49,18 +61,6 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    basics/functions.rst
    basics/functionsii.rst
    basics/classes_objects.rst
-
-.. toctree::
-   :maxdepth:1
-   :caption: Micro:bit Features 
-
-   tutorials/images.rst
-   tutorials/buttons.rst
-   tutorials/accelerometer.rst
-   tutorials/compass.rst
-   tutorials/thermometer.rst
-   tutorials/music.rst
-   tutorials/radio.rst
    
 .. toctree::
    :maxdepth:1
