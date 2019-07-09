@@ -2,8 +2,10 @@
 LED Display
 ***********
 
-This is a quick guide to some of the things you can do with the LED display. The idea is that you can use this information to experiment and create something for yourselves. Try stuff out – see what happens and see what you can make.
-There are 25 LEDs  set out like the picture below. The LEDs are numbered from (0,0) in the  top left hand corner, to (4,4) in the bottom right hand corner. You can use the LEDs like a very tiny screen to display  single characters, a string of characters or  a small picture like the smiley face here.  The LEDs can be set to different brightnesses.  Let's find out how to use them.
+This is a quick guide to some of the things you can do with the LED display. The idea is that you can use this information to experiment and create something for 
+yourselves. Try stuff out – see what happens and see what you can make. There are 25 LEDs  set out like the picture below. The LEDs are numbered from (0,0) in the  
+top left hand corner, to (4,4) in the bottom right hand corner and cna all be set to a different level of brightness. You can use the LEDs like a screen to display 
+single characters, a string of characters or a small picture.
 
 
 .. image:: assets/happy.png
@@ -16,7 +18,7 @@ Basic Functions
 Display a string or an image
 ----------------------------
 
-You can display characters on the LED display very easily like this::
+You can display characters on the LED display using `show` ::
 
     from microbit import *
 
@@ -25,7 +27,7 @@ You can display characters on the LED display very easily like this::
 The characters you display must be within a pair of quotes, either " " or ' '. 
  
 MicroPython comes with lots of built-in pictures to show on the display.
-For example, to make the device appear happy you type::
+For example, to display a smiling face you type::
 
     from microbit import *
 
@@ -44,7 +46,7 @@ Here's some of the the other images you can use:
 
 Scroll a string 
 ---------------
-To continuously scroll a string across the display you can use::
+Use `scroll` to scroll a string across the display::
 
     from microbit import *
 
@@ -65,7 +67,7 @@ Advanced Functions
 
 Set a pixel
 -----------
-You can set a pixel in the LED display using the ``set_pixel`` method::
+You can set a pixel brightness on the LED display using the ``set_pixel`` method::
 
     from microbit import *
 
