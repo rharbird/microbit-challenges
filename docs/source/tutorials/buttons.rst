@@ -50,30 +50,32 @@ What you’ll see is that the display will show an ``A`` for a second if you pre
 program is delaying, then the ``A`` won’t show up immediately, but it will show up once the if statement test condition is executed. It becomes more apparent as you 
 increase the delay.
 
-Now try using ``button_a.isPressed()`` instead of ``button_a.was_pressed()``. What you will find is 
-that if you press the button while the code is delaying the micro:bit will never realise that you pressed it at all.
+Now try using ``button_a.isPressed()`` instead of ``button_a.was_pressed()``.
 
 Counting the number of presses
 ------------------------------
-Sometimes you might want to count the number of button presses in a time period. You can do this using the 
+To count the number of times a button was pressed, you can use the 
 ``get_presses()`` method.  Here is an example::
 
     from microbit import *
 
         while True:
-	    sleep(3000)
-            count = button_a.get_presses()
-            display.scroll(str(count))
+			sleep(3000)
+			count = button_a.get_presses()
+			display.scroll(str(count))
 
 The micro:bit will sleep for 3 seconds and then wake up and check how many times button ``A`` was pressed. The number of presses is 
-stored in a variable called ``count``. We can't print numbers directly on the LED screen so we convert ``count`` to a string and then display it. Can you think of another way to do this? (Hint: check whether the button has been pressed and add 1 to a counter if it has). 
+stored in ``count``. 
+
+Can you define your own ``get_presses`` function? 
 
 Advanced Functions
 ===================
 
 Checking for both buttons
 -------------------------
-It is possible to check a series of events by using ``if``, ``elif`` and ``else``. Say you wanted to check whether button ``A`` was pressed or button ``B`` was pressed or whether both buttons were pressed at the same time. We could do that like so::  
+It is possible to check a series of events by using conditional statements. Say you wanted to check whether button ``A`` was pressed or button ``B`` was pressed or 
+whether both buttons were pressed at the same time: ::  
 
 	from microbit import *
 
@@ -87,12 +89,10 @@ It is possible to check a series of events by using ``if``, ``elif`` and ``else`
 	        display.scroll("B")
 	    sleep(100)
 
-.. note:: The keyword ``elif`` just means ``else if``. You can use the longer form ``else if`` if you want.
-
 The code above displays the letter corresponding to the button. If both buttons are pressed at the same time it displays ``AB``.
 
  
 Ideas for Projects with the Buttons
 ===================================
 * Change what is displayed when you press the button.
-* Games that need user input… can you make one up?
+* Games that need user input.
