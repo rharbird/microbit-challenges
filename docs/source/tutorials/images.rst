@@ -147,7 +147,7 @@ attribute to the desired value in milliseconds ``delay=100``.
 
 To create your own animation, you need to create a list of images. 
 
-In this example, a boat will sink into the bottom of the display. To do that, we defined 6 boat images ::
+In this example, a boat will sink into the bottom of the display. To do that, we defined a list of 6 boat images: ::
 
 from microbit import *
 
@@ -189,8 +189,6 @@ from microbit import *
 
     all_boats = [boat1, boat2, boat3, boat4, boat5, boat6]
     display.show(all_boats, delay=200)    
-
-Finally, we can tell MicroPython to animate a list of images using ``display.show``. 
 
 Projects with LED Display
 ==========================
