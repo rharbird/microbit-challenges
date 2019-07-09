@@ -134,32 +134,22 @@ Animation
 Static images are fun, but it's even more fun to make them move. This is also
 amazingly simple to do with MicroPython ~ just use a list of images!
 
-Luckily we have a
-couple of lists of images already built in. They're called ``Image.ALL_CLOCKS``
+We can demonstrate this on built in lists - ``Image.ALL_CLOCKS``
 and ``Image.ALL_ARROWS``::
 
     from microbit import *
 
     display.show(Image.ALL_CLOCKS, loop=True, delay=100)
 
-We tell MicroPython to use ``Image.ALL_CLOCKS`` and
-it understands that it needs to show each image in the list, one after the
-other. We also tell MicroPython to keep looping over the list of images (so
-the animation lasts forever) by saying ``loop=True``. Furthermore, we tell it
-that we want the delay between each image to be only 100 milliseconds (a tenth
-of a second) with the argument ``delay=100``.
+Micro:bit shows each image in the list, one after the
+other. By setting ``loop=True``, program will be keep looping through the list indefinitely. It's also possible to set a delay between the pictures using the ``delay``
+attribute to the desired value in milliseconds ``delay=100``.
 
-Now, here's how to create your own animation.  First you need to create a list.
-Here is a list of boats::
+To create your own animation, you need to create a list of images. 
 
-    all_boats = [boat1, boat2, boat3, boat4, boat5, boat6]
+In this example, a boat will sink into the bottom of the display. To do that, we defined 6 boat images ::
 
-You can store anything in a list with Python, even images. 
-In my example I'm going to
-make my boat sink into the bottom of the display. To do that, 
-I'm going to create 6 images and put them into a list called ``all_boats``::
-
-    from microbit import *
+from microbit import *
 
     boat1 = Image("05050:"
                   "05050:"
@@ -198,7 +188,7 @@ I'm going to create 6 images and put them into a list called ``all_boats``::
                   "00000")
 
     all_boats = [boat1, boat2, boat3, boat4, boat5, boat6]
-    display.show(all_boats, delay=200)
+    display.show(all_boats, delay=200)    
 
 Finally, we can tell MicroPython to animate a list of images using ``display.show``. 
 
