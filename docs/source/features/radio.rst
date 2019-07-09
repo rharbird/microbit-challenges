@@ -61,11 +61,11 @@ Your micro:bit is smart, it can send and receive messages in quick succession. J
 	radio.config(channel=19)	# Choose your own channel number
 	radio.config(power=7)		# Turn the signal up to full strength 
 
-	my_message = "Be nice to yu turkeys dis christmas, Cos' turkeys just wanna hav fun, Turkeys are cool, turkeys are wicked, An every turkey has a Mum."
+	message_to_master = "Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk, agh burzum-ishi krimpatul."
 	
 	# Event loop.
 	while True:
-		radio.send(my_message) 
+		radio.send(message_to_master) 
 		incoming = radio.receive()
 		if incoming is not None:
 		    display.show(incoming)
