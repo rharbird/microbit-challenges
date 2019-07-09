@@ -26,30 +26,43 @@ Sometimes we just want a program to wait until something happens, for example: w
         while True:
             if button_a.is_pressed():
                 display.scroll("A")
+			else:
+				display.scroll(Image.ASLEEP)	
 
-Let's break this up into parts. The first bit::
+This means, if button ``A`` is pressed then display an ``A`` on the LED screen, otherwise, display ``Image.ASLEEP``. 
+
+Has the button been pressed?
+----------------------------
+The problem with using ``is_pressed()`` is that unless you are pressing the button at that precise moment then you won't 
+detect whether the button was ever pressed or not.  
+
+The ``was_pressed()`` function is useful is you want to write code that
+occasionally checks whether the button has been pushed but then goes on to
+do something else. While the code is doing the something else, it might be
+the case that the user pushes the button and lets it go and, because you
+haven’t checked to see if it’s pressed then, you might miss it. Well,
+the following function will tell you whether a button has been pushed or
+released since you last called that function - while your code is doing
+something else. In this way you need never miss a button press again::
+
+	from microbit import *
 
 	while True:
-
-This is a standard way to tell the micro:bit to repeat whatever code follows it forever and ever and ever ..... you get the idea.
-The next line looks similar to normal English::
-
-        while True:
-            if button_a.is_pressed():
-                display.scroll("A")
-
-This means, if button ``A`` is pressed then display an ``A`` on the LED screen.
-
-Of course, we usually want to do something a bit more complicated than that. There is a way to check two things,
-we can use an ``if`` with an ``else`` like this:: 
-
-        while True:
-            if button_a.is_pressed():
-                display.scroll("A")
+	    if button_a.was_pressed(): 
+	        display.scroll("A")
 	    else:
 		display.scroll(Image.ASLEEP)
+	    sleep(1000)
 
-This means, if button ``A`` is pressed then display an ``A`` on the LED screen, otherwise, display ``Image.ASLEEP``.
+What you’ll see is that the display will show an ``A`` for a second
+if you press the button, and then ``Image.ASLEEP`` is displayed. If you
+press the button while the program is delaying, then the ``A`` won’t
+show up immediately, but they will show up when it next tests to see if
+the button has been pressed. You’ll see this more clearly if you make
+the delay bigger.
+
+Now try using ``button_a.isPressed()`` instead of ``button_a.was_pressed()``. What you will find is 
+that if you press the button while the code is delaying the micro:bit will never realise that you pressed it at all.
 
 Counting the number of presses
 ------------------------------
@@ -89,38 +102,6 @@ It is possible to check a series of events by using ``if``, ``elif`` and ``else`
 
 The code above displays the letter corresponding to the button. If both buttons are pressed at the same time it displays ``AB``.
 
-Has the button been pressed?
-----------------------------
-The problem with using ``is_pressed()`` is that unless you are pressing the button at that precise moment then you won't 
-detect whether the button was ever pressed or not.  
-
-The ``was_pressed()`` function is useful is you want to write code that
-occasionally checks whether the button has been pushed but then goes on to
-do something else. While the code is doing the something else, it might be
-the case that the user pushes the button and lets it go and, because you
-haven’t checked to see if it’s pressed then, you might miss it. Well,
-the following function will tell you whether a button has been pushed or
-released since you last called that function - while your code is doing
-something else. In this way you need never miss a button press again::
-
-	from microbit import *
-
-	while True:
-	    if button_a.was_pressed(): 
-	        display.scroll("A")
-	    else:
-		display.scroll(Image.ASLEEP)
-	    sleep(1000)
-
-What you’ll see is that the display will show an ``A`` for a second
-if you press the button, and then ``Image.ASLEEP`` is displayed. If you
-press the button while the program is delaying, then the ``A`` won’t
-show up immediately, but they will show up when it next tests to see if
-the button has been pressed. You’ll see this more clearly if you make
-the delay bigger.
-
-Now try using ``button_a.isPressed()`` instead of ``button_a.was_pressed()``. What you will find is 
-that if you press the button while the code is delaying the micro:bit will never realise that you pressed it at all.
  
 Ideas for Projects with the Buttons
 ===================================
