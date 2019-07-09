@@ -1,10 +1,10 @@
 ********
 Music
 ********
-This is a quick guide to some of the things you can do with micro:bit music. The idea is that you can use this information to experiment and 
-create something for yourselves.  You can use the micro:bit to play simple tunes, provided that you connect a speaker to your board. 
+This is a quick guide to some of the things you can do with micro:bit music. You can use the micro:bit to play simple tunes, provided that you connect a speaker to your 
+board. 
 
-If you are using headphones you can use crocodile clips to connect your micro:bit to some headphones like this: 
+If you are using headphones you can use crocodile clips to connect your micro:bit to headphones: 
 
 ..  figure:: assets/headphones_connect.png
     :align: center	
@@ -12,7 +12,7 @@ If you are using headphones you can use crocodile clips to connect your micro:bi
 
 .. warning:: You cannot control the volume of the sound level from the micro:bit. Please be very careful if you are using headphones. A speaker is a safer choice for work with sound.
 
-If you are using a speaker, you can connect your micro:bit using crocodile clips like this: 
+You can also connect your micro:bit to a speaker using crocodile clips: 
 
 .. figure:: assets/connect_speaker.jpg
    :align: center
@@ -24,7 +24,7 @@ Basic Functions
 
 Play a tune
 -----------
-Let's play some music::
+To play a tune you can use the ``play`` function: ::
 
 	from microbit import *
 	import music
@@ -33,7 +33,7 @@ Let's play some music::
 
 .. note:: You must import the ``music`` module to play and control sound.
 
-MicroPython has quite a lot of built-in melodies. Here's some of them, try them out: 
+The music module includes a number of built-in tunes. Here's some of them: 
 
  *  ``music.DADADADUM``
  *  ``music.ENTERTAINER``
@@ -45,9 +45,8 @@ MicroPython has quite a lot of built-in melodies. Here's some of them, try them 
  
 Make your own tune
 -------------------
-You can write your own tune, here is a snippet of code showing how to play a sound. The number after the 
-note is the octave and an octave can be a number from 1 to 8. The number after the colon says how long the note will
-last::
+To play a tune, specify the note (C,D,E,F,G,A,B; including sharps (eg.: C#)) to play. Optionally, it's possible to specify the octave (1-8) and the duration it will be played
+for: ::
 	
 	from microbit import *
 	import music
@@ -71,12 +70,15 @@ Playing a series of notes one after the other is easy, you just put the notes yo
         	"E4:4", "F4:4", "G4:8", "E4:4", "F4:4", "G4:8"]
 	music.play(tune)
 	
+Micro:bit will remember the octave of the note defined previously. Hence, the tune above can be rewritten as follows: ::
+
+	tune = ["C4:4", "D4:4", "E4:4", "C:4", "C:4", "D:4", "E:4", "C:4",
+        	"E:4", "F4:4", "G4:8", "E:4", "F:4", "G:8"]
+
 
 Advanced Functions
 ===================
-You can also specify the note you want to play as a ``frequency``. Take a look at this example where we make a police siren. The clever thing here is that the
-frequency or note is controlled by a ``for`` loop::
-
+You can also specify the note you want to play using its frequency using the ``pitch`` method. For example, to create a Police Siren effect ::
 
 	while True:
 		for freq in range(880, 1760, 16):
