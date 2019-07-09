@@ -52,7 +52,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
 
 .. toctree::
    :maxdepth:1
-   :caption: Micro:bit Tutorials 
+   :caption: Micro:bit Features 
 
    tutorials/images.rst
    tutorials/buttons.rst
