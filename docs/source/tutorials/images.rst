@@ -98,15 +98,10 @@ will execute the loop five times substituting ``y`` consecutive values in the ra
 
 DIY images
 ----------
-Of course, you want to make your own image to display on the micro:bit, right?
+What if you want to make your own image to display on the micro:bit?
 
-That's easy.  Each LED pixel on the physical display can be set to one of ten values. If a
-pixel is set to ``0`` (zero) then it's off. It literally has zero brightness.
-However, if it is set to ``9`` then it is at its brightest level. The values
-``1`` to ``8`` represent the brightness levels between off (``0``) and full on
-(``9``).
-
-Armed with this information, it's possible to create a new image like this::
+As mentioned above, each LED pixel on the physical display can be set to one of ten values from 0 (off) to 9 (fully on). 
+Armed with this piece of information, it's possible to create a new image like this::
 
     from microbit import *
 
