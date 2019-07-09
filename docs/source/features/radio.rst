@@ -1,8 +1,7 @@
 ******
 Radio
 ******
-Your micro:bit has a radio chip that can be used to transmit and receive
-messages.
+Micro:bit has a radio chip that can be used to transmit and receive messages.
 
 .. image:: assets/radio.jpg
    :scale: 80 %
@@ -13,7 +12,8 @@ Basic Functions
 
 Getting ready 
 -------------
-Before you can use the radio you must remember to ``import`` the radio library and to turn the radio on on.  Once the radio is on it will hear the messages from any other micro:bit that is within range:: 
+Before you can use the radio you must remember to ``import`` the radio library and to turn the radio on.  Once the radio is on it will be able to receive messages from 
+any other micro:bit that is within range:: 
 
 	from microbit import *
 	import radio		
@@ -22,27 +22,28 @@ Before you can use the radio you must remember to ``import`` the radio library a
 
 Setting a channel number
 ^^^^^^^^^^^^^^^^^^^^^^^^
-If you only want share messages within a group of devices then each micro:bit in the group must be configured to share the same channel number. The channel number must be a number between ``0`` and ``100``. You can do that like this::
+If you only want share messages within a group of devices then each micro:bit in the group must be configured to share the same channel number. The channel number must 
+be a number between ``0`` and ``100``. You can do that like this::
 
 	radio.config(channel=19)	# Set the channel number to 19 
 
-It is important to do this if you are in a room with other people using their micro:bits because otherwise your micro:bit will overhear all the messages nearby and that is not what you want generally. 
+It is important to do this if you are in a room with other people using their micro:bits because otherwise your micro:bit will overhear all the messages nearby and that 
+is not what you usually want. 
 
 Setting the power level
 ^^^^^^^^^^^^^^^^^^^^^^^
-Finally, you should set the power level for the radio, by default, your micro:bit will be transmitting on power level 0 which means that your messages might not get transmitted very far. The power level can be a value between ``0`` and ``7``::
+Finally, you should set the power level for the radio. By default, your micro:bit will be transmitting on power level 0 which means that your messages might not get 
+transmitted very far. The power level can be a value between ``0`` and ``7``::
 
 	radio.config(power=7)	# Set the power level to 7 
 
 Sending and receiving a message
 -------------------------------
-Now you are ready to send or receive a message. You can send a string which is 
-up to 250 characters in length in the message. Here is an
-example::
+Now you are ready to send or receive a message. You can send a string which is up to 250 characters in length in the message: ::
 
-	my_message = "Be nice to yu turkeys dis christmas, Cos' turkeys just wanna hav fun, Turkeys are cool, turkeys are wicked, An every turkey has a Mum."
+	message_to_master = "Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk, agh burzum-ishi krimpatul."
 
-	radio.send(my_message)
+	radio.send(message_to_master)
 
 
 Receiving a message is similar in nature, just use::
@@ -71,7 +72,8 @@ Your micro:bit is smart, it can send and receive messages in quick succession. J
 		    print(incoming)
 		sleep(500)
 
-If you print the incoming message, you will see that sometimes it contains the value ``None``. That is because sometimes the micro:bit checks for a message but nothing has arrived. We can ignore these non-events by checking whether ``incoming`` equals ``None`` and ignoring it if that is the case.
+If you print the incoming message, you will see that sometimes it contains the value ``None``. That is because sometimes the micro:bit checks for a message but nothing 
+has arrived. We can ignore these non-events by checking whether ``incoming`` equals ``None`` and ignoring it if that is the case.
 
 
 Ideas for Projects with the Radio
