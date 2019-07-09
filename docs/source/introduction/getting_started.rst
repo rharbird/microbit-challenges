@@ -25,10 +25,12 @@ C/C++ might be useful in particular, as it's the main language used to program t
 
 .. _languages: https://microbit.org/code/
 
-MicroPython is a version of Python_ , that's designed to run on microcontrollers like micro:bit. Programming in Python is basically 
+MicroPython is a version of Python_ , that's designed to run on microcontrollers like micro:bit. Since their functionality is virtually the same (look here_ for difference 
+in behaviour), we refer to the language used as Python in these tutorials. Programming in Python consists of
 writing a series of steps to be executed (it's an *imperative* language), as you will see later when writing your first program.  
 
 .. _Python: https://www.python.org/
+.. _here: https://docs.micropython.org/en/latest/genrst/index.html
 
 The following sections will walk you through coding using micro:bit, including basics of programming and micro:bit's features. Feel free to skip over the parts you are 
 confident in and choose the parts that you need.
