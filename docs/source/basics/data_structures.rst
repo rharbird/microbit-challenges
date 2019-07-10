@@ -79,18 +79,18 @@ will delete the last element in the list.
 Sorting
 ^^^^^^^
 
-Often you'll find the need to have data in your list sorted, for example when implementing search algorithms. In Python, sorting lists in ascending order can be very 
-easy using the ``sort(key=, reverse=)`` method::
+Often you'll find the need to have data in your list sorted, for example when implementing search algorithms. In Python, sorting lists is easy using the 
+``sort(key=, reverse=)`` method::
 
 	high_scores = [25, 20, 10, 15, 30]
 	high_scores.sort()
 
-Using it is very straightforward when using numbers. Furthermore, it's optional key parameter allows you to specify your own	function for comparing elements (for example, while 
+You don't only have to sort numbers - its optional key parameter allows you to specify your own	function for comparing elements in your list (for example, while 
 sorting a list of strings according to length, you can pass the len() function as the parameter). Passing false to reverse parameter allows you to sort in a descending 
 order.
 
 	list = ['longest', 'short', 'longer']
-	
+
 	# Sort list in ascending order of length
 	list.sort(key=len)
 	# Sort list in descending order of length
