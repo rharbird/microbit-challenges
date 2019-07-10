@@ -8,7 +8,7 @@ breaking for three centuries until Friedrich Kasiski introduced a first succesfu
 .. figure:: assets/vigenere_table.jpg
    :align: center
    
-   Vigenère table (Source: https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/Vig-Base.html)
+   Vigenère table (Source: https://tinyurl.com/yxmbt48f)
 
 It works similarly to Caesar substitution cipher, since it's also based on shifting aplhabet positions. This time instead of shifting all letters 
 by the same value, we choose a keyword which determines a different value for each letter in the plaintext.
