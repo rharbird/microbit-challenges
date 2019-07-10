@@ -30,15 +30,15 @@ Then you use each letter of the key to determine the shift of every letter of th
 You can try to encipher and decipher your own messages. If you're up for a challenge, try to find the key and decrypt this ciphertext enciphered using Vigenère cipher (hint:
 it's not easy):    
 
-    Wckl'g jwym avr tlvfqydnxkwn vyehqgxat oof im lhm nqmna oyrmavz. vi  qtfg gwym  hzpdfhs  wf  p  ahschgjxzg  idjtawyt  jbxivs  dhyars  zr  avr  ucktsaiympca  dd  lbungq  
+    Wckl'g jwym avr Tlvfqydnxkwn Vyehqgxat oof im lhm nqmna oyrmavz. Vi  qtfg gwym  hzpdfhs  wf  p  ahschgjxzg  idjtawyt  jbxivs  dhyars  zr  avr  ucktsaiympca  dd  lbungq  
     tur  naqh  ucgtq  bag  vcrhewpprbuu  rudxjh  bc  axyhnxl  vhfodl-­‐uhgrs  jbms  sdpfz.
 
-    Ifx  owgrfapyrg'q  zbwqt  rh avr  vyehll  pjlv  arcrbvbf  pjvvvba.  Gm  zolh  
-    rahh  gwc  ulgg  spbuy  vc  cqpggtlvl  wf  ifx  woa  vyehqgxa  zhftac  usofick.  ph  fpwl  avni  ral  ssucva  cs  p  ntu  unayvawp  vyknzr  qjtzhrg  gl  swxt  ftcwav  
-    whbf  ogybug  fbylosq  dsm  im  n  hjbjs  bu  jxtca  lptwdrs  phbbq  p  jtyur  vmek  pexad.  Avr  vsbks  naqh  asyaq  rvi  bc  uapqu  ejtusgh  ral  prhr  ihb  tpjtjhvr  
-    etyuyt  zehggtpl  hfr  bgqlr,  udu  fbqu  nmn  joa  tvilqg  im  ihm  sdp  hus  ncb  poog  kmebbgppr  vftplbgogxmgz  skxqm  ac  utji  fch  gcahpvagmhhr  pdmlfjppwz.
+    Hut  Fbaquwgdlf'f  Vsbks  Gd Ral Unayqf  oyhm  flbgxmgz  oyrmavz.  Vi  qtfg  gwym  avr  qcla  rexld  pb  rmglasarc  bz  hut  ntu  unayvawp  vyknzr  qjtzhrg.  Gm  
+    zolh  rahh  gwc  xmtrrr  hm  o  cpl  zhznrrbj  ungeel  pypqmlf  vh  jbrs  uptbuu  ldsk  ifnxll  zanhfxk  chi  zr  h  gyxax  vt  ytkhu  kepnilr  edsgk  o  yppzl  
+    ubab  uywpz.  Ral  uhxbx  hzfd  rxszf  nmn  vb  jwgvo  dyplxag  gwc  ulgg  eyg  noypampq  tppzss  oaylaseh  ykl  avmcw,  ocj  bsvo  mbj  atu  skecva  hb  eyr  mce  
+    dlx  hbq  lfta  jbasgaoen  mknoaxxtawbcq  xewfi  rh  osye  whb  frwyupzviyml  osickdoesq.
 
-    Ifx  owgrfapyrg'q  zbwqt  rh  avr  vyehll  hcesg  epralf  otrmlf  gwyg  avr  tlvfqydnxkwn  vyehqgxat. 
+    Mos  Uxrvovvzck'z  Uhxbx  Ac  Gwc  Zhznmw  llzyh  ptavrg  zxahrg  rahb  gwc  Xuqlrjhwsqxy  Zhznrrbjo.
         
     
     -- Smnnznh Ywhaf, Wgmjvuxixy'g Txswl Hb Ifx Noypvr
