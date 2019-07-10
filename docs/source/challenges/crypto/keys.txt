@@ -1,0 +1,3 @@
+caesar: 10
+substitution: feklcvxdoqmunzawitjrpgyhbs
+vigenere: python
