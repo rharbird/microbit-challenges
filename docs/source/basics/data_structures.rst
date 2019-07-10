@@ -177,4 +177,13 @@ For example, you can store the highscores of all the players: ::
 	game_register['pepper'] = 50
 
 	# Delete an entry
-	del game_register['pepper']		
+	del game_register['pepper']	
+
+	# Delete all entries
+	game_register.clear()
+
+	# Delete Dictionary
+	del game_register
+
+	# Retrieve a value for the key or deafult if not in dicionary
+	game_register.get('dent')		

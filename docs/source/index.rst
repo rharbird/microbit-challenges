@@ -29,7 +29,7 @@ To download this documentation in pdf, epub or html format, click on the link at
 If you would like to contribute to this resource, go ahead! Install git and create a branch. It would be great to have more challenges and some projects.
 
 .. toctree::
-   :maxdepth:1
+   :maxdepth: 1
    :caption: Getting Started 
 
    introduction/getting_started.rst 
@@ -39,7 +39,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    introduction/cmd.rst
 
 .. toctree::
-   :maxdepth:1
+   :maxdepth: 1
    :caption: Micro:bit Features 
 
    tutorials/images.rst
@@ -51,7 +51,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    tutorials/radio.rst
 
 .. toctree::
-   :maxdepth:1
+   :maxdepth: 1
    :caption: Basics of programming
 
    basics/data_types.rst 
@@ -63,7 +63,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    basics/classes_objects.rst   
    
 .. toctree::
-   :maxdepth:1
+   :maxdepth: 1
    :caption: Challenges
 
    challenges/crypto/morse.rst 
