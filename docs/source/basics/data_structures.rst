@@ -94,7 +94,7 @@ order.
 	# Sort list in ascending order of length
 	list.sort(key=len)
 	# Sort list in descending order of length
-	list.sort(key=len, reverse=false)
+	list.sort(key=len, reverse=True)
 
 Tuples
 =======
