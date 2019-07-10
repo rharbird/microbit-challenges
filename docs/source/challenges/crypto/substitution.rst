@@ -6,13 +6,13 @@ Description
 ===========
 
 The substitution cipher is deceptively easy. Messages are encrypted using a key which is created in advance. 
-You make the key by changing the alphabet:
+You make the key by changing positions of letters in the alphabet:
 
 .. figure:: assets/substitution.png
 
-Your goal is to turn your micro:bit into a machine that can encode messages using a substitution cipher. We
-call the message to be encrypted *plain text* and the encrypted message *cipher text*. You will need to store the alphabet with the substition cipher in your program. 
-You can use a python dictionary to do this. A python dictionary for the substitution cipher above looks like this::
+To be able to encode and decode messages using a substitution cipher, you will need to create your the key used to generate ciphertext and store it. A dictionary might 
+be a good data structure for this purpose.
+A Python dictionary for the substitution cipher above would look something like this::
 
 	key =  {'A':'V', 
 		'B':'J', 
@@ -20,7 +20,8 @@ You can use a python dictionary to do this. A python dictionary for the substitu
 		'D':'B',
 		  ...   }
 
-Try encrypting and decrypting messages of your own and if you feel up to the challenge, try to decrypt the text below. 
+Try encrypting and decrypting messages of your own and if you feel up to the challenge, try to decrypt the text below. To save you the effort, the key above does not 
+apply to the message. Try to think of (or look for) language properties or techniques used that could help you find the key. 
 
 	O zay vcur xzfyozx fr nb gorfuj rdfr lftm rcttat ydokd youu zcgct ucfgc nc rouu O, raa, fn fr tcjr; “fkkolczrfuub” at ardctyojc. Pctjpflozx rdc yolay rdfr nb kazzchoaz 
 	yord dct dpjefzl’j “rckdzokfu nfrrctj” yfj jpvvokoczr ra czroruc nc ra doj nfzpjktowr, O eatc rdc lakpnczr fyfb fzl ecxfz ra tcfl or az rdc Uazlaz eafr. Or yfj f jonwuc, 

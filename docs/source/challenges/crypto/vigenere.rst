@@ -3,7 +3,12 @@ Vigenère Cipher
 ****************
 
 This cipher, also called 'le chiffre indéchiffrable', was first described by Giovan Battista Belazzo. Although the concept is easy to understand, the cipher resisted 
-breaking for three centuries, until Friedrich Kasiski introduced a first succesful general attack.  
+breaking for three centuries until Friedrich Kasiski introduced a first succesful general attack.  
+
+.. figure:: assets/vigenere_table.jpg
+   :align: center
+   
+   Vigenère table (Source: https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/Vig-Base.html)
 
 It works similarly to Caesar substitution cipher, since it's also based on shifting aplhabet positions. This time instead of shifting all letters 
 by the same value, we choose a keyword which determines a different value for each letter in the plaintext.
@@ -22,7 +27,8 @@ Then you use each letter of the key to determine the shift of every letter of th
     Key:        SNAKESNAKESN
     Ciphertext: SGTKGCNTNEOA
 
-You can try to encipher and decipher your own messages. If you're up for a challenge, try to find the key and decrypt this ciphertext enciphered using Vigenère cipher:    
+You can try to encipher and decipher your own messages. If you're up for a challenge, try to find the key and decrypt this ciphertext enciphered using Vigenère cipher (hint:
+it's not easy):    
 
     Wckl'g jwym avr tlvfqydnxkwn vyehqgxat oof im lhm nqmna oyrmavz. vi  qtfg gwym  hzpdfhs  wf  p  ahschgjxzg  idjtawyt  jbxivs  dhyars  zr  avr  ucktsaiympca  dd  lbungq  
     tur  naqh  ucgtq  bag  vcrhewpprbuu  rudxjh  bc  axyhnxl  vhfodl-­‐uhgrs  jbms  sdpfz.
