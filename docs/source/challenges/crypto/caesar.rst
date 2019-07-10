@@ -43,5 +43,14 @@ adding 4 to Z would land us on '^' in ASCII).
 
 	encrypted_char = chr(ascii_char) 
 
-Now try encrypting and then decrypting some messages of your own. 
+Now try encrypting and then decrypting some messages of your own.  You can try to decrypt the following text. Can you make your program recognize the correct plaintext
+on its own?
 
+    S kw k csmu wkx... S kw k gsmuon wkx. Kx exkddbkmdsfo wkx. S drsxu wi vsfob rebdc. Rygofob, S nyx'd uxyg k psq klyed wi csmuxocc, kxn kw xyd cebo grkd sd sc drkd 
+    rebdc wo. S kw xyd losxq dbokdon kxn xofob rkfo loox, dryeqr S boczomd wonsmsxo kxn nymdybc. Grkd'c wybo, S kw kvcy cezobcsdsyec sx dro ohdbowo; govv, kd vokcd 
+    oxyeqr dy boczomd wonsmsxo. (S'w ceppsmsoxdvi onemkdon xyd dy lo cezobcdsdsyec, led S kw.) Xy, csb, S bopeco dy lo dbokdon yed yp gsmuonxocc. Xyg, iye gsvv mobdksxvi 
+    xyd lo cy qyyn kc dy exnobcdkxn drsc. Govv, csb, led S exnobcdkxn sd. S gsvv xyd, yp myebco, lo klvo dy ohzvksx dy iye zbomscovi gry sc qysxq dy ceppob sx drsc mkco 
+    pbyw wi gsmuonxocc; S uxyg zobpomdvi govv drkd S gsvv sx xy gki "wemu drsxqc ez" pyb dro nymdybc li bocoxdsxq drosb dbokdwoxd; S uxyg loddob drkx kxiyxo drkd li kvv 
+    drsc S kw rkbwsxq yxvi wicovp kxn xy yxo ovco. Led cdsvv, sp S nyx'd qoddbokdon, sd sc yed yp gsmuonxocc. Wi vsfob rebdc; govv, drox vod sd rebd ofox gybco! 
+    
+        -- P. Nycdyiofcui, Xydoc Pbyw Exnobqbyexn 
