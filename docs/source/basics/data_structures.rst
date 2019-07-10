@@ -97,10 +97,20 @@ Unlike lists and tuples, sets hold an unordered collection of elements with no d
 duplicate elements. ::
 
 	set = {8, 12, 22}
+
+	# Add a single element to set
 	set.add(42)
+
+	# Add several elements to set
+	set.update([16, 32, 64])
+
+	# Remove an element from set - throws an error if element not in set 
+	set.remove(42)
+
+	# Remove an element if present in set 
 	set.discard(42)
 
-	set.update([16, 32, 64]) 
+	 
 
 Since a set is an unordered collection of elements, indexing is not possible. Python natively supports typical set operation methods: ::
 
