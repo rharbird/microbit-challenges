@@ -13,15 +13,15 @@ the possibilities are endless. Let's take a look at the features that you can us
  * A magnetometer to tell you which direction you’re heading in.
  * A radio and a Bluetooth Low Energy connection to interact with other devices.
 
-.. image:: assets/microbit-hardware-access.jpg
+.. figure:: assets/microbit-hardware-access.jpg
    :scale: 40%
    :align: center
    
-Source: https://microbit.org/guide/features/
+   Source: https://microbit.org/guide/features/
 
 You can program micro:bit using several languages: MicroPython, C++ or JavaScript. This tutorial will focus on programming micro:bit using
 MicroPython, but if you already are familiar with Python, or you're looking for extra challenge, look at the section for :ref:`Programming Micro:bit Using Other laguages`. 
-C/C++ might be useful in particular, as it's the main language used to program the embedded devices.
+C/C++ might be useful in particular, as it's the main language used to program embedded devices.
 
 .. _languages: https://microbit.org/code/
 
@@ -31,6 +31,11 @@ writing a series of steps to be executed (it's an *imperative* language), as you
 
 .. _Python: https://www.python.org/
 .. _here: https://docs.micropython.org/en/latest/genrst/index.html
+
+.. figure:: assets/programming.jpg
+   :align: center 
+
+   Source: HOMEWORK
 
 Guide to the guide
 ===================
