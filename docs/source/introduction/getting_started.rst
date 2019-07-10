@@ -32,5 +32,20 @@ writing a series of steps to be executed (it's an *imperative* language), as you
 .. _Python: https://www.python.org/
 .. _here: https://docs.micropython.org/en/latest/genrst/index.html
 
-The following sections will walk you through coding using micro:bit, including basics of programming and micro:bit's features. Feel free to skip over the parts you are 
-confident in and choose the parts that you need.
+Guide to the guide
+===================
+
+Sections in this tutorial will walk you through coding using micro:bit, basics of programming and micro:bit's features. Especially if you're a beginner,
+you don't have to meticulously go through all the theory covered in Basics of programming. Start with writing simple programs using the features of micro:bit or
+the examples and
+read about more programming concepts as you go and according to what you need. Feel free to skip over the parts you are confident in and choose the parts that you need.
+
+Topics covered here are generally only touched upon and many things are not explained on purpose. One of the important skills
+you will need in the course and work later on will be reading the official documentation, which is why there are links to it all along the way. 
+
+As you learn more about programming, you'll naturally keep finding better and more efficient ways to do your 
+projects of the past, but right now you should focus on getting yourself started on small projects.  
+
+.. note:: If you feel confused while reading through tutorials or if you feel like you need more guidance to start programming, don't be discouraged! There is a lot of free online courses that are great at going through basics of programming with Python, like this one_. Try to go through a first few lessons, and everything will make more sense.
+
+.. _one:: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2 

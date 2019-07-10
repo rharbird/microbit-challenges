@@ -88,10 +88,6 @@ What happens when you replace ``scroll`` by ``show``?
 
 Now you have written your first program. Next sections will tell you more about writing more complex programms and about further uses of micro:bit.
 
-.. note:: If you feel confused or if you feel like you need more guidance to start programming, don't feel discouraged! There is a lot of free online courses that are great at going through basics of programming with Python, like this one_. Try to go through a first few lessons, and everything will make more sense!
-
-.. _one:: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2 
-
 .. seealso:: See the full micro:bit documentation_ for MicroPython.
 
 .. _documentation:: https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html 
