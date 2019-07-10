@@ -3,7 +3,7 @@ Vigenère Cipher
 ****************
 
 This cipher, also called 'le chiffre indéchiffrable', was first described by Giovan Battista Belazzo. Although the concept is easy to understand, the cipher resisted 
-breaking for three centuries, until Friedrich Kasiski introduced a succesful general attack.  
+breaking for three centuries, until Friedrich Kasiski introduced a first succesful general attack.  
 
 It works similarly to Caesar substitution cipher, since it's also based on shifting aplhabet positions. This time instead of shifting all letters 
 by the same value, we choose a keyword which determines a different value for each letter in the plaintext.
