@@ -31,4 +31,4 @@ apply to the message. Try to think of (or look for) language properties or techn
 	dattatj rdfr uptm kcfjcucjjub ecdozl uovc oz ronc fzl oz jwfkc, fzl av rdajc pzdfuuaycl eufjwdcnocj vtan culct jrftj ydokd ltcfn eczcfrd rdc jcf, mzayz fzl vfgaptcl 
 	eb f zoxdrnftc kpur tcflb fzl cfxct ra uaajc rdcn az rdc yatul ydczcgct fzardct cftrdipfmc jdfuu dcfgc rdcot nazjrtapj jrazc korb fxfoz ra rdc jpz fzl fot.
 
-	-- d.w. uagcktfvr, kfuu av krdpudp
+	-- D.W. Uagcktfvr, Kfuu Av Krdpudp
