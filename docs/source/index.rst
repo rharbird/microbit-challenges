@@ -66,13 +66,15 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    :maxdepth:1
    :caption: Challenges
 
+   challenges/crypto/morse.rst 
+   challenges/crypto/caesar.rst 
+   challenges/crypto/substitution.rst
+   challenges/crypto/vigenere.rst
+
    challenges/games/bop-it.rst
    challenges/games/consonant-or-vowel.rst
    challenges/games/egg-basket.rst
-   challenges/crypto/caesar.rst
-   challenges/crypto/substitution.rst
-   challenges/crypto/vigenere.rst
-   challenges/crypto/morse.rst		  
+   	  
    challenges/sensors/spirit_level.rst
    challenges/sensors/theremin.rst
    challenges/sensors/radio.rst
