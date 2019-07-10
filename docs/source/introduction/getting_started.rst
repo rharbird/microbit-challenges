@@ -48,4 +48,4 @@ projects of the past, but right now you should focus on getting yourself started
 
 .. note:: If you feel confused while reading through tutorials or if you feel like you need more guidance to start programming, don't be discouraged! There is a lot of free online courses that are great at going through basics of programming with Python, like this one_. Try to go through a first few lessons, and everything will make more sense.
 
-.. _one:: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2 
+.. _one: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2 

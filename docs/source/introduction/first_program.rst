@@ -90,4 +90,4 @@ Now you have written your first program. Next sections will tell you more about 
 
 .. seealso:: See the full micro:bit documentation_ for MicroPython.
 
-.. _documentation:: https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html 
+.. _documentation: https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html 
