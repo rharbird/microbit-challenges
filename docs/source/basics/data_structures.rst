@@ -108,9 +108,12 @@ Since a set is an unordered collection of elements, indexing is not possible. Py
 	set_b = {4,5,6,7}
 	set_c = {1,2}
 
+	# Check for membership
 	2 in set_a
 
+	# Return elements in the intersection of set_a and set_b
 	set_a.intersection(set_b)
+	# Return true if set_a contains all the elements of set_c
 	set_a.issuperset(set_c)
 
 An empty set is created using a `set()` method, as using braces creates an empty dicionary (see below).  	
