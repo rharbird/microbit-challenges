@@ -11,7 +11,7 @@ which is why Python and most other programming languages recognise several data 
 +=================+======================================================+====================+
 | Integers        | Whole numbers                                        | ``42``             |
 +-----------------+------------------------------------------------------+--------------------+
-| Floats          | Numbers with decimap point, fractions                | ``3.1415``         |
+| Floats          | Numbers with decimal point, fractions                | ``3.1415``         |
 +-----------------+------------------------------------------------------+--------------------+
 | Complex numbers | Numbers with both real and an imaginary component    | ``1 + 3j``         |
 +-----------------+------------------------------------------------------+--------------------+
@@ -39,7 +39,7 @@ Let's look at an example using arithmetic operators the temperature read by the 
 	celsiusTemp = temperature()
 	fahrenheitTemp = celsiusTemp * 9 / 5 + 32  
 
-..note:: Python recognises two division operators: ``/`` and ``//``. First one outputs the result you'd expect, but the second one does integer division: the 
+.. note:: Python recognises two division operators: ``/`` and ``//``. First one outputs the result you'd expect, but the second one does integer division: the 
 return value is actually the floor of the result. This means that the return value is always rounded down.
 
 Operator ``%``, called ``mod`` is used to calculate the remainder when one value is divided by another. For example: maybe you'd like to know whether a number is odd or 
@@ -52,7 +52,7 @@ even, you could try dividing it by 2, if it is even then there will be no remain
 	   print("The number is even")
 
 If the remainder is equal to 1 then this program will print the message "The number is odd", otherwise. the program will print the message "The number is even". 
-You might have written this program in a different way. This shows that people think about problems in different ways and not two programs are likely to be the same. 
+You might have written this program in a different way. This shows that people think about problems in different ways and no two programs are likely to be the same. 
 
 
 Strings
