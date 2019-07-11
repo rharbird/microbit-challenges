@@ -7,7 +7,8 @@ The thermometer on the micro:bit is embedded in one of the chips – and chips g
 accurately. The chip that is used to measure temperature can be found on the left hand side of the back of the micro:bit:
 
 .. image:: assets/thermometer.png
-   :scale: 80 %
+   :scale: 40 %
+   :align: center
 
 
 Basic Functions

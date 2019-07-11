@@ -7,7 +7,8 @@ A magnetometer measures magnetic field strength in each of three axes. It can be
 by a permanent magnet or those around a coil through which a current is running.  
 
 .. image:: assets/compass.png
-   :scale: 80 %
+   :scale: 40 %
+   :align: center
 
 The interpretation of magnetic field strength is not easy. The driver for the magnetometer returns raw values. Each magnetometer is different and will require calibration 
 to account for offsets in the raw numbers and distortions to the magnetic field introduced by what are known as hard and soft iron interference.

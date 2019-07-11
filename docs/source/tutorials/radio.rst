@@ -4,7 +4,8 @@ Radio
 Micro:bit has a radio chip that can be used to transmit and receive messages.
 
 .. image:: assets/radio.png
-   :scale: 80 %
+   :scale: 40 %
+   :align: center
 
 
 Basic Functions
