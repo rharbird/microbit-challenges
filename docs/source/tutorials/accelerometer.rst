@@ -2,7 +2,7 @@
 Accelerometer
 *****************
 As its name suggests, the accelerometer on a BBC micro:bit measures acceleration.
-The accelerometer can measure acceleration of magnitude +2g to -2g. 
+The accelerometer can measure acceleration of magnitude +2g to -2g. These values are registered on a scale of 0 .. 1024. 
 
 .. figure:: assets/accelerometer.png
    :scale: 40 %
@@ -22,8 +22,7 @@ Basic Functions
 ===============
 The measurement for each axis is a positive or negative number
 indicating a value in milli-g's. When the reading is 0 you are "level"
-along that particular axis.  1024 milli-g
-is the acceleration due to gravity.
+along that particular axis. 
 
 You can access acceleration measurements one at a time or get all three
 values at once and store them in a list.

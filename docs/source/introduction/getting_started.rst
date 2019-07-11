@@ -34,7 +34,7 @@ writing a series of steps to be executed (it's an *imperative* language), as you
 
 .. figure:: assets/programming.jpg
    :align: center 
-   :scale: 70 %
+   :scale: 30 %
 
    Source: HOMEWORK
 
