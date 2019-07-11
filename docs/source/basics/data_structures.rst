@@ -25,7 +25,7 @@ Let's see how to use a list in Python. To create a list we can tell Python the n
 Finding the value of one of the elements in a list is easy as long as you remember that Python counts the elements from '0'. In our ``high_scores`` list above, 
 ``high_scores[0]`` is 25 and ``high_scores[3]`` is 15.
 
-Here you can also see that particular elements in a list cna be accessed by indexing. Furthermore, it is possible to slice lists to get only a part of a list depending
+Here you can also see that particular elements in a list can be accessed by indexing. Furthermore, it is possible to slice lists to get only a part of a list depending
 on the index. If you only want the first three, you can write ``high_scores[0:3]``, or, since we are starting at 0, we can shorten it to ``high_scores[:3]``. Mind that
 the right endpoint is alway excluded, so the 'slice' above refers to the mathematical interval ``[0:2]``.
 
