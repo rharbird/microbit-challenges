@@ -159,14 +159,14 @@ show an arrow changing in direction according to acceleration::
 	while True:
 	    x_acceleration = accelerometer.get_x()
 
-		if (x_acceleration <= 100) and (x_acceleration >= 50):
-			 display.show(Image.ARROW_N)
+	    if (x_acceleration <= 100) and (x_acceleration >= 50):
+		display.show(Image.ARROW_N)
 
 	    elif x_acceleration > 100:
-	         display.show(Image.ARROW_E) 
+	        display.show(Image.ARROW_E) 
 	
 	    elif  x_acceleration < 50:
-	         display.show(Image.ARROW_W) 
+	        display.show(Image.ARROW_W) 
 
-		else:
-			 display.show(Image.ARROW_S)	 
+	    else:
+		display.show(Image.ARROW_S)	 
