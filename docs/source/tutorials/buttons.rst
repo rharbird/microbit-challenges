@@ -60,9 +60,9 @@ To count the number of times a button was pressed, you can use the
 	from microbit import *
 
 	while True:
-		sleep(3000)
-		count = button_a.get_presses()
-		display.scroll(str(count))	
+	   sleep(3000)
+	   count = button_a.get_presses()
+	   display.scroll(str(count))	
 
 The micro:bit will sleep for 3 seconds and then wake up and check how many times button ``A`` was pressed. The number of presses is 
 stored in ``count``. 
