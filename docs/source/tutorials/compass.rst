@@ -6,7 +6,7 @@ Compass
 A magnetometer measures magnetic field strength in each of three axes. It can be used to create a digital compass or to explore magnetic fields, such as those generated 
 by a permanent magnet or those around a coil through which a current is running.  
 
-.. image:: assets/compass.jpg
+.. image:: assets/compass.png
    :scale: 80 %
 
 The interpretation of magnetic field strength is not easy. The driver for the magnetometer returns raw values. Each magnetometer is different and will require calibration 

@@ -3,7 +3,7 @@ Radio
 ******
 Micro:bit has a radio chip that can be used to transmit and receive messages.
 
-.. image:: assets/radio.jpg
+.. image:: assets/radio.png
    :scale: 80 %
 
 

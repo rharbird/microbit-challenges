@@ -4,8 +4,8 @@ Accelerometer
 As its name suggests, the accelerometer on a BBC micro:bit measures acceleration.
 The accelerometer can measure acceleration of magnitude +2g to -2g. 
 
-.. image:: assets/accelerometer.jpg
-   :scale: 80 %
+.. figure:: assets/accelerometer.png
+   :scale: 60 %
 
 The micro:bit measures movement along
 three axes:
@@ -14,7 +14,8 @@ three axes:
 * Y - tilting forwards and backwards.
 * Z - moving up and down.
 
-.. image:: assets/microbit_axes.png
+.. figure:: assets/microbit_axes.png
+   :align: center 	
 
 Basic Functions
 ===============
