@@ -14,7 +14,7 @@ the possibilities are endless. Let's take a look at the features that you can us
  * A radio and a Bluetooth Low Energy connection to interact with other devices.
 
 .. figure:: assets/microbit-hardware-access.jpg
-   :scale: 40%
+   :scale: 35%
    :align: center
    
    Source: https://microbit.org/guide/features/
