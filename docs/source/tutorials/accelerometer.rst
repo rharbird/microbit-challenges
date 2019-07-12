@@ -26,7 +26,7 @@ along that particular axis.
 
 You can access acceleration measurements one at a time or get all three
 values at once and store them in a list.
-Ask your teacher about lists later, but for now, just use the following code:: 
+You can learn more about lists in the basic sof programming section, but for now, just use the following code:: 
 
 	from microbit import *
 
