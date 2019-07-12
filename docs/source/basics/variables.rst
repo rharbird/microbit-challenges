@@ -2,7 +2,7 @@
 Variables
 **********
 
-A variable is a name you give to refer to a memory location where a value is stored. In a more abstract manner it can be thought of as a box that stores a value. 
+A variable is a name you use to refer to a memory location where a value is stored. In a more abstract manner it can be thought of as a box that stores a value. 
 All variables are made up of three parts: a name, a data type and a value. In the figure below there are three variables of different types:
 
 .. figure:: assets/variable.jpg
