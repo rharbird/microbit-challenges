@@ -6,7 +6,7 @@ A variable is a name you use to refer to a memory location where a value is stor
 All variables are made up of three parts: a name, a data type and a value. In the figure below there are three variables of different types:
 
 .. figure:: assets/variable.jpg
-   :scale: 60 %
+   :scale: 50 %
    :align: center
 
    Source: <https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables>
