@@ -14,7 +14,7 @@ All variables are made up of three parts: a name, a data type and a value. In th
 The variable ``name`` contains the string ``Bob``, the variable ``winner`` contains the value ``True`` and the variable ``score`` contains the value ``35``.
 
 In Python a variable is created when it's assigned to for the first time. Once done, variable value can be manipulated (unless it's immutable - you'll learn more about 
-this in the ref:`Data Structures` section. ::
+this in the :ref:`Data Structures` section). ::
 
 	from microbit import *
 
