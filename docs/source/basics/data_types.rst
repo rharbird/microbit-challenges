@@ -72,7 +72,7 @@ To join numbers and strings together, you must first convert the number to a str
 	if temperature < 6:
 	   display.scroll("Cold" + str(temperature))
 
-.. seealso:: Python natively provides a lot of methods_, which makes using strings much easier and saves lot of time (although implementing them on your own initially might be a good programming exercise). 
+.. note:: Python natively provides a lot of methods_, which makes using strings much easier and saves lot of time (although implementing them on your own initially might be a good programming exercise). 
 
 .. _methods: https://www.programiz.com/python-programming/methods/string
 
