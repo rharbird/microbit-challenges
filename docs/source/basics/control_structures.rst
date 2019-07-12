@@ -14,7 +14,7 @@ Conditional statements
 ======================
 
 First example of a use case of control structures arises when you only want to execute some part of your code, only if a certain condition is satisfied. 
-For example, if you want to trigger an event only if a button is pressed.::
+For example, if you want to trigger an event only if a button is pressed: ::
 
 	from microbit import *
 	import love
@@ -32,15 +32,15 @@ For example, if you want to trigger an event only if a button is pressed.::
 	sleep(100)
 
 
-In case you want to execute a different task under several different conditions, you use ``elif`` (short for ``else if``) statement. ``else`` statement comes in useful if you want to do something
-in the rest of the case, where no condition is defined. The latter two statements are only usable if you had used an ``if`` statement before, but neither is mandatory.
+In case you want to execute a different task under several conditions, use ``elif`` (short for ``else if``) statement. ``else`` statement comes in useful if you want to do something
+in the rest of the case, where no condition is defined. The latter two statements are only usable if you had used an ``if`` statement previously, but neither is mandatory.
 
 Loops
 =====
 
-Loops are a very useful structure in case you want to repeat the same section of code several times over.
-There are two types of loops: ``for`` loops, that keep count of the number of times you do something and ``while`` loops which
-perform an action until a condition you've specified is no longer happening. 
+Loops are a very useful structure in case you want to repeat a certain block of code several times over.
+There are two types of loops: ``for`` loops, that keep count of the number of times a block of code is executed, and ``while`` loops which
+perform an action until a condition you've specified is no longer true. 
 
 For loops
 ---------
