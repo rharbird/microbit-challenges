@@ -9,7 +9,8 @@ single characters, a string of characters or a small picture.
 
 
 .. image:: assets/happy.png
-   :scale: 40 %
+   :align: center
+   :scale: 60 %
 
 
 Basic Functions
@@ -101,17 +102,17 @@ DIY images
 What if you want to make your own image to display on the micro:bit?
 
 As mentioned above, each LED pixel on the physical display can be set to one of ten values from 0 (off) to 9 (fully on). 
-Armed with this piece of information, it's possible to create a new image like this::
+Armed with this piece of information, it's possible to create a new image like this ::
 
-    from microbit import *
+        from microbit import *
 
-    boat = Image("05050:"
-                 "05050:"
-                 "05050:"
-                 "99999:"
-                 "09990")
+        boat = Image("05050:"
+                        "05050:"
+                        "05050:"
+                        "99999:"
+                        "09990")
 
-    display.show(boat)
+        display.show(boat)
 
 In fact, you don't need to write this over several lines. If you think you can
 keep track of each line, you can rewrite it like this::
@@ -149,7 +150,7 @@ To create your own animation, you need to create a list of images.
 
 In this example, a boat will sink into the bottom of the display. To do that, we defined a list of 6 boat images: ::
 
-from microbit import *
+    from microbit import *
 
     boat1 = Image("05050:"
                   "05050:"
