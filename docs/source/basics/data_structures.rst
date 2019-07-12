@@ -5,15 +5,15 @@ Data Structures
 Lists
 ======
 
-Lists are a datastructures used to store any data type (or structure) in an ordered manner and one that you'll probably use most often. Let's say we want to store a player's scores, we could use a list like the 
-one pictured above. The list has one "box" for each value. The data stored in a list are called `elements`. 
+List is a data structure used to store any data type (or structure) in an ordered manner. It's a data structure that you'll probably use most often. Let's say we want to 
+store a player's scores. We could use a list like the  one pictured above. The list has one "box" for each value. The pieces of data stored in a list are called `elements`. 
 
 .. figure:: assets/list_arrow.png 
 	 :align: center
      
 	 A list.
 
-Let's see how to use a list in Python. To create a list we can tell Python the name  of the list and what it will contain:: 
+To create a list, you specify its contents enclosed within brackets and delimited by commas :: 
 
 	from microbit import *
 
@@ -22,27 +22,29 @@ Let's see how to use a list in Python. To create a list we can tell Python the n
 	print(high_scores[3])			# Print 15
 
 
-Finding the value of one of the elements in a list is easy as long as you remember that Python counts the elements from '0'. In our ``high_scores`` list above, 
-``high_scores[0]`` is 25 and ``high_scores[3]`` is 15.
+Finding the value of one of the elements in a list is straightforward as long as you keep in mind that Python counts the elements from '0'. In the ``high_scores`` list 
+above, ``high_scores[0]`` is 25 and ``high_scores[3]`` is 15.
 
-Here you can also see that particular elements in a list can be accessed by indexing. Furthermore, it is possible to slice lists to get only a part of a list depending
+Here you can also see that particular elements in a list can be accessed by their index. Furthermore, it is possible to slice lists to get only a part of a list depending
 on the index. If you only want the first three, you can write ``high_scores[0:3]``, or, since we are starting at 0, we can shorten it to ``high_scores[:3]``. Mind that
-the right endpoint is alway excluded, so the 'slice' above refers to the mathematical interval ``[0:2]``.
+the right endpoint is alway excluded, so the 'slice' above refers to the mathematical interval ``[0,2]``.
 
-Not surprisingly, Python has some features to help us do things with lists. The code snippet below will go through the array elements one by one so that we can sum them 
-and calculate the average high score::
-
-	print("Average High Score: ") 		
+Not surprisingly, Python has features for working with lists. The code snippet below calculates the sum of all elements and then calculates the average high score. 		
 
 	total_score = 0
+	
 	for score in high_scores: 		# For each element ...
 		total_score = total_score + score
 
 	average = total_score / len(high_scores)  # Use the len() function here to find the length of the array 
-	print(average)  
 
-Since you don't necessarily know what values in the list are going to be, or how large the list will be, it's useful to use the ``append`` function. 
-In this way you can for example fill a list with temperature readings or accelerometer values:: 
+The same can be done in one line using the ``sum`` function::
+
+	average_quick = sum(high_score) / len(high_score)	 
+
+
+Since you don't necessarily know what values in the list are going to be, or how large the list will be, it's useful to know the ``append`` function. 
+For example, you can use it to fill a list with temperature readings or accelerometer values:: 
 
 	from microbit import *
 
@@ -51,7 +53,8 @@ In this way you can for example fill a list with temperature readings or acceler
 		recorded_temperature.append(temperature())
 		sleep(1000)			 
 
-The ``for`` loop is executed 100 times and ``i`` will have values from 0 to 99. This will measure the temperature every second for 100 seconds and append the value on to the end of the list. 
+The ``for`` loop is executed 100 times and ``i`` will have values from 0 to 99. This will measure the temperature every second for 100 seconds and append the value 
+to the end of the list. 
 
 
 Deleting items from a list is just as straightforward::
@@ -74,7 +77,8 @@ will delete the last element in the list.
 
 .. _here: https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences
 
-.. note:: You might be thinking, whether string is a list. Even though string is an array of characters and we can even do similar operations on them (like slicing), they are both different structures with different methods (try to type ``dir(str)`` and ``dir(list)`` in your console). 
+.. note:: You might be wondering whether strings can be considered to be a list. Even though string is an array of characters and we can even do similar operations on 
+	them (like slicing), they are both different types of objects with different methods (try to type ``dir(str)`` and ``dir(list)`` in your console). 
 
 Sorting
 ^^^^^^^
@@ -103,18 +107,20 @@ Tuples are similar to lists in that the are used to store an ordered sequence of
 
     high_scores_immutable = 25, 20, 10, 15, 30
 
-You can retrieve values in the same way as in lists, but the most important difference is, that tuples are `immutable`. This means, that while in the ``high_scores`` 
-list above, you can change the value of infividual elements,::
+You can retrieve values in the same way as with lists, but the most important difference is that tuples are `immutable`. This means, that while in the ``high_scores`` 
+list above, you can change the value of individual elements: ::
 
     high_scores[0] = 42
 
-Trying to change a value inside a tuple will return a ``TypeError: Object tuple does not support item assignment``. Once you assigned values of a tuple, they cannot be 
-changed. 
+However, trying to change a value inside ``high_scores_immutable`` will return a ``TypeError: Object tuple does not support item assignment``. Once you assign values 
+inside a tuple, they cannot be changed. 
+
+Mutability is another difference between strings and lists - while lists are mutable, string are not.
 
 Sets
 =====
 
-Unlike lists and tuples, sets hold an unordered collection of elements with no duplicates. This makes them suitable to use for testing membership or removing 
+Unlike lists and tuples, sets hold an **unordered** collection of elements with no duplicates. This makes them suitable for testing membership or removing 
 duplicate elements. ::
 
 	set = {8, 12, 22}
@@ -161,7 +167,7 @@ For more methods, visit Python documentation_.
 Dictionaries
 =============
 
-Dictionary is an unordered set of key:value pairs. It's a rule that all keys are unique and have no duplicates. Unlike lists or tuples, which are indexed by numbers, 
+Dictionary is an unordered set of ``key : value`` pairs. It's a rule that all keys are unique and have no duplicates. Unlike lists or tuples, which are indexed by numbers, 
 you can retrieve a value by using the key as an index.
 
 For example, you can store the highscores of all the players: ::
