@@ -3,7 +3,7 @@ Functions II
 **************
 
 Now that you know how to use functions in practice, there are several more concepts that will help you understand behaviour of functions not only in Python,
-but they will help you realise what to look for in documentation concerning other languages as well.  
+but other languages as well.  
 
 Scope
 ======
@@ -22,11 +22,11 @@ Imagine you want to use the slightly modified ``printBirthdayGreeting()`` functi
 
 Can you spot what is wrong? If you try to run it in a shell, you'll probably get this message: `` UnboundLocalError: local variable 'age' referenced before assignment``.
 
-To understand this, we have to talk about scope. Scope is an area in which a variable is defined, can be accessed and written to. From this point of viex, we know two 
+To understand this, we have to talk about scope. Scope is an 'area' in which a variable is defined, can be accessed and written to. From this point of view we know two 
 types of variables: global and local. By default, all variables defined within a function are local - you cannot access them outside the function. And since the scope
 within the function is different from the global one, it's possible to use the same name for two different variables.
 
-Can you explain what happened above now?
+Can you explain what happened in the code snippet above now?
 
 ``age`` outside of ``printBirthdayGreeting()`` function is a global variable. However, when we want to access it inside the function, Python considers it to be a new
 local variable. How do we solve this? We declare the variable ``age`` as ``global``: ::
@@ -104,7 +104,7 @@ in a function - in a pass-by-value scenario, the argument is treated as a new lo
 an argument). In the case of pass-by-reference, the variable passed as an argument can be affected within a function. In Python, the method of parameter passing is 
 a specific combination of the two - parameter are passed by `value of object reference`_.
 
-For a really good explanation of passing parameters and the difference between different technqiues I would recommend you to read this `blogpost by Robert Heaton`_.
+For a good explanation of passing parameters and the difference between different techniques, I would recommend you to read this `blogpost by Robert Heaton`_.
 
 .. _value of object reference: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 .. _blogpost by Robert Heaton: https://robertheaton.com/2014/02/09/pythons-pass-by-object-reference-as-explained-by-philip-k-dick/
