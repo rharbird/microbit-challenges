@@ -51,10 +51,10 @@ to turn on the LEDs on the uppermost horizontal and rightmost vertical side. You
 
 	for i in range (5):
 	   # set the pixel in column 0, row i to 9 
-	   display.set_pixel(0,i,9) 
+	   display.set_pixel(0, i, 9) 
 
 	   # set the pixel in column 4, row i to 9	
-	   display.set_pixel(4,i,9)	 
+	   display.set_pixel(4, i, 9)	 
 
 Here is another example.  You could use a ``for loop`` to turn on all the LEDs in sequence, one at a time::
 
@@ -63,7 +63,7 @@ Here is another example.  You could use a ``for loop`` to turn on all the LEDs i
     display.clear()
     for x in range(0, 5):
         for y in range(0, 5):
-            display.set_pixel(x,y,9)  
+            display.set_pixel(x, y, 9)  
 
 The ``for loop`` lets you execute a loop a specific number of times using a counter. The outer loop::
 
