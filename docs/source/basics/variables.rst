@@ -2,8 +2,8 @@
 Variables
 **********
 
-A variable can be thought of as a box that the computer can use to store a value. The value held in that box can change or ‘vary’.  All variables are made up of three 
-parts: a name, a type and a value. In the figure below there are three variables of different types:
+A variable is a name you give to refer to a memory location where a value is stored. In a more abstract manner it can be thought of as a box that stores a value. 
+All variables are made up of three parts: a name, a data type and a value. In the figure below there are three variables of different types:
 
 .. figure:: assets/variable.jpg
    :scale: 60 %
@@ -13,7 +13,8 @@ parts: a name, a type and a value. In the figure below there are three variables
 
 The variable ``name`` contains the string ``Bob``, the variable ``winner`` contains the value ``True`` and the variable ``score`` contains the value ``35``.
 
-In Python we must give the variables we want to use a name and once we have done that we can start to use them, assigning and manipulating values::
+In Python a variable is created when it's assigned to for the first time. Once done, variable value can be manipulated (unless it's immutable - you'll learn more about 
+this in the ref:`Data Structures` section. ::
 
 	from microbit import *
 
