@@ -1,5 +1,5 @@
 **********************
-Caesar Cipher - Part I
+Caesar Cipher
 **********************
 	
 Description
