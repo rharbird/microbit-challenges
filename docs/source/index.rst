@@ -56,7 +56,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
 
    basics/data_types.rst 
    basics/variables.rst
-   basics/control.rst
+   basics/control_structures.rst
    basics/data_structures.rst
    basics/functions.rst
    basics/functionsii.rst
