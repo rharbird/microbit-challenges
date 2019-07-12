@@ -103,11 +103,13 @@ Tuples are similar to lists in that the are used to store an ordered sequence of
 
     high_scores_immutable = 25, 20, 10, 15, 30
 
-You can retrieve values in the same way as in lists, but the most important difference is, that tuples are `immutable`. This means, that while in the ``high_scores`` list above, you can change the value of infividual elements,::
+You can retrieve values in the same way as in lists, but the most important difference is, that tuples are `immutable`. This means, that while in the ``high_scores`` 
+list above, you can change the value of infividual elements,::
 
     high_scores[0] = 42
 
-once you define a tuple, you cannot change the value it stores.  
+Trying to change a value inside a tuple will return a ``TypeError: Object tuple does not support item assignment``. Once you assigned values of a tuple, they cannot be 
+changed. 
 
 Sets
 =====
