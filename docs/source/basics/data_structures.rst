@@ -202,4 +202,4 @@ Practice Questions
 
 1. Use micro:bit list Image.ALL_CLOCKS and iterate over all items in the list, showing them on the LED screen.
 
-2.
+2. Using the same item list, show only items with an index divisible by 3.
