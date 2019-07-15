@@ -104,3 +104,6 @@ if the temperature on the micro:bit goes below a certain value so you'll need to
 	    sleep(1000)
 
 	display.show(Image.HAPPY)
+
+Practice Questions
+===================
