@@ -107,3 +107,8 @@ if the temperature on the micro:bit goes below a certain value so you'll need to
 
 Practice Questions
 ===================
+
+1. Display a different image depending on which side microbit is tilted to.
+
+2. Program an LED 'sprite' to keep moving in a certain direction across the LED screen and change its direction upon press of a button.
+
