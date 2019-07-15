@@ -170,3 +170,21 @@ show an arrow changing in direction according to acceleration::
 
 	    else:
 		display.show(Image.ARROW_S)	 
+
+
+Practice Questions
+===================
+
+1. True or False: ::
+
+	"hello" == 'hello'
+	
+	10 == 10.0
+	
+	5/2 == 5//2
+
+	5 in [x for x in range(0,5)]
+
+	
+
+
