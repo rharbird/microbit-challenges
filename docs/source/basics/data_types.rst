@@ -185,6 +185,10 @@ Practice Questions
 
 	5 in [x for x in range(0,5)]
 
-	
+	0 == False
+
+	1 == true
+
+	0.1 + 0.2 == 0.3
 
 
