@@ -199,3 +199,7 @@ For example, you can store the highscores of all the players: ::
 
 Practice Questions
 ===================
+
+1. Use micro:bit list Image.ALL_CLOCKS and iterate over all items in the list, showing them on the LED screen.
+
+2.
