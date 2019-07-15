@@ -33,7 +33,7 @@ Operations
 
 Numbers
 --------
-Basic arithmetic operators: ``+,-,*,/`` are used in the same way as you would with a calculator. 
+Basic arithmetic operators: ``+,-,*,/`` are used in the same way as you would with a calculator.p 
 Let's look at an example using arithmetic operators the temperature read by the microbit in Celsius to Fahrenheit::
 
 	celsiusTemp = temperature()
@@ -175,7 +175,7 @@ show an arrow changing in direction according to acceleration::
 Practice Questions
 ===================
 
-1. True or False: ::
+Predict whether the return value is True or False. If False, explain why. : ::
 
 	"hello" == 'hello'
 	
@@ -190,5 +190,7 @@ Practice Questions
 	1 == true
 
 	0.1 + 0.2 == 0.3
+
+	
 
 
