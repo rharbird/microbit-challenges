@@ -195,3 +195,7 @@ For example, you can store the highscores of all the players: ::
 
 	# Retrieve a value for the key or deafult if not in dicionary
 	game_register.get('dent')		
+
+
+Practice Questions
+===================
