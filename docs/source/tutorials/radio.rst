@@ -76,6 +76,8 @@ Your micro:bit is smart, it can send and receive messages in quick succession. J
 If you print the incoming message, you will see that sometimes it contains the value ``None``. That is because sometimes the micro:bit checks for a message but nothing 
 has arrived. We can ignore these non-events by checking whether ``incoming`` equals ``None`` and ignoring it if that is the case.
 
+Interfacing With Your Phone
+----------------------------
 
 Ideas for Projects with the Radio
 =================================
