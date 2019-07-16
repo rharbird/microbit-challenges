@@ -49,6 +49,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    tutorials/thermometer.rst
    tutorials/music.rst
    tutorials/radio.rst
+   tutorials/runtime.rst
 
 .. toctree::
    :maxdepth: 1
