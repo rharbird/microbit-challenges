@@ -200,6 +200,11 @@ For example, you can store the highscores of all the players: ::
 Practice Questions
 ===================
 
-1. Use micro:bit list Image.ALL_CLOCKS and iterate over all items in the list, showing them on the LED screen.
+1. Use micro:bit list Image.ALL_CLOCKS and iterate over all items in the list with a for loop, showing them on the LED screen.
 
 2. Using the same item list, show only items with an index divisible by 3.
+
+3. Sort an integer list (for example ``list = [20, 112, 45, 80, 23]``) using the last digit of each item and keep their relative positions in case the digit is the same
+   (the result in this case would be ``[20, 80, 112, 23, 45]``).
+
+4.     
