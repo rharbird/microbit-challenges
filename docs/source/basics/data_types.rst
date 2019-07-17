@@ -175,22 +175,12 @@ show an arrow changing in direction according to acceleration::
 Practice Questions
 ===================
 
-Predict whether the return value is True or False. If False, explain why. : ::
+	1. Predict whether the return value is True or False. If False, explain why. 
 
-	"hello" == 'hello'
-	
-	10 == 10.0
-	
-	5/2 == 5//2
-
-	5 in [x for x in range(0,5)]
-
-	0 == False
-
-	1 == true
-
-	0.1 + 0.2 == 0.3
-
-	
-
-
+		a) "hello" == 'hello'
+		b) 10 == 10.0
+		c) 5/2 == 5//2
+		d) 5 in [x for x in range(0,5)]
+		e) 0 == False
+		f) 1 == true
+		g) 0.1 + 0.2 == 0.3
