@@ -79,7 +79,10 @@ has arrived. We can ignore these non-events by checking whether ``incoming`` equ
 Interfacing With Your Phone
 ----------------------------
 
+Using the microbit Bluetooth antenna, it's possible to connect your micro:bit to your phone and interact with micro:bit wirelessly. However, MicroPython does not support
+this capability due to lack of RAM capacity. 
+
 Ideas for Projects with the Radio
-=================================
+==================================
 * Send a message every time button ``A`` is pressed.
 * You will need a pair of micro:bits. Program one micro:bit to receive messages and print the message received using the ``print()`` method. Leave this micro:bit plugged into your computer with a USB cable. Program the other micro:bit to send accelerometer readings or the temperature readings in messages every second. Unplug this micro:bit and use a battery pack to power it. Congratulations! you have created a data logger!   
