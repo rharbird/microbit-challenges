@@ -207,4 +207,6 @@ Practice Questions
 3. Sort an integer list (for example ``list = [20, 112, 45, 80, 23]``) using the last digit of each item and keep their relative positions in case the digit is the same
    (the result in this case would be ``[20, 80, 112, 23, 45]``).
 
-4.     
+4. Create an animation of your own and play it on the micro:bit LED screen.
+
+5. 
