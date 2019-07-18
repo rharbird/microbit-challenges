@@ -66,3 +66,14 @@ friends with a message containing their name and age. Our program might look lik
 		
 The function ``printBirthdayGreeting`` composes the birthday message for us and returns a string. We have used the python function ``str()`` to turn ``age``, 
 which is a number, into a string.  You don't have to use functions or return values in your functions unless you want to.	
+
+Practice Questions
+===================
+
+1. Write a function ``blink(x, y)``, that will blink a LED at coordinates specified by parameters x and y once.
+
+2. Use the ``blink(x, y)`` function to blink all LEDs one after another.
+
+3. Write a function button_count() that will return a tuple of the number of times button A and button B were pressed.
+
+4. Combine the two functions into a program that will allow user to set coordinates of blinking LED by pressing buttons.
