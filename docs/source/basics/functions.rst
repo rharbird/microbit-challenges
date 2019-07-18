@@ -74,6 +74,6 @@ Practice Questions
 
 2. Use the ``blink(x, y)`` function to blink all LEDs one after another.
 
-3. Write a function button_count() that will return a tuple of the number of times button A and button B were pressed.
+3. Write a function button_count() that will return a tuple containing the number of times button A and button B were pressed. (fix)
 
 4. Combine the two functions into a program that will allow user to set coordinates of blinking LED by pressing buttons.
