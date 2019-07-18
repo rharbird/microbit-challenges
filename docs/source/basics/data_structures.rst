@@ -105,7 +105,7 @@ Tuples
 
 Tuples are similar to lists in that the are used to store an ordered sequence of items.::
 
-    high_scores_immutable = 25, 20, 10, 15, 30
+    high_scores_immutable = (25, 20, 10, 15, 30)
 
 You can retrieve values in the same way as with lists, but the most important difference is that tuples are `immutable`. This means, that while in the ``high_scores`` 
 list above, you can change the value of individual elements: ::
@@ -207,6 +207,8 @@ Practice Questions
 3. Sort an integer list (for example ``list = [20, 112, 45, 80, 23]``) using the last digit of each item and keep their relative positions in case the digit is the same
    (the result in this case would be ``[20, 80, 112, 23, 45]``).
 
-4. Create an animation of your own and play it on the micro:bit LED screen.
+4. Create an animation of your own using a tuple and play it on the micro:bit LED screen.
 
-5. 
+5. Program microbit to take a compass reading upon press of a button and store the results in a tuple.
+
+6. 
