@@ -211,4 +211,4 @@ Practice Questions
 
 5. Program microbit to take a compass reading upon press of a button and store the results in a tuple.
 
-6. 
+6. Write a program to keep record of gestures recognizable by microbit and the number of times they've been detected using a dictionary. 
