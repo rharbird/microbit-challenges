@@ -35,8 +35,6 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    introduction/getting_started.rst 
    introduction/environment.rst
    introduction/first_program.rst
-   introduction/other_languages.rst
-   introduction/cmd.rst
 
 .. toctree::
    :maxdepth: 1
@@ -80,7 +78,13 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    challenges/sensors/theremin.rst
    challenges/sensors/radio.rst
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Miscellaneous
 
+   misc/other_languages.rst 
+   misc/cmd.rst
+   
 
 .. * :ref:`genindex`
 .. * :ref:`modindex`
