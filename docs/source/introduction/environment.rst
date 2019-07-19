@@ -18,9 +18,9 @@ To download Mu, got to Mu website.
 .. _website: https://codewith.mu/en/
 
 You can choose different options to install Mu. The ones you'll most likely use is an installer for your device (Mac/Windows), or installation through
-Python package (pip) using :ref:`command line interface` if you've installed Python. Using this method will be crucial for working with Python further, since it gives 
-you an easy access to Python libraries (MicroPython does not support Python external libraries, since many are too large for an embedded device. However, a subset was
-recreated for the `MicroPython ecosystem`_). 
+Python package (pip) using :ref:`command line interface` if you've installed Python on your computer. For those that have worked with Python and used pip to install
+external libraries, MicroPython does not support many of them, since many are too large for an embedded device. However, a subset was
+recreated for the `MicroPython ecosystem`_. 
 
 .. _`MicroPython ecosystem`: https://docs.micropython.org/en/latest/library/index.html
 
