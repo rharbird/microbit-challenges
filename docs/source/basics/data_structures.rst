@@ -172,11 +172,11 @@ you can retrieve a value by using the key as an index.
 
 For example, you can store the highscores of all the players: ::
 
-    game_register = { 'googolplex': 100,
-                      'terminat0r': 27,
-                      'r00t': 150,
-                      'dent': 42,
-                      'teapot418' : 0 } 
+	game_register = { 'googolplex': 100,
+					'terminat0r': 27,
+					'r00t': 150,
+					'dent': 42,
+					'teapot418' : 0 } 
 
 	# Access elements
 	game_register['dent']
@@ -211,4 +211,4 @@ Practice Questions
 
 5. Program microbit to take a compass reading upon press of a button and store the results in a tuple.
 
-6. Write a program to keep record of gestures recognizable by microbit and the number of times they've been detected using a dictionary. (move to functions?)
+6. Write a program to keep record of gestures recognizable by microbit and the number of times they've been detected using a dictionary. 
