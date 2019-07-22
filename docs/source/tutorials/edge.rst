@@ -6,6 +6,7 @@ To fully starts using micro:bit and its functions to interface with the world, y
 circuits and components.
 
 .. figure:: assets/edge_connector.svg
-
+    :align: center
+    
     Source: https://tech.microbit.org/hardware/edgeconnector/
 
