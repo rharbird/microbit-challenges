@@ -31,6 +31,15 @@ recreated for the `MicroPython ecosystem`_.
 
 Once you have the editor installed, run it and plug micro:bit into your computer.
 
+System installer
+=================
+
+Windows
+--------
+
+Mac OSX
+---------
+
 Python ``pip install``
 =======================
 
