@@ -34,7 +34,7 @@ Once you have the editor installed, run it and plug micro:bit into your computer
 Python ``pip install``
 =======================
 
-If you've installed Python on your computer, Write ``pip install mu-editor`` command into your system's CLI
+If you've installed Python3 on your computer, write ``pip3 install mu-editor`` command into your system's CLI
 
 .. figure:: assets/pip_install.gif
     :align: center
