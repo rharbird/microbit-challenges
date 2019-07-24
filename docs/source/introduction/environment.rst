@@ -36,4 +36,4 @@ Python ``pip install``
 If you've installed Python on your computer, Write ``pip install mu-editor`` command into your system's CLI
 
 .. figure:: assets/pip_install.gif
-    align: center
+    :align: center
