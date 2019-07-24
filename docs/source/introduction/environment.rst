@@ -5,16 +5,17 @@ Setting Up Your Environment
 Before you start coding, you will need a source code editor to be able to write, load and run programs on your micro:bit.
 \There are four main options: 
 
-    - in-browser micro:bit editor_ 
-    - beginner friendly `Mu editor`_ 
-    - MicroPython application if you're on a ChromeBook  
-    - your regular Python editor to write Python files with a suite of command line commands (advanced).  
+    - In-browser `micro:bit editor`_ 
+    - Beginner friendly `Mu editor`_ 
+    - `MicroPython application`_ if you're on a ChromeBook  
+    - Your regular Python editor to write Python files with a suite of command line commands (advanced)  
 
 For the purposes of this tutorial we will be using the Mu editor, but feel free to use whatever suits you better.
 To download Mu, got to Mu website.
 
+.. _`micro:bit editor`: https://python.microbit.org
 .. _`Mu editor`: https://codewith.mu/
-.. _editor: https://python.microbit.org
+.. _`MicroPython application` : https://chrome.google.com/webstore/detail/micropython/lhdjeebhcalhgnbigbngiaglmladclbo?hl=en-GB
 .. _website: https://codewith.mu/en/
 
 You can choose different options to install Mu. The ones you'll most likely use is an installer for your device (Mac/Windows), or installation through
