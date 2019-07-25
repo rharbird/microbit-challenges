@@ -37,11 +37,6 @@ writing a series of steps to be executed (it's an *imperative* language), as you
 
    Source: HOMEWORK
 
-A letter from the Head of Department
-=====================================
-
-.. figure:: assets/letter_transparent.png
-
 Guide to the guide
 ===================
 
