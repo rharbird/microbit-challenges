@@ -5,7 +5,7 @@ Some of the challenges were adapted from the exercises by M. Atkinson on the web
 
 To download this documentation in pdf, epub or html format, click on the link at the bottom of the sidebar on the left:
 
-.. image:: sidebar.jpg
+(docs/sidebar.jpg)
 
 If you would like to contribute, go ahead! The documentation is built with sphinx-docs, http://www.sphinx-doc.org/. You only need to install sphinx-docs 
 if you want to generate a copy of the documentation locally. Follow instructions on the sphinx-docs website for information about how to install sphinx-docs. To generate pdf documents locally you must also install latex. 
