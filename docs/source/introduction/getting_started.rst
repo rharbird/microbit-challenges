@@ -57,7 +57,7 @@ to explore micro:bit runtime_, which gives you more flexibility with what it can
 .. _runtime: https://lancaster-university.github.io/microbit-docs/
 
 .. note:: If you feel confused while reading through tutorials or if you feel like you need more guidance to start programming, don't be discouraged! There is a number of 
-    free online courses that are great at going through basics of programming with Python, like this one_. Try to go through a first few lessons, and everything should 
+    free online courses that are great at going through basics of programming with Python, like this one_. Try to go through the first few lessons, and everything should 
     make more sense.
 
 .. _one: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2 
