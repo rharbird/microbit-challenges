@@ -32,6 +32,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    :maxdepth: 1
    :caption: Getting Started 
 
+   introduction/letter.rst 
    introduction/getting_started.rst 
    introduction/environment.rst
    introduction/first_program.rst
