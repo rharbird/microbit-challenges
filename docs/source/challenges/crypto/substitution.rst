@@ -21,7 +21,7 @@ A Python dictionary for the substitution cipher above would look something like 
 		  ...   }
 
 Try encrypting and decrypting messages of your own and if you feel up to the challenge, try to decrypt the text below. To save you the effort, the key above does not 
-apply to the message. Try to think of (or look for) language properties or techniques used that could help you find the key. 
+apply to the message. Try to think of (or look for) language properties or techniques that could help you find the key. 
 
 	O zay vcur xzfyozx fr nb gorfuj rdfr lftm rcttat ydokd youu zcgct ucfgc nc rouu O, raa, fn fr tcjr; “fkkolczrfuub” at ardctyojc. Pctjpflozx rdc yolay rdfr nb kazzchoaz 
 	yord dct dpjefzl’j “rckdzokfu nfrrctj” yfj jpvvokoczr ra czroruc nc ra doj nfzpjktowr, O eatc rdc lakpnczr fyfb fzl ecxfz ra tcfl or az rdc Uazlaz eafr. Or yfj f jonwuc, 

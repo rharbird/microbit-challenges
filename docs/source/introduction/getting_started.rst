@@ -41,21 +41,23 @@ Guide to the guide
 ===================
 
 Sections in this tutorial will walk you through coding using micro:bit, basics of programming and micro:bit's features. You don't have to meticulously go through all the 
-theory covered in Basics of programming, especially if you're a beginner. Start writing simple programs using the features of micro:bit or
-the examples provided and read about further programming concepts as you go. Feel free to skip over the parts you are confident in and choose the parts that are relevant.
+theory covered in Basics of programming, especially if you're a beginner. Start writing simple programs using the micro:bit and read about further programming concepts 
+as you go. Feel free to skip the parts you are confident in and choose the parts that are relevant.
 
-Topics covered here are generally only touched upon and many things are not explained on purpose. One of the important skills
-you will need in the course and work later on will be finding resources and reading documentation on your own, and we encourage you to explore other resources than those
-found here. 
+Topics covered here are generally only touched upon and many things are not explained on purpose. Some of the important skills
+you will need during the course of your studies and work later on will be independent exploration of materials and capability to read official documentation, hence we 
+encourage you to explore other resources than those found here.  
 
 As you learn more about programming, you'll naturally keep finding better and more efficient ways to do your 
 projects of the past, but right now you should focus on getting yourself started.
 
-If your skills are advanced, you might not find this documentation very interesting. However, micro:bit is a highly configurable device and you might like to explore 
-micro:bit runtime_, which gives you more flexibility about what you can do.  
+If your skills are intermediate/advanced, you might not find this documentation very interesting. However, micro:bit is a highly configurable device and you might like 
+to explore micro:bit runtime_, which gives you more flexibility with what it can be used for.  
 
 .. _runtime: https://lancaster-university.github.io/microbit-docs/
 
-.. note:: If you feel confused while reading through tutorials or if you feel like you need more guidance to start programming, don't be discouraged! There is a lot of free online courses that are great at going through basics of programming with Python, like this one_. Try to go through a first few lessons, and everything will make more sense.
+.. note:: If you feel confused while reading through tutorials or if you feel like you need more guidance to start programming, don't be discouraged! There is a number of 
+    free online courses that are great at going through basics of programming with Python, like this one_. Try to go through a first few lessons, and everything should 
+    make more sense.
 
 .. _one: https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python-2 
