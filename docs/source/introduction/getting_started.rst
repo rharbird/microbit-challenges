@@ -38,6 +38,43 @@ writing a series of steps to be executed (it's an *imperative* language), as you
 
    Source: HOMEWORK
 
+A letter from the head of department
+=====================================
+
+Dear all,
+Welcome to Computer Science at UCL.
+The journey you are about to undertake will have a profound effect on the rest of your life — your time as a university undergraduate is unique and memorable and it is 
+our task to work with you to ensure that you get the most out of it. Our aim is to make your experience with us challenging, exciting and meaningful: giving you a strong
+basis for the professional world or further study after you graduate. 
+Computer Science at UCL is focussed on building well-rounded expertise. Ours is an applied course based on strong theoretical foundations — this means that you will 
+build things, but you will know how and why they should be created as they are. Over your time at UCL, you will work with academic supervisors and real clients and so 
+you will need to learn to communicate and work in teams effectively. But, above all, you will be challenged to become an independent learner, capable of managing your 
+own study; given the rate of change in technology, this is a (perhaps the) key skill for life after university.
+Your journey starts here. Enclosed in this pack is a BBC micro:bit. This is a small computer with attached sensors that was designed to help students learn to program. 
+Some of you may have seen this already, many will not have done. Regardless, we’d like to challenge you to do two things before you arrive, and to show us what you have 
+achieved in the first week of your time at UCL. The two things are:
+
+1.	Work through some of the material you can find at:
+    <http://microbit-challenges.readthedocs.io>
+    and use the examples and project ideas to write some simple Python programs for the micro:bit.
+
+2.	Surprise us. Do something creative with the micro:bit — we don’t mind what it is, but we want it to be your own work.
+
+There are no marks for this. And you may need to find and explore resources on the web other than those we have provided. Some of you may struggle. The point here is 
+that you start your journey as independent learners: most of the things in life worth having require an investment of time and effort, and a UCL education is worth 
+having. We will ask you to share what you have done with us in the first week of term, so please do remember to bring your micro:bit with you.
+Please note: we do not expect you to buy additional hardware to enhance your micro:bit and we do not expect you to spend every waking hour of the next month coding. We 
+are looking for creativity and a willingness to learn, not volume of code or expensive rigs.
+I hope your time with us will be exciting and challenging. And, since I will be there in your first week and will then teach one of your first courses, I very much look 
+forward to meeting you.
+
+
+.. figure:: assets/signature_transparent.png
+
+    Steve Hailes
+    Head of Department
+
+
 Guide to the guide
 ===================
 
