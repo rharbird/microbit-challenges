@@ -18,7 +18,7 @@ Basic Functions
 Display a string or an image
 ----------------------------
 
-You can display characters on the LED display using ``show`` function ::
+You can display characters on the LED display using ``show`` function: ::
 
     from microbit import *
 
@@ -75,7 +75,7 @@ You can set a pixel brightness on the LED display using the ``set_pixel`` method
 
 This sets the LED at column ``0`` and row ``4`` to a brightness of ``9``. The brightness value can be any whole number
 between 0 and 9 with 0 switching the LED off and 9 being the brightest setting. You could use a ``for loop`` 
-to set all the LEDs one at a time::
+to set all the LEDs one at a time: ::
 
     from microbit import *
 
