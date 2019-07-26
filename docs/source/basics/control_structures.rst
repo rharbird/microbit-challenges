@@ -13,7 +13,7 @@ for your code - whether it is control over which statements get executed or how 
 Conditional statements
 ======================
 
-First example of a use case of control structures arises when you only want to execute some part of your code, only if a certain condition is satisfied. 
+First example of a use case of control structures arises when you want to execute a part of your code only if a certain condition is satisfied. 
 For example, if you want to trigger an event only if a button is pressed: ::
 
 	from microbit import *
@@ -32,8 +32,8 @@ For example, if you want to trigger an event only if a button is pressed: ::
 	sleep(100)
 
 
-In case you want to execute a different task under several conditions, use ``elif`` (short for ``else if``) statement. ``else`` statement comes in useful if you want to do something
-in the rest of the case, where no condition is defined. The latter two statements are only usable if you had used an ``if`` statement previously, but neither is mandatory.
+In case you want to execute a different task under several different conditions, use ``elif`` (short for ``else if``) statement. ``else`` statement comes in useful if you want to do something
+in the rest of the cases, where no condition is defined. The latter two statements are only usable if you had used an ``if`` statement previously, but neither is mandatory.
 
 Loops
 =====
@@ -99,7 +99,7 @@ if the temperature on the micro:bit goes below a certain value so you'll need to
 
 	from microbit import *
 	
-	while temperature() < 18:
+	while (temperature() < 18):
 	    display.scroll(Image.SAD)
 	    sleep(1000)
 
