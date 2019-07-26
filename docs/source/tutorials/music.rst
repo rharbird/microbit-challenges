@@ -1,8 +1,7 @@
 ********
-Music
+Sound
 ********
-This is a quick guide to some of the things you can do with micro:bit music. You can use the micro:bit to play simple tunes, provided that you connect a speaker to your 
-board. 
+Micro:bit can be used to play simple tunes, provided that you connect a speaker to your board. 
 
 If you are using headphones you can use crocodile clips to connect your micro:bit to headphones: 
 
@@ -10,7 +9,8 @@ If you are using headphones you can use crocodile clips to connect your micro:bi
     :align: center	
     :scale: 70 %
 
-.. warning:: You cannot control the volume of the sound level from the micro:bit. Please be very careful if you are using headphones. A speaker is a safer choice for work with sound.
+.. warning:: You cannot control the volume of the sound level from the micro:bit. Please be very careful if you were using headphones. A speaker is a safer choice while 
+	working with sound.
 
 You can also connect your micro:bit to a speaker using crocodile clips: 
 
@@ -78,7 +78,7 @@ Micro:bit will remember the octave of the note defined previously. Hence, the tu
 
 Advanced Functions
 ===================
-You can also specify the note you want to play using its frequency using the ``pitch`` method. For example, to create a Police Siren effect ::
+You can also specify the note you want to play using its frequency using the ``pitch`` method. For example, to create a police siren effect ::
 
 	while True:
 		for freq in range(880, 1760, 16):
@@ -88,7 +88,7 @@ You can also specify the note you want to play using its frequency using the ``p
 	 
 Can you guess what this does? Each time around the loop a new frequency is calculated by adding (or subtracting) 16. 
 
-Ideas for Projects with Music 
-==============================
+Practice questions
+===================
 * Make up your own tune.
 * Make a musical instrument. Change the pitch of the sound played based on the readings from the accelerometer.  
