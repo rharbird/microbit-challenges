@@ -1,8 +1,10 @@
 *****************
 Accelerometer
 *****************
+
 As its name suggests, the accelerometer on a BBC micro:bit measures acceleration.
-The accelerometer can measure acceleration of magnitude +2g to -2g. These values are registered on a scale of 0 .. 1024. 
+The accelerometer is set to measure acceleration values in the range +2g to -2g, and cannot be changed with MicroPython so far. These values are registered on a scale 
+of values in range 0 .. 1024. 
 
 .. figure:: assets/accelerometer.png
    :scale: 40 %
@@ -26,7 +28,7 @@ along that particular axis.
 
 You can access acceleration measurements one at a time or get all three
 values at once and store them in a list.
-You can learn more about lists in the basic sof programming section, but for now, just use the following code:: 
+You can learn more about lists in the basics of programming section, but for now, just use the following code: :: 
 
 	from microbit import *
 
@@ -46,28 +48,26 @@ so the LEDs are nearest the floor. The Z value should become positive at
 accelerations go up to ±2048 milli-g. That’s because this accelerometer is set
 to measure a maximum of ±2048 milli-g: the true number might be higher than that.
 
-If you've ever wondered how a mobile phone knows which way to show the images on
+If you've ever wondered how a mobile phone knows which way to orient
 its screen, it's because it uses an accelerometer in exactly the same way as
-the program above. Game controllers also contain accelerometers to help you
-steer and move around in games.
+the program above. Game controllers also contain accelerometers to enable steering.
 	
 Gestures
 --------
 
 The really interesting side-effect of having an accelerometer is gesture
 detection. If you move your BBC micro:bit in a certain way (as a gesture) then
-MicroPython is able to detect this.
+micro:bit is able to detect this.
 
-MicroPython is able to recognise the following gestures: ``up``, ``down``,
+micro:bit is able to recognise the following gestures: ``up``, ``down``,
 ``left``, ``right``, ``face up``, ``face down``, ``freefall``, ``3g``, ``6g``,
 ``8g``, ``shake``. Gestures are always represented as strings. While most of
 the names should be obvious, the ``3g``, ``6g`` and ``8g`` gestures apply when
-the device encounters these levels of g-force (like when an astronaut is
-launched into space).
+the device encounters these levels of g-force.
 
 To get the current gesture use the ``accelerometer.current_gesture`` method.
 Its result is going to be one of the named gestures listed above. For example,
-this program will only make your device happy if it is face up::
+this program will display a happy emoticon if it's face up::
 
     from microbit import *
 
@@ -78,9 +78,8 @@ this program will only make your device happy if it is face up::
         else:
             display.show(Image.ANGRY)
 
-Once again, because we want the device to react to changing circumstances we
-use a ``while`` loop. Within the *scope* of the loop the current gesture is
-read and put into ``gesture``. The ``if`` conditional checks if ``gesture`` is
+Within the *scope* of the loop the current gesture is
+read and assigned to ``gesture``. The ``if`` conditional checks if ``gesture`` is
 equal to ``"face up"`` (Python uses ``==`` to test for equality, a single
 equals sign ``=`` is used for assignment - just like how we assign the gesture
 reading to the ``gesture`` object). If the gesture is equal to ``"face up"``
@@ -90,33 +89,30 @@ look angry!
 
 Advanced Functions
 ==================
-There aren’t any for the accelerometer. But it's worth looking at how 
+There aren’t any for the accelerometer, but it's worth looking at how 
 we can use the 3D acceleration to detect different kinds of motion like a 
 being shaken. Acceleration is what
-is known as a vector quantity (talk to your maths teacher) – it has a
+is known as a vector quantity – it has a
 magnitude (size, length) and a direction. To get the overall magnitude,
-irrespective of orientation, we need to do a bit of maths. If we only
-had X and Y axes (i.e. we had a 2D accelerometer) the situation would be:
+irrespective of orientation, with only X and Y axes (i.e. we had a 2D accelerometer) the situation would be:
 
 .. image:: assets/microbitOverallAcceleration.jpg
    :scale: 60 %
    :align: left
 
-We can calculate the magnitude (length) of the resultant from Pythagoras' rule:
+We can calculate the magnitude (length) of the resultant using Pythagoras' rule:
 
 .. math::
 
    acceleration = \sqrt{x^2 + y^2}
 
-BUT, we have a 3D accelerometer - and the same principle holds where we have 
-X, Y and Z axes. So the overall magnitude of the resultant acceleration vector
-is:
+The same principle holds with a 3D accelerometer. So the overall magnitude of the resultant acceleration vector is:
 
 .. math::
 
    acceleration = \sqrt{x^2 + y^2 + z^2}
 
-Here is the code to calculate the overall acceleration::
+Calculating the overall acceleration: ::
 
 	from microbit import *
 	import math
@@ -138,8 +134,8 @@ device. Dealing with this is a process called calibration and is something
 we have to do when we need to know a quantity accurately.
 
 
-Ideas for Projects with the Accelerometer
-=========================================
+Practice questions
+===================
 * Using the BBC micro:bit music library, play a note based on the the reading from the accelerometer. Hint: set the pitch to the value of the accelerometer measurement.
 * Display the characters 'L' or 'R' depending on whether the BBC micro:bit is tilted to the left or the right.
 * Make the LEDs light up when the magnitude of the acceleration is greater than 1024 milli-gs.

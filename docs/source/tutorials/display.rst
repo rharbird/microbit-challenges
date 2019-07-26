@@ -18,7 +18,7 @@ Basic Functions
 Display a string or an image
 ----------------------------
 
-You can display characters on the LED display using ``show`` function: ::
+You can display characters on the LED display using ``show`` method: ::
 
     from microbit import *
 
