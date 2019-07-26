@@ -4,7 +4,7 @@ Data Types
 
 In order to accurately capture various types of data, programming languages provide us with different data types to allow us to represent them properly.
 Each case, whether it is gathering acceleration values from the accelerometer or counting the number of times a button was pressed, requires a different approach, 
-which is why Python and most other programming languages recognise several data types for representing values, including:
+which is why Python and most other programming languages recognise several data types for representing values:
 
 +-----------------+------------------------------------------------------+--------------------+
 | **Data Type**   | **Description**                                      | **Example**        |
@@ -20,7 +20,7 @@ which is why Python and most other programming languages recognise several data 
 | Booleans        | Values representing true and false values            | ``False``          |
 +-----------------+------------------------------------------------------+--------------------+
 
-In a simple program you might use all of these. Here are the data types you could use for a program storing information about your micro:bit games:
+In a simple program you might use all of these. Here are the data types you could use in a program storing information about your micro:bit game:
 
 .. figure:: assets/dataTypes.png 
 	 :align: center
@@ -33,8 +33,8 @@ Operations
 
 Numbers
 --------
-Basic arithmetic operators: ``+,-,*,/`` are used in the same way as you would with a calculator.p 
-Let's look at an example using arithmetic operators the temperature read by the microbit in Celsius to Fahrenheit::
+Basic arithmetic operators: ``+,-,*,/`` are used in the same way as you would with a calculator. 
+Let's look at an example using arithmetic operators the temperature read by the micro:bit in Celsius to Fahrenheit::
 
 	celsiusTemp = temperature()
 	fahrenheitTemp = celsiusTemp * 9 / 5 + 32  
@@ -43,7 +43,7 @@ Let's look at an example using arithmetic operators the temperature read by the 
 	return value is actually the floor of the result. This means that the return value is always rounded down.
 
 Operator ``%``, called ``mod`` is used to calculate the remainder when one value is divided by another. For example: maybe you'd like to know whether a number is odd or 
-even, you could try dividing it by 2, if it is even then there will be no remainder::
+even, you could try dividing it by 2, if it's even, then there will be no remainder::
 
 	number = 3
 	if number % 2 == 1:
@@ -51,20 +51,20 @@ even, you could try dividing it by 2, if it is even then there will be no remain
 	else:
 	   print("The number is even")
 
-If the remainder is equal to 1 then this program will print the message "The number is odd", otherwise. the program will print the message "The number is even". 
-You might have written this program in a different way. This shows that people think about problems in different ways and no two programs are likely to be the same. 
+If the remainder is equal to ``1`` then this program will print ``The number is odd``, otherwise it will print ``The number is even``. 
+You might write this program in a different way. People think about problems in different ways and no two programs are likely to be the same. 
 
 
 Strings
 --------
-As stated above, strings (``str`` type in Python) are sequences of characters, with a length limited only by the memory of your machine. An important thing to note is 
-that they can be concatenated with a ``+`` symbol::
+As stated above, strings (``str`` type in Python) are sequences of characters, with a length limited only by the memory of your machine. A useful fact to note is 
+that they can be concatenated using a ``+`` symbol::
 
 	name = "Hayley"
 
 	message = "Well done " + name + ". You are victorious!"
 
-This will concatenate the items on the right hand side of the ``=`` and put the result in the variable called ``message``.
+This will concatenate the items on the right hand side of ``=`` and put the result in the variable called ``message``.
 
 To join numbers and strings together, you must first convert the number to a string using the ``str()`` function if you want to do that::
 
@@ -72,16 +72,17 @@ To join numbers and strings together, you must first convert the number to a str
 	if temperature < 6:
 	   display.scroll("Cold" + str(temperature))
 
-.. note:: Python natively provides a lot of methods_, which makes using strings much easier and saves lot of time (although implementing them on your own initially might be a good programming exercise). 
+.. note:: Python natively provides a lot of methods_, which makes using strings much easier and saves lot of time (although implementing them on your own initially 
+	might be a good programming exercise). 
 
 .. _methods: https://www.programiz.com/python-programming/methods/string
 
 Booleans
 ---------
-A Boolean value is a value that is either ``True`` or ``False``, also represented by `1` and `0`. In python, there is a number of operations that 
+A Boolean value is a value that is either ``True`` or ``False``, also represented by `1` and `0`. In Python, there is a number of operations that 
 allow you to manipulate boolean expressions.  
 
-Comparisons
+Comparison
 ^^^^^^^^^^^^
 
 .. figure:: assets/booleanLogic.jpg 
@@ -157,15 +158,15 @@ show an arrow changing in direction according to acceleration::
 	from microbit import *
 	
 	while True:
-	    x_acceleration = accelerometer.get_x()
+	    x_bearing = accelerometer.get_x()
 
-	    if (x_acceleration <= 100) and (x_acceleration >= 50):
+	    if (x_bearing <= 100) and (x_acceleration >= 50):
 		display.show(Image.ARROW_N)
 
-	    elif x_acceleration > 100:
+	    elif x_bearing > 100:
 	        display.show(Image.ARROW_E) 
 	
-	    elif  x_acceleration < 50:
+	    elif  x_bearing < 50:
 	        display.show(Image.ARROW_W) 
 
 	    else:
@@ -184,3 +185,4 @@ Practice Questions
 		e) 0 == False
 		f) 1 == true
 		g) 0.1 + 0.2 == 0.3
+		
