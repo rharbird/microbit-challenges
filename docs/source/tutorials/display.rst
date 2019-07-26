@@ -188,8 +188,8 @@ In this example, a boat will sink into the bottom of the display. To do that, we
     all_boats = [boat1, boat2, boat3, boat4, boat5, boat6]
     display.show(all_boats, delay=200)    
 
-Projects with LED Display
-==========================
+Practice questions
+===================
 * Try out some of the built-in images to see what they look like. 
 * Animate the ``Image.ALL_ARROWS`` list. How do you avoid looping forever (hint: the opposite of ``True`` is ``False``). Can you change the speed of the animation?
 * Make your own image. Next try to make it fade out and then fade in again?
