@@ -1,6 +1,6 @@
-************
+**********
 Compass
-************
+**********
 .. py:module:: microbit.compass
 
 A magnetometer measures magnetic field strength in each of three axes. It can be used to create a digital compass or to explore magnetic fields, such as those generated 
@@ -11,7 +11,7 @@ by a permanent magnet or those around a coil through which a current is running.
    :align: center
 
 The interpretation of magnetic field strength is not easy. The driver for the magnetometer returns raw values. Each magnetometer is different and will require calibration 
-to account for offsets in the raw numbers and distortions to the magnetic field introduced by what are known as hard and soft iron interference.
+to account for offsets in the raw numbers and distortions due to the magnetic field introduced by what is known as hard and soft iron interference.
 
 Before doing anything else, you should calibrate your BBC micro:bit but beware:
 
@@ -25,7 +25,7 @@ Before doing anything else, you should calibrate your BBC micro:bit but beware:
 Basic Functions
 ================
 The interface to the magnetometer looks very much like the interface to the accelerometer, except that we only use the x and y values to determine direction.  Remember, 
-before using the compass you should calibrate it, otherwise the readings may be wrong::
+before using the compass you should calibrate it, otherwise the readings may be wrong: ::
 
     from microbit import *
 
@@ -57,10 +57,10 @@ The 180/PI is because the angle returned is in radians rather than degrees.  For
 
    compass.heading()
 
-This gives the compass heading, as an integer in the range from 0 to 360, representing the angle in degrees, clockwise, with north as 0. You will still to calibrate the 
+This gives the compass heading, as an integer in the range from 0 to 360, representing the angle in degrees, clockwise, with north as 0. You still need to calibrate the 
 device before you use ``compass.heading``.
 
-Ideas for Projects with the Compass
-===================================
+Practice questions
+===================
 * Make the micro:bit into a compass that illuminates the LED closest to where north lies.
 * Calibrate your magnetometer. Find out whether the calibration stays (about) the same over time and whether it is the same inside or outside a building or near something that has a lot of steel in it (e.g. a lift).
