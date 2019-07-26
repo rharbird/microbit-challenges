@@ -20,16 +20,16 @@ is called a class::
 This example shows a template of a Player object, which is empy and not very useful right now. To make it more useful, we can add attributes to it - ``total_count`` is class
 attribute, that keeps count of all the instances of objects of class Player by incrementing a value every time a new Player() object is instantiated. ::
 
-class Player():
+    class Player():
         total_count = 0
 
 A class attribute is the same for any instance of class Player, and so you can find out the total number of players through any of them.
 Other attributes that could be useful would be instance attributes (different for every instance of an object) name and score. 
 How will they be defined? And how can we know when a new object is created to increment the ``total_count``? 
 
-It is possible to define an ``__init__()`` method for your class, which can take in other arguments and can specify an initial state of an object. In this way, when 
-the object ``player_1`` below is instantiated, the player's initial score will be zero, the name will be as specified in the argument and ``total_count`` 
-will increment by one.::
+It is possible to define an ``__init__()`` method for your class, which will be used during an instantiation of a new object and which can take in other arguments and 
+specify an initial state of an object. In this way, when the object ``player_1`` below is instantiated, the player's initial score will be zero, the name will be as 
+specified in the argument and ``total_count`` will increment by one. ::
 
     class Player():
         total_count = 0
@@ -40,7 +40,7 @@ will increment by one.::
             self.__class__.total_count += 1
 
 Furthermore, we can define methods specifically for our class of objects. For example, class methods ``update_score()`` and ``change_name`` to update values of ``name``
-and ``score``.  
+and ``score``.  ::
 
     class Player():
         total_count = 0
