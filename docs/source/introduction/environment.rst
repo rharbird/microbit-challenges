@@ -8,10 +8,10 @@ Before you start coding, you will need a source code editor to be able to write,
     - In-browser `micro:bit editor`_ 
     - Beginner friendly `Mu editor`_ 
     - `MicroPython application`_ if you're on a ChromeBook  
-    - Your regular Python editor to write Python files with a suite of command line commands (advanced)  
+    - Your regular Python editor with a suite of CLI commands (advanced)  
 
 For the purposes of this tutorial we will be using the Mu editor, but feel free to use whatever suits you better.
-To download Mu, got to Mu website.
+To download Mu, go to Mu website.
 
 .. _`micro:bit editor`: https://python.microbit.org
 .. _`Mu editor`: https://codewith.mu/
@@ -19,31 +19,16 @@ To download Mu, got to Mu website.
 .. _website: https://codewith.mu/en/
 
 You can choose different options to install Mu. The ones you'll most likely use is an installer for your device (Mac/Windows), or installation through
-Python package (pip) using :ref:`command line interface` if you've installed Python on your computer. For those that have worked with Python and used pip to install
-external libraries, MicroPython does not support many of them, since many are too large for an embedded device. However, a subset was
-recreated for the `MicroPython ecosystem`_. 
+Python package (pip) using :ref:`command line interface` if you've installed Python on your computer.
+
+.. note:: For those that had worked with Python previously, MicroPython does not support regular Python external libraries, since many are too large for an embedded 
+    device. However, a subset was recreated specifically for the `MicroPython ecosystem`_. 
 
 .. _`MicroPython ecosystem`: https://docs.micropython.org/en/latest/library/index.html
 
 .. figure:: assets/installation_options.PNG
    :align: center
    :scale: 70% 
+   :target: https://codewith.mu/en/download
 
-Once you have the editor installed, run it and plug micro:bit into your computer.
-
-System installer
-=================
-
-Windows
---------
-
-Mac OSX
----------
-
-Python ``pip install``
-=======================
-
-If you've installed Python3 on your computer, write ``pip3 install mu-editor`` command into your system's CLI
-
-.. figure:: assets/pip_install.gif
-    :align: center
+Once the editor is installed, run it and plug micro:bit into your computer.
