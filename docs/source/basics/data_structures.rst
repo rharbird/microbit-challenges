@@ -13,7 +13,7 @@ store a player's scores. We could use a list like the  one pictured above. The l
      
 	 A list.
 
-To create a list, you specify its contents enclosed within brackets and delimited by commas :: 
+To create a list, you specify its contents enclosed within brackets and delimited by commas: :: 
 
 	from microbit import *
 
@@ -29,7 +29,7 @@ Here you can also see that particular elements in a list can be accessed by thei
 on the index. If you only want the first three, you can write ``high_scores[0:3]``, or, since we are starting at 0, we can shorten it to ``high_scores[:3]``. Mind that
 the right endpoint is alway excluded, so the 'slice' above refers to the mathematical interval ``[0,2]``.
 
-Not surprisingly, Python has features for working with lists. The code snippet below calculates the sum of all elements and then calculates the average high score. 		
+Not surprisingly, Python has features for working with lists. The code snippet below calculates the sum of all elements and then calculates the average high score. ::		
 
 	total_score = 0
 	
@@ -73,7 +73,7 @@ This will delete or 'pop' the element at the given position in the list. Note th
 will delete the last element in the list.
 
 
-.. tip:: You can look here_ to see more useful native functions on lists.
+.. tip:: You can look here_ to see more useful methods on lists.
 
 .. _here: https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences
 
@@ -91,23 +91,23 @@ Often you'll find the need to have data in your list sorted, for example when im
 
 You don't only have to sort numbers - its optional key parameter allows you to specify your own	function for comparing elements in your list (for example, while 
 sorting a list of strings according to length, you can pass the len() function as the parameter). Passing false to reverse parameter allows you to sort in a descending 
-order.
+order. ::
 
 	list = ['longest', 'short', 'longer']
 
-	# Sort list in ascending order of length
+	# Sort list in ascending order of string length
 	list.sort(key=len)
-	# Sort list in descending order of length
+	# Sort list in descending order of string length
 	list.sort(key=len, reverse=True)
 
 Tuples
 =======
 
-Tuples are similar to lists in that the are used to store an ordered sequence of items.::
+Tuples are similar to lists in that they are used to store an ordered sequence of items, usually of varying datatype.::
 
     high_scores_immutable = (25, 20, 10, 15, 30)
 
-You can retrieve values in the same way as with lists, but the most important difference is that tuples are `immutable`. This means, that while in the ``high_scores`` 
+You can retrieve values in the same way as with lists, but the most important difference is that tuples are `immutable`. This means, that in the ``high_scores`` 
 list above, you can change the value of individual elements: ::
 
     high_scores[0] = 42
@@ -139,7 +139,7 @@ duplicate elements. ::
 
 	 
 
-Since a set is an unordered collection of elements, indexing is not possible. Python natively supports typical set operation methods: ::
+Since a set is an unordered collection of elements, indexing is not possible. Python supports typical set operation methods: ::
 
 	set_a = {1,2,3,4,5}
 	set_b = {4,5,6,7}
@@ -153,7 +153,7 @@ Since a set is an unordered collection of elements, indexing is not possible. Py
 	# Return true if set_a contains all the elements of set_c
 	set_a.issuperset(set_c)
 
-An empty set is created using a `set()` method, as using braces creates an empty dicionary (see below).  	
+An empty set is created using a ``set()`` method, as using braces creates an empty dictionary (see below).  	
 
 For more methods, visit Python documentation_.
 
@@ -168,15 +168,15 @@ Dictionaries
 =============
 
 Dictionary is an unordered set of ``key : value`` pairs. It's a rule that all keys are unique and have no duplicates. Unlike lists or tuples, which are indexed by numbers, 
-you can retrieve a value by using the key as an index.
+you can retrieve a value from a dictionary by using the key as an index.
 
 For example, you can store the highscores of all the players: ::
 
 	game_register = { 'googolplex': 100,
-					'terminat0r': 27,
-					'r00t': 150,
-					'dent': 42,
-					'teapot418' : 0 } 
+			  'terminat0r': 27,
+			  'r00t': 150,
+			  'dent': 42,
+			  'teapot418' : 0 } 
 
 	# Access elements
 	game_register['dent']
@@ -190,10 +190,10 @@ For example, you can store the highscores of all the players: ::
 	# Delete all entries
 	game_register.clear()
 
-	# Delete Dictionary
+	# Delete the dictionary
 	del game_register
 
-	# Retrieve a value for the key or deafult if not in dicionary
+	# Retrieve a value for the key or default if not in dicionary
 	game_register.get('dent')		
 
 
