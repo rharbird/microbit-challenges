@@ -4,7 +4,7 @@ Buttons
 
 .. py:module:: microbit.button
 
-The micro:bit has two buttons: labelled ``A`` and ``B``.
+The micro:bit has two buttons: ``A`` and ``B``.
 
 .. image:: assets/buttons.png
    :scale: 40 %
@@ -20,7 +20,7 @@ Checking whether a button is pressed
 ------------------------------------
 
 Sometimes we just want a program to wait until something happens, for example: we could ask the micro:bit to wait until, say, button 
-``A`` is pressed and then print a message. We could do that like this::
+``A`` is pressed and then print a message. We could do that like this: ::
 
 	from microbit import *
 
@@ -35,7 +35,7 @@ This means, if button ``A`` is pressed then display an ``A`` on the LED screen, 
 The problem with using ``is_pressed()`` is that unless you are pressing the button at that precise moment then you won't 
 detect whether the button was ever pressed or not. It might be the case that the user pushes the button while the code is doing the something else, and the press is missed. 
 The ``was_pressed()`` function is useful is you want to write code that occasionally checks whether the button has been pushed but then goes on to do something else. 
-In this way you need never miss a button press again::
+In this way you need never miss a button press again: ::
 
 	from microbit import *
 
@@ -43,7 +43,7 @@ In this way you need never miss a button press again::
 	    if button_a.was_pressed(): 
 	        display.scroll("A")
 	    else:
-			display.scroll(Image.ASLEEP)
+		display.scroll(Image.ASLEEP)
 
 	    sleep(1000)
 
@@ -93,7 +93,7 @@ whether both buttons were pressed at the same time: ::
 The code above displays the letter corresponding to the button. If both buttons are pressed at the same time it displays ``AB``.
 
  
-Ideas for Projects with the Buttons
-===================================
+Practice questions
+===================
 * Change what is displayed when you press the button.
 * Games that need user input.
