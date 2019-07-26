@@ -40,16 +40,17 @@ writing a series of steps to be executed (it's an *imperative* language), as you
 Guide to the guide
 ===================
 
-Sections in this tutorial will walk you through coding using micro:bit, basics of programming and micro:bit's features. You don't have to meticulously go through all the 
+Sections in this tutorial will walk you through coding using micro:bit, basics of programming and micro:bit's features. The objective is to get you started with 
+programming so that you can create a small project of your own that you will show us during your first week to get you started with programming #circular_definition. 
+
+You don't have to meticulously go through all the 
 theory covered in Basics of programming, especially if you're a beginner. Start writing simple programs using the micro:bit and read about further programming concepts 
-as you go. Feel free to skip the parts you are confident in and choose the parts that are relevant.
+as you go. Feel free to skip the parts you are confident in and choose the parts that are relevant. As you learn more about programming, you'll naturally keep finding 
+better and more efficient ways to do your projects of the past, but right now you should focus on getting yourself started.
 
 Topics covered here are generally only touched upon and many things are not explained on purpose. Some of the important skills
 you will need during the course of your studies and work later on will be independent exploration of materials and capability to read official documentation, hence we 
 encourage you to explore other resources than those found here.  
-
-As you learn more about programming, you'll naturally keep finding better and more efficient ways to do your 
-projects of the past, but right now you should focus on getting yourself started.
 
 If your skills are intermediate/advanced, you might not find this documentation very interesting. However, micro:bit is a highly configurable device and you might like 
 to explore micro:bit runtime_, which gives you more flexibility with what it can be used for.  

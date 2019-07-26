@@ -18,7 +18,7 @@ Basic Functions
 Display a string or an image
 ----------------------------
 
-You can display characters on the LED display using `show` ::
+You can display characters on the LED display using ``show`` function ::
 
     from microbit import *
 
@@ -26,8 +26,8 @@ You can display characters on the LED display using `show` ::
 
 The characters you display must be within a pair of quotes, either " " or ' '. 
  
-MicroPython comes with lots of built-in pictures to show on the display.
-For example, to display a smiling face you type::
+``microbit`` module comes with many built-in pictures to show on the display.
+For example, to display a smiling face ::
 
     from microbit import *
 
@@ -46,7 +46,7 @@ Here's some of the the other images you can use:
 
 Scroll a string 
 ---------------
-Use `scroll` to scroll a string across the display::
+Use ``scroll`` to scroll a string across the display: ::
 
     from microbit import *
 
@@ -55,7 +55,7 @@ Use `scroll` to scroll a string across the display::
 
 Clear the display
 -----------------
-If you want to clear the LED display, you can do so like this::
+If you want to clear the LED display, you can do so like this: ::
 
     from microbit import *
 
@@ -67,7 +67,7 @@ Advanced Functions
 
 Set a pixel
 -----------
-You can set a pixel brightness on the LED display using the ``set_pixel`` method::
+You can set a pixel brightness on the LED display using the ``set_pixel`` method: ::
 
     from microbit import *
 
@@ -114,7 +114,7 @@ Armed with this piece of information, it's possible to create a new image like t
         display.show(boat)
 
 In fact, you don't need to write this over several lines. If you think you can
-keep track of each line, you can rewrite it like this::
+keep track of each line, you can rewrite it like this: ::
 
     boat = Image("05050:05050:05050:99999:09990")
 
@@ -131,19 +131,17 @@ physical display.
 
 Animation
 ---------
-Static images are fun, but it's even more fun to make them move. This is also
-amazingly simple to do with MicroPython ~ just use a list of images!
+To make an animation, just use a list of images.
 
 We can demonstrate this on built in lists - ``Image.ALL_CLOCKS``
-and ``Image.ALL_ARROWS``::
+and ``Image.ALL_ARROWS``: ::
 
     from microbit import *
 
     display.show(Image.ALL_CLOCKS, loop=True, delay=100)
 
-Micro:bit shows each image in the list, one after the
-other. By setting ``loop=True``, program will be keep looping through the list indefinitely. It's also possible to set a delay between the pictures using the ``delay``
-attribute to the desired value in milliseconds ``delay=100``.
+Micro:bit shows each image in the list, one after another. By setting ``loop=True``, program will be keep looping through the list indefinitely. It's also possible to 
+set a delay between the pictures using the ``delay`` attribute to the desired value in milliseconds ``delay=100``.
 
 To create your own animation, you need to create a list of images. 
 
