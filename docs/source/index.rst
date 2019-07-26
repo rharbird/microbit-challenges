@@ -41,7 +41,7 @@ If you would like to contribute to this resource, go ahead! Install git and crea
    :maxdepth: 1
    :caption: Micro:bit Features 
 
-   tutorials/images.rst
+   tutorials/display.rst
    tutorials/buttons.rst
    tutorials/accelerometer.rst
    tutorials/compass.rst
