@@ -20,16 +20,18 @@ Imagine you want to use the slightly modified ``printBirthdayGreeting()`` functi
 		age += 1
 	    return "Happy Birthday " + name + ", you are " + str(age) + " years old" 
 
-Can you spot what is wrong? If you try to run it in a shell, you'll probably get this message: `` UnboundLocalError: local variable 'age' referenced before assignment``.
+	printBirthdayGreeting()	
+
+Can you spot what is wrong? If you try to run it, you'll probably get this message: `` UnboundLocalError: local variable 'age' referenced before assignment``.
 
 To understand this, we have to talk about scope. Scope is an 'area' in which a variable is defined, can be accessed and written to. From this point of view we know two 
-types of variables: global and local. By default, all variables defined within a function are local - you cannot access them outside the function. And since the scope
+types of variables: global and local. By default, all variables defined within a function are local - you cannot access them outside of the function. And since the scope
 within the function is different from the global one, it's possible to use the same name for two different variables.
 
 Can you explain what happened in the code snippet above now?
 
 ``age`` outside of ``printBirthdayGreeting()`` function is a global variable. However, when we want to access it inside the function, Python considers it to be a new
-local variable. How do we solve this? We declare the variable ``age`` as ``global``: ::
+local variable. How do we solve this? We can declare the variable ``age`` as ``global``: ::
 
 	name = "Johann"
 	age = 32
@@ -57,6 +59,12 @@ Here is an example for a function that passes variables as arguments::
 	to all cases. 
 
 .. _guides: https://www.python.org/dev/peps/pep-0008/
+
+.. figure:: assets/code_quality.png
+	:align: center
+
+	Source: xkcd https://xkcd.com/1513/
+
 
 Nonlocal variables
 -------------------

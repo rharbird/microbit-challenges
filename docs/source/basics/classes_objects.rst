@@ -15,6 +15,33 @@ If you find you need an object that Python does not have, you can create your ow
 "template", that will define what the object will look like and what it's capable of. The prototype
 is called a class::
 
+    class Player():                                                 
+
+This example shows a template of a Player object, which is empy and not very useful right now. To make it more useful, we can add attributes to it - ``total_count`` is class
+attribute, that keeps count of all the instances of objects of class Player by incrementing a value every time a new Player() object is instantiated. ::
+
+class Player():
+        total_count = 0
+
+A class attribute is the same for any instance of class Player, and so you can find out the total number of players through any of them.
+Other attributes that could be useful would be instance attributes (different for every instance of an object) name and score. 
+How will they be defined? And how can we know when a new object is created to increment the ``total_count``? 
+
+It is possible to define an ``__init__()`` method for your class, which can take in other arguments and can specify an initial state of an object. In this way, when 
+the object ``player_1`` below is instantiated, the player's initial score will be zero, the name will be as specified in the argument and ``total_count`` 
+will increment by one.::
+
+    class Player():
+        total_count = 0
+        
+        def __init__(self, name):
+            self.name = name
+            self.score = 0
+            self.__class__.total_count += 1
+
+Furthermore, we can define methods specifically for our class of objects. For example, class methods ``update_score()`` and ``change_name`` to update values of ``name``
+and ``score``.  
+
     class Player():
         total_count = 0
 
@@ -27,22 +54,19 @@ is called a class::
             self.score = score
 
         def change_name(self, name):
-            self.name = name           
-                                                          
+            self.name = name    
 
-This example shows a prototype for a Player object. A player has a class attribute ``total_count``, that keep count of all the instances of objects of class Player. 
-A class attribute is the same for any instance of class Player, and so you can find out the total count of players through any of them.
-Other attributes are instance attributes name and score, which can be updated using class methods ``update_score()`` and ``change_name``.  
+Instantiating objects and using methods is rather straightforward: ::
 
-It is possible to define an ``__init__()`` method for your class, which can take in other arguments and can specify an initial state of an object. In this way, when 
-the object ``player_1`` below is instantiated, the player's initial score will be zero, the name will be as specified in the argument and ``total_count`` 
-will increment by one.::
-
+    # Create an instance of an object of class Player
     player_1 = Player("teapot418")
     player_2 = Player("r00t")
 
+    # Change value of score of player_1 
     player_1.update_score(40)
+    # Change value of name of player_1 
     player_2.change_name("bott0m")
+
 
 Now you might wonder, why does calling methods on ``player_1`` or ``player_2`` work with one argument only, while the method definitions have two arguments? 
 Surely Python raises an error in this case. As you may have guessed, the instance object - ``player_1`` - is passed as the first argument, and is actually equivalent to 
@@ -55,7 +79,7 @@ father of Python).
 .. _blogpost: http://neopythonic.blogspot.com/2008/10/why-explicit-self-has-to-stay.html
 
 
-Accessing attributes is the same for all objects again: ``obj.name``. For example, to print the name of a Player object you write: ::
+Accessing attributes is the same for all objects again: ``obj.attribute_name``. For example, to print the name of a Player object you write: ::
 
     print(player_1.name)
 
