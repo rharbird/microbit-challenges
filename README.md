@@ -1,4 +1,4 @@
-These tutorial sheets are designed for incoming computer science students with little programming experience to give them an incentive to start programming using micro:bit. The sheets provide fundamental information about micro:bit's features and programming along with optional practical examples, but students are encouraged to use these materials to design projects of their own. 
+These tutorial sheets are aimed at incoming computer science students with little programming experience to give them an incentive to start programming using micro:bit. The sheets provide fundamental information about micro:bit's features and programming along with optional practical examples, but students are encouraged to use these materials to design projects of their own. 
 Tutorials can be accessed on <https://microbit-challenges.readthedocs.io/>.
 
 The design of the micro:bit was strongly influenced by the Engduino and some of this material is taken directly from the Engduino tutorial sheets. Likewise, in some places, the content is an abridged version of the BBC micro:bit MicroPython documentation at <http://microbit-micropython.readthedocs.io>.
